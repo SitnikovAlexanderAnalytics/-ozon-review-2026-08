@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Клеймы новинок Ozon — корма и лакомства для собак и кошек</title>
+<meta name="description" content="Отслеживание маркетинговых клеймов на упаковке новинок кормов и лакомств для собак и кошек на Ozon.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="page-header">
+  <div class="wrap">
+    <p class="eyebrow">Ozon · Товары для животных</p>
+    <h1>Клеймы новинок: корма и лакомства для собак и кошек</h1>
+    <p class="lede">Какие сообщения о себе размещают на упаковке новые товары на Ozon — и какие направления клеймов
+      растут быстрее других.</p>
+    <p class="updated">Обновлено: <span id="updated-date">—</span></p>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="kpis" id="kpis" aria-label="Ключевые показатели"></section>
+
+  <section class="panel" aria-labelledby="chart-heading">
+    <div class="panel-head">
+      <h2 id="chart-heading">Популярность направлений клеймов</h2>
+      <button class="btn-ghost" id="toggle-table" type="button" aria-pressed="false">Показать таблицей</button>
+    </div>
+    <p class="panel-note">Доля товаров из выборки, у которых на упаковке встречается хотя бы одно заявление
+      этой категории. Каждая категория считается один раз на товар, а не на фразу.</p>
+    <div id="chart" class="bar-chart" role="img" aria-label="Столбчатая диаграмма популярности категорий клеймов"></div>
+    <div id="chart-table-wrap" class="table-wrap hidden">
+      <table id="chart-table">
+        <thead><tr><th>Категория</th><th>Товаров</th><th>Доля</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="panel" aria-labelledby="conclusions-heading">
+    <h2 id="conclusions-heading">Выводы</h2>
+    <ol class="conclusions" id="conclusions"></ol>
+  </section>
+
+  <section class="panel" aria-labelledby="products-heading">
+    <div class="panel-head">
+      <h2 id="products-heading">Товары в выборке</h2>
+    </div>
+    <div class="filters" id="filters">
+      <div class="filter-group" role="group" aria-label="Вид животного">
+        <button class="chip is-active" data-filter-animal="all" type="button">Все</button>
+        <button class="chip" data-filter-animal="Собаки" type="button">Собаки</button>
+        <button class="chip" data-filter-animal="Кошки" type="button">Кошки</button>
+      </div>
+      <div class="filter-group" role="group" aria-label="Способ подтверждения">
+        <button class="chip is-active" data-filter-method="all" type="button">Все</button>
+        <button class="chip" data-filter-method="diff" type="button">Только подтверждённые (ID-diff)</button>
+        <button class="chip" data-filter-method="sort" type="button">Кандидаты (сорт. «Новинки»)</button>
+      </div>
+    </div>
+    <div class="cards" id="cards"></div>
+  </section>
+
+  <section class="panel" aria-labelledby="taxonomy-heading">
+    <h2 id="taxonomy-heading">Справочник категорий клеймов</h2>
+    <div class="table-wrap">
+      <table id="taxonomy-table">
+        <thead><tr><th>Категория</th><th>Что это</th><th>Типичные формулировки</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="panel" aria-labelledby="method-heading">
+    <h2 id="method-heading">Методология</h2>
+    <p>Новинки определяются <strong>не</strong> по фильтру Ozon «Новинки» (он алгоритмический и продвигает не только
+      объективно новые товары — это подтвердилось на второй день наблюдений, когда состав «Новинок» почти
+      полностью обновился, включая товары со старыми ID). Вместо этого ведётся база ID всех встреченных товаров
+      по 7 подкатегориям (сухие/влажные корма, лакомства, каши — собаки и кошки). Товар считается объективно
+      новым, если его ID выше максимального ID, ранее зафиксированного в этой же подкатегории — то есть он
+      физически не мог существовать на момент предыдущего снимка.</p>
+    <p>Клеймы считываются вручную с фотографий упаковки (не автоматическим OCR), чтобы верно интерпретировать
+      маркетинговый смысл формулировок.</p>
+    <p><strong>Протеин</strong> и <strong>ингредиенты-клеймы</strong> в карточках товаров — это только то, что
+      вынесено крупно на лицевую сторону упаковки (например, «ягнёнок», «омега-3», «облепиха»), а не полный
+      состав мелким шрифтом на обороте. <strong>Завод-изготовитель</strong> — юрлицо и адрес производства с
+      этикетки (не бренд и не импортёр/официальный представитель) — указывается там, где его удалось разобрать
+      по доступным фото в галерее Ozon; для части товаров подходящего фото просто нет.</p>
+  </section>
+
+</main>
+
+<footer class="page-footer">
+  <div class="wrap">
+    <p>Данные собраны вручную с публичных карточек товаров Ozon в исследовательских целях. Не является рекламой
+      и не аффилировано с Ozon.</p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

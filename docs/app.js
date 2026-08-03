@@ -1,0 +1,154 @@
+const state = { data: null, animal: "all", method: "all" };
+
+const fmtDate = (iso) => {
+  const [y, m, d] = iso.split("-");
+  return `${d}.${m}.${y}`;
+};
+
+async function main() {
+  const res = await fetch("data.json");
+  const data = await res.json();
+  state.data = data;
+
+  document.getElementById("updated-date").textContent = fmtDate(data.generated_at);
+
+  renderKpis(data);
+  renderChart(data.analytics);
+  renderChartTable(data.analytics);
+  renderConclusions(data.conclusions);
+  renderTaxonomy(data.taxonomy);
+  renderCards();
+  wireFilters();
+  wireTableToggle();
+}
+
+function renderKpis(data) {
+  const items = [
+    { value: data.n_products, label: "Товаров в выборке" },
+    { value: data.days_tracked, label: "Дней наблюдений" },
+    { value: data.history_ids_total, label: "ID товаров в базе" },
+    { value: data.analytics.length, label: "Категорий клеймов" },
+  ];
+  const el = document.getElementById("kpis");
+  el.innerHTML = items.map(i => `
+    <div class="kpi">
+      <div class="value">${i.value}</div>
+      <div class="label">${i.label}</div>
+    </div>
+  `).join("");
+}
+
+function renderChart(analytics) {
+  const max = Math.max(...analytics.map(a => a.count));
+  const el = document.getElementById("chart");
+  el.innerHTML = analytics.map(a => `
+    <div class="bar-row">
+      <div class="bar-label">${a.name}</div>
+      <div class="bar-track">
+        <div class="bar-fill" style="width:${(a.count / max * 100).toFixed(1)}%"></div>
+      </div>
+      <div class="bar-value">${a.count} (${a.pct}%)</div>
+    </div>
+  `).join("");
+}
+
+function renderChartTable(analytics) {
+  const tbody = document.querySelector("#chart-table tbody");
+  tbody.innerHTML = analytics.map(a => `
+    <tr><td>${a.name}</td><td>${a.count}</td><td>${a.pct}%</td></tr>
+  `).join("");
+}
+
+function wireTableToggle() {
+  const btn = document.getElementById("toggle-table");
+  const chart = document.getElementById("chart");
+  const tableWrap = document.getElementById("chart-table-wrap");
+  let showingTable = false;
+  btn.addEventListener("click", () => {
+    showingTable = !showingTable;
+    tableWrap.classList.toggle("hidden", !showingTable);
+    chart.classList.toggle("hidden", showingTable);
+    btn.setAttribute("aria-pressed", String(showingTable));
+    btn.textContent = showingTable ? "Показать диаграммой" : "Показать таблицей";
+  });
+}
+
+function renderConclusions(conclusions) {
+  const el = document.getElementById("conclusions");
+  el.innerHTML = conclusions.map(c => `<li>${escapeHtml(c).replace(/^\d+\.\s*/, "")}</li>`).join("");
+}
+
+function renderTaxonomy(taxonomy) {
+  const tbody = document.querySelector("#taxonomy-table tbody");
+  tbody.innerHTML = taxonomy.map(t => `
+    <tr>
+      <td><strong>${t.name}</strong></td>
+      <td>${t.description}</td>
+      <td>${t.examples}</td>
+    </tr>
+  `).join("");
+}
+
+function renderCards() {
+  const { products } = state.data;
+  const filtered = products.filter(p =>
+    (state.animal === "all" || p.animal === state.animal) &&
+    (state.method === "all" || p.method === state.method)
+  );
+  const el = document.getElementById("cards");
+  if (filtered.length === 0) {
+    el.innerHTML = `<p style="color:var(--text-muted)">Нет товаров по выбранным фильтрам.</p>`;
+    return;
+  }
+  el.innerHTML = filtered.map(p => `
+    <article class="card">
+      <div class="card-photo"><img src="${p.photo}" alt="Упаковка: ${escapeHtml(p.name)}"></div>
+      <div class="card-body">
+        <div class="card-badges">
+          <span class="badge ${p.method === 'diff' ? 'badge-diff' : ''}">${p.method === 'diff' ? 'Подтверждено ID' : 'Кандидат («Новинки»)'}</span>
+          <span class="badge">${fmtDate(p.date)}</span>
+        </div>
+        <div class="card-brand">${escapeHtml(p.brand)} · ${escapeHtml(p.animal)} · ${escapeHtml(p.ptype)}</div>
+        <p class="card-name">${escapeHtml(p.name)}</p>
+        <div class="card-tags">
+          ${p.claims.length
+            ? p.claims.map(c => `<span class="tag" title="${escapeHtml(c.text)}">${escapeHtml(c.category)}</span>`).join("")
+            : `<span class="tag">Без заявленных клеймов</span>`}
+        </div>
+        <dl class="card-meta">
+          <div><dt>Протеин</dt><dd>${escapeHtml(p.protein || "—")}</dd></div>
+          <div><dt>Ингредиенты (фасад)</dt><dd>${escapeHtml(p.ingredients || "—")}</dd></div>
+          <div><dt>Завод-изготовитель</dt><dd>${escapeHtml(p.plant || "—")}</dd></div>
+        </dl>
+        <a class="card-link" href="${p.url}" target="_blank" rel="noopener">Открыть на Ozon →</a>
+      </div>
+    </article>
+  `).join("");
+}
+
+function wireFilters() {
+  document.querySelectorAll("[data-filter-animal]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll("[data-filter-animal]").forEach(b => b.classList.remove("is-active"));
+      btn.classList.add("is-active");
+      state.animal = btn.dataset.filterAnimal;
+      renderCards();
+    });
+  });
+  document.querySelectorAll("[data-filter-method]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll("[data-filter-method]").forEach(b => b.classList.remove("is-active"));
+      btn.classList.add("is-active");
+      state.method = btn.dataset.filterMethod;
+      renderCards();
+    });
+  });
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+  }[c]));
+}
+
+main();
