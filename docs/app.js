@@ -6,7 +6,7 @@ const fmtDate = (iso) => {
 };
 
 async function main() {
-  const res = await fetch("data.json");
+  const res = await fetch("data.json?v=4");
   const data = await res.json();
   state.data = data;
 
@@ -14,23 +14,29 @@ async function main() {
 
   renderKpis(data);
   renderChart("chart", data.analytics);
-  renderChartTable(data.analytics);
+  renderChartTable("chart-table", data.analytics);
   renderConclusions(data.conclusions);
   renderTaxonomy(data.taxonomy);
   renderCards();
   wireFilters();
-  wireTableToggle();
+  wireTableToggle("toggle-table", "chart", "chart-table-wrap");
 
   renderChart("protein-chart", data.protein_analytics);
+  renderChartTable("protein-table", data.protein_analytics);
+  wireTableToggle("toggle-table-protein", "protein-chart", "protein-table-wrap");
   document.getElementById("protein-note").textContent =
     `База 100% = ${data.protein_base} SKU, где протеин назван на фасаде, из ${data.protein_total_skus} SKU всего ` +
     `(по всем товарам новых линеек, а не по одному представителю на линейку).`;
 
   renderChart("ingredient-chart", data.ingredient_analytics);
+  renderChartTable("ingredient-table", data.ingredient_analytics);
+  wireTableToggle("toggle-table-ingredient", "ingredient-chart", "ingredient-table-wrap");
   document.getElementById("ingredient-note").textContent =
     `База 100% = вся выборка (${data.ingredient_base}) — отсутствие ингредиента-клейма тоже значимо.`;
 
   renderChart("producer-chart", data.producer_analytics);
+  renderChartTable("producer-table", data.producer_analytics);
+  wireTableToggle("toggle-table-producer", "producer-chart", "producer-table-wrap");
   document.getElementById("producer-note").textContent =
     `База 100% = ${data.producer_base} товаров, где производитель однозначно определён ` +
     `(для РФ — по названию юрлица, иначе считается неизвестным), из ${data.n_products} в подробно разобранной выборке.`;
@@ -66,17 +72,17 @@ function renderChart(elId, analytics) {
   `).join("");
 }
 
-function renderChartTable(analytics) {
-  const tbody = document.querySelector("#chart-table tbody");
+function renderChartTable(tableId, analytics) {
+  const tbody = document.querySelector(`#${tableId} tbody`);
   tbody.innerHTML = analytics.map(a => `
     <tr><td>${a.name}</td><td>${a.count}</td><td>${a.pct}%</td></tr>
   `).join("");
 }
 
-function wireTableToggle() {
-  const btn = document.getElementById("toggle-table");
-  const chart = document.getElementById("chart");
-  const tableWrap = document.getElementById("chart-table-wrap");
+function wireTableToggle(btnId, chartId, tableWrapId) {
+  const btn = document.getElementById(btnId);
+  const chart = document.getElementById(chartId);
+  const tableWrap = document.getElementById(tableWrapId);
   let showingTable = false;
   btn.addEventListener("click", () => {
     showingTable = !showingTable;

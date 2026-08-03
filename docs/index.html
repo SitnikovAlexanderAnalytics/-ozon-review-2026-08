@@ -40,21 +40,48 @@
   </section>
 
   <section class="panel" aria-labelledby="protein-heading">
-    <h2 id="protein-heading">Протеин — по всем SKU новых линеек</h2>
+    <div class="panel-head">
+      <h2 id="protein-heading">Протеин — по всем SKU новых линеек</h2>
+      <button class="btn-ghost" id="toggle-table-protein" type="button" aria-pressed="false">Показать таблицей</button>
+    </div>
     <p class="panel-note" id="protein-note"></p>
     <div id="protein-chart" class="bar-chart" role="img" aria-label="Популярность протеина"></div>
+    <div id="protein-table-wrap" class="table-wrap hidden">
+      <table id="protein-table">
+        <thead><tr><th>Протеин</th><th>SKU</th><th>Доля</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
   </section>
 
   <section class="panel" aria-labelledby="ingredient-heading">
-    <h2 id="ingredient-heading">Ингредиенты-клеймы (фасад)</h2>
+    <div class="panel-head">
+      <h2 id="ingredient-heading">Ингредиенты-клеймы (фасад)</h2>
+      <button class="btn-ghost" id="toggle-table-ingredient" type="button" aria-pressed="false">Показать таблицей</button>
+    </div>
     <p class="panel-note" id="ingredient-note"></p>
     <div id="ingredient-chart" class="bar-chart" role="img" aria-label="Популярность ингредиентов-клеймов"></div>
+    <div id="ingredient-table-wrap" class="table-wrap hidden">
+      <table id="ingredient-table">
+        <thead><tr><th>Ингредиент</th><th>Товаров</th><th>Доля</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
   </section>
 
   <section class="panel" aria-labelledby="producer-heading">
-    <h2 id="producer-heading">Производитель — название завода для России, страна для остальных</h2>
+    <div class="panel-head">
+      <h2 id="producer-heading">Производитель — название завода для России, страна для остальных</h2>
+      <button class="btn-ghost" id="toggle-table-producer" type="button" aria-pressed="false">Показать таблицей</button>
+    </div>
     <p class="panel-note" id="producer-note"></p>
     <div id="producer-chart" class="bar-chart" role="img" aria-label="Популярность производителя"></div>
+    <div id="producer-table-wrap" class="table-wrap hidden">
+      <table id="producer-table">
+        <thead><tr><th>Производитель</th><th>Товаров</th><th>Доля</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
   </section>
 
   <section class="panel" aria-labelledby="conclusions-heading">
@@ -117,6 +144,6 @@
   </div>
 </footer>
 
-<script src="app.js"></script>
+<script src="app.js?v=4"></script>
 </body>
 </html>
