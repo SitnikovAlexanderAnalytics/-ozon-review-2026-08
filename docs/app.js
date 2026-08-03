@@ -13,13 +13,27 @@ async function main() {
   document.getElementById("updated-date").textContent = fmtDate(data.generated_at);
 
   renderKpis(data);
-  renderChart(data.analytics);
+  renderChart("chart", data.analytics);
   renderChartTable(data.analytics);
   renderConclusions(data.conclusions);
   renderTaxonomy(data.taxonomy);
   renderCards();
   wireFilters();
   wireTableToggle();
+
+  renderChart("protein-chart", data.protein_analytics);
+  document.getElementById("protein-note").textContent =
+    `База 100% = ${data.protein_base} SKU, где протеин назван на фасаде, из ${data.protein_total_skus} SKU всего ` +
+    `(по всем товарам новых линеек, а не по одному представителю на линейку).`;
+
+  renderChart("ingredient-chart", data.ingredient_analytics);
+  document.getElementById("ingredient-note").textContent =
+    `База 100% = вся выборка (${data.ingredient_base}) — отсутствие ингредиента-клейма тоже значимо.`;
+
+  renderChart("producer-chart", data.producer_analytics);
+  document.getElementById("producer-note").textContent =
+    `База 100% = ${data.producer_base} товаров, где производитель однозначно определён ` +
+    `(для РФ — по названию юрлица, иначе считается неизвестным), из ${data.n_products} в подробно разобранной выборке.`;
 }
 
 function renderKpis(data) {
@@ -38,9 +52,9 @@ function renderKpis(data) {
   `).join("");
 }
 
-function renderChart(analytics) {
+function renderChart(elId, analytics) {
   const max = Math.max(...analytics.map(a => a.count));
-  const el = document.getElementById("chart");
+  const el = document.getElementById(elId);
   el.innerHTML = analytics.map(a => `
     <div class="bar-row">
       <div class="bar-label">${a.name}</div>

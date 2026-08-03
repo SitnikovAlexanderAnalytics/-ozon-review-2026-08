@@ -76,6 +76,41 @@ taxonomy_out = [
 
 conclusions = [c for c in br.conclusions if c]
 
+# ---- протеин: по ВСЕМ 49 подтверждённым SKU, не только по 12 разобранным ----
+protein_counts = defaultdict(int)
+for oid, tags in br.PROTEIN_TAGS.items():
+    for tag in tags:
+        protein_counts[tag] += 1
+for oid, (_, tags) in br.EXTRA_PROTEIN_ONLY.items():
+    for tag in tags:
+        protein_counts[tag] += 1
+protein_base = br.protein_known
+protein_analytics = [
+    {"name": tag, "count": c, "pct": round(100 * c / protein_base)}
+    for tag, c in sorted(protein_counts.items(), key=lambda x: -x[1])
+]
+
+# ---- ингредиенты-клеймы (фасад): база — вся выборка (27) ----
+ingredient_counts = defaultdict(int)
+for oid, tags in br.INGREDIENT_TAGS.items():
+    for tag in tags:
+        ingredient_counts[tag] += 1
+ingredient_analytics = [
+    {"name": tag, "count": c, "pct": round(100 * c / n_products)}
+    for tag, c in sorted(ingredient_counts.items(), key=lambda x: -x[1])
+]
+
+# ---- производитель: имя юрлица для РФ, страна для остальных; неизвестные исключены ----
+producer_counts = defaultdict(int)
+for oid, region in br.PLANT_REGION.items():
+    if region:
+        producer_counts[region] += 1
+producer_base = br.region_known
+producer_analytics = [
+    {"name": tag, "count": c, "pct": round(100 * c / producer_base)}
+    for tag, c in sorted(producer_counts.items(), key=lambda x: -x[1])
+]
+
 data = {
     "generated_at": "2026-08-03",
     "n_products": n_products,
@@ -84,6 +119,13 @@ data = {
     "products": products_out,
     "taxonomy": taxonomy_out,
     "analytics": analytics,
+    "protein_analytics": protein_analytics,
+    "protein_base": protein_base,
+    "protein_total_skus": br.PROTEIN_TOTAL_SKUS,
+    "ingredient_analytics": ingredient_analytics,
+    "ingredient_base": n_products,
+    "producer_analytics": producer_analytics,
+    "producer_base": producer_base,
     "conclusions": conclusions,
 }
 
