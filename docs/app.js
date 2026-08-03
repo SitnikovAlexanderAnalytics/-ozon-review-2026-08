@@ -1,5 +1,5 @@
-const state = { data: null, animal: "all", method: "all", cardsShown: 5 };
-const CARDS_PAGE_STEP = 5;
+const state = { data: null, animal: "all", method: "all", cardsShown: 20 };
+const CARDS_PAGE_STEP = 20;
 
 const fmtDate = (iso) => {
   const [y, m, d] = iso.split("-");
@@ -7,7 +7,7 @@ const fmtDate = (iso) => {
 };
 
 async function main() {
-  const res = await fetch("data.json?v=5");
+  const res = await fetch("data.json?v=6");
   const data = await res.json();
   state.data = data;
 
@@ -112,37 +112,26 @@ function renderTaxonomy(taxonomy) {
 
 function renderCards() {
   const { products } = state.data;
-  const filtered = products.filter(p =>
-    (state.animal === "all" || p.animal === state.animal) &&
-    (state.method === "all" || p.method === state.method)
-  );
+  const filtered = products
+    .filter(p =>
+      (state.animal === "all" || p.animal === state.animal) &&
+      (state.method === "all" || p.method === state.method)
+    )
+    .sort((a, b) => b.date.localeCompare(a.date) || b.oid.localeCompare(a.oid));
+
   const el = document.getElementById("cards");
   if (filtered.length === 0) {
     el.innerHTML = `<p style="color:var(--text-muted)">Нет товаров по выбранным фильтрам.</p>`;
     return;
   }
 
-  const byDate = new Map();
-  for (const p of filtered) {
-    if (!byDate.has(p.date)) byDate.set(p.date, []);
-    byDate.get(p.date).push(p);
-  }
-  const dates = [...byDate.keys()].sort((a, b) => b.localeCompare(a));
-  const visibleDates = dates.slice(0, state.cardsShown);
-
-  const groupsHtml = visibleDates.map((date, i) => `
-    <details class="date-group" ${i === 0 ? "open" : ""}>
-      <summary>${fmtDate(date)} <span class="date-group-count">${byDate.get(date).length} тов.</span></summary>
-      <div class="cards">${byDate.get(date).map(cardHtml).join("")}</div>
-    </details>
-  `).join("");
-
-  const remaining = dates.length - visibleDates.length;
+  const visible = filtered.slice(0, state.cardsShown);
+  const remaining = filtered.length - visible.length;
   const moreHtml = remaining > 0
-    ? `<button class="btn-ghost" id="cards-more" type="button">Показать ещё даты (осталось ${remaining})</button>`
+    ? `<button class="btn-ghost" id="cards-more" type="button">Показать ещё ${Math.min(CARDS_PAGE_STEP, remaining)} (осталось ${remaining})</button>`
     : "";
 
-  el.innerHTML = groupsHtml + moreHtml;
+  el.innerHTML = visible.map(cardHtml).join("") + moreHtml;
 
   const moreBtn = document.getElementById("cards-more");
   if (moreBtn) {
@@ -186,7 +175,7 @@ function wireFilters() {
       document.querySelectorAll("[data-filter-animal]").forEach(b => b.classList.remove("is-active"));
       btn.classList.add("is-active");
       state.animal = btn.dataset.filterAnimal;
-      state.cardsShown = 5;
+      state.cardsShown = 20;
       renderCards();
     });
   });
@@ -195,7 +184,7 @@ function wireFilters() {
       document.querySelectorAll("[data-filter-method]").forEach(b => b.classList.remove("is-active"));
       btn.classList.add("is-active");
       state.method = btn.dataset.filterMethod;
-      state.cardsShown = 5;
+      state.cardsShown = 20;
       renderCards();
     });
   });
