@@ -182,6 +182,41 @@ th { color: var(--text-secondary); font-weight: 600; font-size: 13px; }
 }
 .chip.is-active { background: var(--chip-bg-active); color: var(--chip-fg-active); border-color: transparent; }
 
+.cards-groups { display: flex; flex-direction: column; gap: 14px; }
+
+.date-group {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.date-group summary {
+  cursor: pointer;
+  padding: 12px 16px;
+  font-weight: 600;
+  font-size: 14px;
+  background: var(--chip-bg);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  list-style: none;
+}
+.date-group summary::-webkit-details-marker { display: none; }
+.date-group summary::after {
+  content: "▾";
+  color: var(--text-muted);
+  transition: transform .15s;
+  flex: 0 0 auto;
+}
+.date-group[open] summary::after { transform: rotate(180deg); }
+.date-group-count { color: var(--text-muted); font-weight: 400; font-size: 12px; margin-right: auto; padding-left: 10px; }
+.date-group > .cards { padding: 16px; }
+
+#cards-more {
+  align-self: flex-start;
+  margin-top: 4px;
+}
+
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
