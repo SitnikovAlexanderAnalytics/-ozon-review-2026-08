@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-08-03",
-  "n_products": 27,
+  "n_products": 51,
   "days_tracked": 3,
   "history_ids_total": 159,
   "products": [
@@ -850,6 +850,708 @@
       "protein": "Мясо (вид не конкретизирован на фасаде)",
       "ingredients": "—",
       "plant": "Алтайский край, Россия («Произведено на Алтае» — прямо на упаковке)"
+    },
+    {
+      "oid": "5294201871",
+      "date": "2026-08-01",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Сухой корм",
+      "brand": "Gosbi",
+      "name": "PROFESSIONAL Puppy Mini (Курица, Рыба), 18 кг",
+      "url": "https://www.ozon.ru/product/5294201871/",
+      "photo": "photos/2026-08-01/5294201871_gosbi_puppymini.jpg",
+      "claims_short": "Mediterranean gourmet; Made in Spain",
+      "claims": [
+        {
+          "code": "ORIGIN",
+          "category": "Страна производства / премиум-позиционирование",
+          "text": "Mediterranean gourmet; Made in Spain"
+        }
+      ],
+      "protein": "Курица, Рыба",
+      "ingredients": "—",
+      "plant": "Испания"
+    },
+    {
+      "oid": "5294241487",
+      "date": "2026-08-01",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Сухой корм",
+      "brand": "Gosbi",
+      "name": "PROFESSIONAL Puppy (Курица, Рыба), 18 кг, для щенков всех пород",
+      "url": "https://www.ozon.ru/product/5294241487/",
+      "photo": "photos/2026-08-01/5294241487_gosbi_puppy.jpg",
+      "claims_short": "Mediterranean gourmet; Made in Spain",
+      "claims": [
+        {
+          "code": "ORIGIN",
+          "category": "Страна производства / премиум-позиционирование",
+          "text": "Mediterranean gourmet; Made in Spain"
+        }
+      ],
+      "protein": "Курица, Рыба",
+      "ingredients": "—",
+      "plant": "Испания"
+    },
+    {
+      "oid": "5294353414",
+      "date": "2026-08-01",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Сухой корм",
+      "brand": "Gosbi",
+      "name": "PROFESSIONAL Adult Mini Lamb & Rice (Ягнёнок, рис), 18 кг",
+      "url": "https://www.ozon.ru/product/5294353414/",
+      "photo": "photos/2026-08-01/5294353414_gosbi_adultmini_lamb.jpg",
+      "claims_short": "Mediterranean gourmet; Made in Spain",
+      "claims": [
+        {
+          "code": "ORIGIN",
+          "category": "Страна производства / премиум-позиционирование",
+          "text": "Mediterranean gourmet; Made in Spain"
+        }
+      ],
+      "protein": "Ягнёнок",
+      "ingredients": "Рис",
+      "plant": "Испания"
+    },
+    {
+      "oid": "5294317994",
+      "date": "2026-08-01",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Лакомства",
+      "brand": "НЯМТОРИЯ",
+      "name": "Ассорти \"Вкусняшки макси 2.0\", 210 г (стейки ягнёнок/утка/карпаччо утка)",
+      "url": "https://www.ozon.ru/product/5294317994/",
+      "photo": "photos/2026-08-01/5294317994_nyamtoriya_maxi.jpg",
+      "claims_short": "Без глицерина; натуральное мясо премиум-качества; 92%/74%/100% мяса",
+      "claims": [
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "Без глицерина; натуральное мясо премиум-качества"
+        },
+        {
+          "code": "MEAT",
+          "category": "Происхождение и качество мяса",
+          "text": "92% мяса / 74% мяса / 100% утка"
+        },
+        {
+          "code": "PREMIUM",
+          "category": "Премиальное позиционирование",
+          "text": "мясо премиум-качества"
+        }
+      ],
+      "protein": "Ягнёнок, Утка",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5294208319",
+      "date": "2026-08-01",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Лакомства",
+      "brand": "НЯМТОРИЯ",
+      "name": "Ассорти \"Мясное разнообразие\", 240 г (говядина/ягнёнок/курица с водорослями)",
+      "url": "https://www.ozon.ru/product/5294208319/",
+      "photo": "photos/2026-08-01/5294208319_nyamtoriya_meatvariety.jpg",
+      "claims_short": "Без глицерина; натуральное мясо премиум-качества; 92%/90% мяса",
+      "claims": [
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "Без глицерина; натуральное мясо премиум-качества"
+        },
+        {
+          "code": "MEAT",
+          "category": "Происхождение и качество мяса",
+          "text": "92% мяса / 90% мяса"
+        },
+        {
+          "code": "PREMIUM",
+          "category": "Премиальное позиционирование",
+          "text": "мясо премиум-качества"
+        }
+      ],
+      "protein": "Говядина, Ягнёнок, Курица",
+      "ingredients": "Морская капуста (водоросли)",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5294159811",
+      "date": "2026-08-01",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Лакомства",
+      "brand": "НЯМТОРИЯ",
+      "name": "Ассорти \"Деликатесы из утки\", 210 г (мраморные стейки/карпаччо/стейки с водорослями)",
+      "url": "https://www.ozon.ru/product/5294159811/",
+      "photo": "photos/2026-08-01/5294159811_nyamtoriya_duck.jpg",
+      "claims_short": "Без глицерина; натуральное мясо премиум-качества; 94%/100%/90% мяса",
+      "claims": [
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "Без глицерина; натуральное мясо премиум-качества"
+        },
+        {
+          "code": "MEAT",
+          "category": "Происхождение и качество мяса",
+          "text": "94% мяса / 100% утка / 90% мяса"
+        },
+        {
+          "code": "PREMIUM",
+          "category": "Премиальное позиционирование",
+          "text": "мясо премиум-качества"
+        }
+      ],
+      "protein": "Утка",
+      "ingredients": "Морская капуста (водоросли)",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5294111572",
+      "date": "2026-08-01",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Лакомства",
+      "brand": "НЯМТОРИЯ",
+      "name": "Ассорти \"Вкусняшки мини 2.0\", 240 г (говядина/утка с водорослями/курица с водорослями)",
+      "url": "https://www.ozon.ru/product/5294111572/",
+      "photo": "photos/2026-08-01/5294111572_nyamtoriya_mini.jpg",
+      "claims_short": "Без глицерина; натуральное мясо премиум-качества; 88%/90%/90% мяса",
+      "claims": [
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "Без глицерина; натуральное мясо премиум-качества"
+        },
+        {
+          "code": "MEAT",
+          "category": "Происхождение и качество мяса",
+          "text": "88% мяса / 90% мяса / 90% мяса"
+        },
+        {
+          "code": "PREMIUM",
+          "category": "Премиальное позиционирование",
+          "text": "мясо премиум-качества"
+        }
+      ],
+      "protein": "Говядина, Утка, Курица",
+      "ingredients": "Морская капуста (водоросли)",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5294843939",
+      "date": "2026-08-01",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Сухой корм",
+      "brand": "Gosbi",
+      "name": "PROFESSIONAL Cat Kitten (Курица, Индейка), 18 кг, для котят и берем./кормящих кошек",
+      "url": "https://www.ozon.ru/product/5294843939/",
+      "photo": "photos/2026-08-01/5294843939_gosbi_kitten.jpg",
+      "claims_short": "Mediterranean gourmet; Made in Spain",
+      "claims": [
+        {
+          "code": "ORIGIN",
+          "category": "Страна производства / премиум-позиционирование",
+          "text": "Mediterranean gourmet; Made in Spain"
+        }
+      ],
+      "protein": "Курица, Индейка",
+      "ingredients": "—",
+      "plant": "Испания"
+    },
+    {
+      "oid": "5294960856",
+      "date": "2026-08-01",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Сухой корм",
+      "brand": "Gosbi",
+      "name": "PROFESSIONAL Cat Sterilised (Курица, Лосось), 18 кг",
+      "url": "https://www.ozon.ru/product/5294960856/",
+      "photo": "photos/2026-08-01/5294960856_gosbi_sterilised.jpg",
+      "claims_short": "Mediterranean gourmet; Made in Spain",
+      "claims": [
+        {
+          "code": "ORIGIN",
+          "category": "Страна производства / премиум-позиционирование",
+          "text": "Mediterranean gourmet; Made in Spain"
+        }
+      ],
+      "protein": "Курица, Лосось",
+      "ingredients": "—",
+      "plant": "Испания"
+    },
+    {
+      "oid": "5306470815",
+      "date": "2026-08-03",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Сухой корм",
+      "brand": "LiveRa",
+      "name": "Adult Fish, филе белой рыбы с рисом, 3,5 кг",
+      "url": "https://www.ozon.ru/product/5306470815/",
+      "photo": "photos/2026-08-03/5306470815_livera_fish.jpg",
+      "claims_short": "100% natural Hypoallergenic; 51% мяса",
+      "claims": [
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "100% natural"
+        },
+        {
+          "code": "HYPO",
+          "category": "Гипоаллергенность / чувствит. пищеварение",
+          "text": "Hypoallergenic"
+        },
+        {
+          "code": "MEAT",
+          "category": "Происхождение и качество мяса",
+          "text": "51% мяса"
+        }
+      ],
+      "protein": "Белая рыба",
+      "ingredients": "Рис",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5306440073",
+      "date": "2026-08-03",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Сухой корм",
+      "brand": "LiveRa",
+      "name": "Adult, ассорти из мяса домашней птицы, 10 кг",
+      "url": "https://www.ozon.ru/product/5306440073/",
+      "photo": "photos/2026-08-03/5306440073_livera_poultry.jpg",
+      "claims_short": "100% natural Hypoallergenic; Holistic; 54% мяса; Супер премиум класс",
+      "claims": [
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "100% natural"
+        },
+        {
+          "code": "HYPO",
+          "category": "Гипоаллергенность / чувствит. пищеварение",
+          "text": "Hypoallergenic"
+        },
+        {
+          "code": "HOLISTIC",
+          "category": "Холистик-позиционирование",
+          "text": "Holistic"
+        },
+        {
+          "code": "MEAT",
+          "category": "Происхождение и качество мяса",
+          "text": "54% мяса"
+        },
+        {
+          "code": "PREMIUM",
+          "category": "Премиальное позиционирование",
+          "text": "Супер премиум класс"
+        }
+      ],
+      "protein": "Птица (ассорти)",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5306424879",
+      "date": "2026-08-03",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Сухой корм",
+      "brand": "LiveRa",
+      "name": "Adult Large, кролик с рисом, 1,2 кг",
+      "url": "https://www.ozon.ru/product/5306424879/",
+      "photo": "photos/2026-08-03/5306424879_livera_rabbit.jpg",
+      "claims_short": "100% natural Hypoallergenic; Holistic; 63% мяса; Корма из России; супер премиум класса",
+      "claims": [
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "100% natural"
+        },
+        {
+          "code": "HYPO",
+          "category": "Гипоаллергенность / чувствит. пищеварение",
+          "text": "Hypoallergenic"
+        },
+        {
+          "code": "HOLISTIC",
+          "category": "Холистик-позиционирование",
+          "text": "Holistic"
+        },
+        {
+          "code": "MEAT",
+          "category": "Происхождение и качество мяса",
+          "text": "63% мяса"
+        },
+        {
+          "code": "ORIGIN",
+          "category": "Страна производства / премиум-позиционирование",
+          "text": "Корма из России"
+        },
+        {
+          "code": "PREMIUM",
+          "category": "Премиальное позиционирование",
+          "text": "супер премиум класса"
+        }
+      ],
+      "protein": "Кролик",
+      "ingredients": "Рис",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5308822504",
+      "date": "2026-08-03",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Лакомства",
+      "brand": "ХАУНДХОЛЛ",
+      "name": "Лопаточный хрящ, большой размер, 1 шт",
+      "url": "https://www.ozon.ru/product/5308822504/",
+      "photo": "photos/2026-08-03/5308822504_houndhall_cartilage.jpg",
+      "claims_short": "100% натурально",
+      "claims": [
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "100% Натурально"
+        }
+      ],
+      "protein": "Не указан на фасаде",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5324402513",
+      "date": "2026-08-03",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Лакомства",
+      "brand": "KingKorm",
+      "name": "Рубец бараний, 100 г",
+      "url": "https://www.ozon.ru/product/5324402513/",
+      "photo": "photos/2026-08-03/5324402513_kingkorm_rumen.jpg",
+      "claims_short": "100% натурально; без красителей и ГМО; поддерживает здоровье зубов; улучшает пищеварение; 100% баранина",
+      "claims": [
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "100% натурально; без красителей, без ГМО"
+        },
+        {
+          "code": "DENT",
+          "category": "Стоматологическая польза",
+          "text": "Поддерживает здоровье зубов"
+        },
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Улучшает пищеварение"
+        },
+        {
+          "code": "MEAT",
+          "category": "Происхождение и качество мяса",
+          "text": "100% баранина"
+        }
+      ],
+      "protein": "Баранина",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5321600961",
+      "date": "2026-08-03",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Лакомства",
+      "brand": "DOGNIS",
+      "name": "Кости из жил прессованные 8\" (20 см), 1 шт",
+      "url": "https://www.ozon.ru/product/5321600961/",
+      "photo": "photos/2026-08-03/5321600961_dognis_bone.jpg",
+      "claims_short": "Без заявленных клеймов",
+      "claims": [],
+      "protein": "Не указан на фасаде",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5328154887",
+      "date": "2026-08-03",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Сухой корм",
+      "brand": "All Cats (AllerPetfood)",
+      "name": "Sterilized Cats, с индейкой, 13 кг",
+      "url": "https://www.ozon.ru/product/5328154887/",
+      "photo": "photos/2026-08-03/5328154887_allcats.jpg",
+      "claims_short": "Complete premium pet food; Датское качество; Omega-3/6; Taurine; Dental Care",
+      "claims": [
+        {
+          "code": "PREMIUM",
+          "category": "Премиальное позиционирование",
+          "text": "Complete premium pet food"
+        },
+        {
+          "code": "ORIGIN",
+          "category": "Страна производства / премиум-позиционирование",
+          "text": "Датское качество; AllerPetfood since 1921"
+        },
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Omega-3, Omega-6; Contains Taurine"
+        },
+        {
+          "code": "DENT",
+          "category": "Стоматологическая польза",
+          "text": "Dental Care"
+        }
+      ],
+      "protein": "Индейка",
+      "ingredients": "Омега-3/6",
+      "plant": "Дания (страна бренда, не завод)"
+    },
+    {
+      "oid": "5325606109",
+      "date": "2026-08-03",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Сухой корм",
+      "brand": "MEALGRAND",
+      "name": "Супер Премиум, для стерилизованных кошек, с индейкой и курицей, 8 кг",
+      "url": "https://www.ozon.ru/product/5325606109/",
+      "photo": "photos/2026-08-03/5325606109_mealgrand_turkeychicken.jpg",
+      "claims_short": "Супер Премиум",
+      "claims": [
+        {
+          "code": "PREMIUM",
+          "category": "Премиальное позиционирование",
+          "text": "Супер Премиум"
+        }
+      ],
+      "protein": "Индейка, Курица",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5325020749",
+      "date": "2026-08-03",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Сухой корм",
+      "brand": "MEALGRAND",
+      "name": "Супер Премиум, для стерилизованных кошек, с ягнёнком, 8 кг",
+      "url": "https://www.ozon.ru/product/5325020749/",
+      "photo": "photos/2026-08-03/5325020749_mealgrand_lamb.jpg",
+      "claims_short": "Супер Премиум",
+      "claims": [
+        {
+          "code": "PREMIUM",
+          "category": "Премиальное позиционирование",
+          "text": "Супер Премиум"
+        }
+      ],
+      "protein": "Ягнёнок",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5254153857",
+      "date": "2026-08-03",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Влажный корм",
+      "brand": "GRANDORF",
+      "name": "Cat, с куриной грудкой, 70 г х 6 шт",
+      "url": "https://www.ozon.ru/product/5254153857/",
+      "photo": "photos/2026-08-03/5254153857_grandorf_chicken.jpg",
+      "claims_short": "Grain Free; Natural & Healthy; Holistic Nutrition for Cats",
+      "claims": [
+        {
+          "code": "GRAIN",
+          "category": "Беззерновой / монобелковый состав",
+          "text": "Grain Free formula"
+        },
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "Natural & Healthy"
+        },
+        {
+          "code": "HOLISTIC",
+          "category": "Холистик-позиционирование",
+          "text": "Holistic Nutrition for Cats"
+        }
+      ],
+      "protein": "Курица",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5254153733",
+      "date": "2026-08-03",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Влажный корм",
+      "brand": "GRANDORF",
+      "name": "Cat, филе тунца с креветками, 70 г х 6 шт",
+      "url": "https://www.ozon.ru/product/5254153733/",
+      "photo": "photos/2026-08-03/5254153733_grandorf_tunashrimp.jpg",
+      "claims_short": "Grain Free; Natural & Healthy; Holistic Nutrition for Cats",
+      "claims": [
+        {
+          "code": "GRAIN",
+          "category": "Беззерновой / монобелковый состав",
+          "text": "Grain Free formula"
+        },
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "Natural & Healthy"
+        },
+        {
+          "code": "HOLISTIC",
+          "category": "Холистик-позиционирование",
+          "text": "Holistic Nutrition for Cats"
+        }
+      ],
+      "protein": "Тунец, Креветки",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5254153795",
+      "date": "2026-08-03",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Влажный корм",
+      "brand": "GRANDORF",
+      "name": "Cat, филе тунца с мясом краба, 70 г х 6 шт",
+      "url": "https://www.ozon.ru/product/5254153795/",
+      "photo": "photos/2026-08-03/5254153795_grandorf_tunacrab.jpg",
+      "claims_short": "Grain Free; Natural & Healthy; Holistic Nutrition for Cats",
+      "claims": [
+        {
+          "code": "GRAIN",
+          "category": "Беззерновой / монобелковый состав",
+          "text": "Grain Free formula"
+        },
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "Natural & Healthy"
+        },
+        {
+          "code": "HOLISTIC",
+          "category": "Холистик-позиционирование",
+          "text": "Holistic Nutrition for Cats"
+        }
+      ],
+      "protein": "Тунец, Краб",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5327393201",
+      "date": "2026-08-03",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Сухой корм",
+      "brand": "Ваш Стандарт",
+      "name": "Мясное ассорти, премиум, 4 кг, для средних/крупных пород",
+      "url": "https://www.ozon.ru/product/5327393201/",
+      "photo": "photos/2026-08-03/5327393201_vashstandart_assort.jpg",
+      "claims_short": "Без пафоса и переплат; Сделано на Кубани; ГОСТ",
+      "claims": [
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "Без пафоса и переплат"
+        },
+        {
+          "code": "ORIGIN",
+          "category": "Страна производства / премиум-позиционирование",
+          "text": "Сделано на Кубани"
+        },
+        {
+          "code": "PREMIUM",
+          "category": "Премиальное позиционирование",
+          "text": "ГОСТ"
+        }
+      ],
+      "protein": "Не конкретизирован (мясное ассорти)",
+      "ingredients": "—",
+      "plant": "ИП Клюкова А.А., Краснодарский край, Приморско-Ахтарский р-н"
+    },
+    {
+      "oid": "5327553656",
+      "date": "2026-08-03",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Влажный корм",
+      "brand": "Farmina VetLife",
+      "name": "Gastrointestinal, 6х300г",
+      "url": "https://www.ozon.ru/product/5327553656/",
+      "photo": "photos/2026-08-03/5327553656_farmina_gastro.jpg",
+      "claims_short": "Здоровое ЖКТ; поддержка пищеварения; сильный иммунитет",
+      "claims": [
+        {
+          "code": "VET",
+          "category": "Ветеринарная / лечебная диета",
+          "text": "Полнорационный диетический корм; здоровое ЖКТ"
+        },
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Поддержка здорового пищеварения; сильный иммунитет"
+        }
+      ],
+      "protein": "Не указан на фасаде",
+      "ingredients": "—",
+      "plant": "Farmina Pet Foods, Италия"
+    },
+    {
+      "oid": "5259703870",
+      "date": "2026-08-03",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Влажный корм",
+      "brand": "AWARD",
+      "name": "Sterilized, кусочки в соусе с индейкой, 85г х12",
+      "url": "https://www.ozon.ru/product/5259703870/",
+      "photo": "photos/2026-08-03/5259703870_award_sterilized.jpg",
+      "claims_short": "100% BIO; Urinary Health; Nutraceutical Formula; Superpremium Cat Food",
+      "claims": [
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "100% BIO"
+        },
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Urinary Health; Nutraceutical Formula"
+        },
+        {
+          "code": "PREMIUM",
+          "category": "Премиальное позиционирование",
+          "text": "Superpremium Cat Food"
+        }
+      ],
+      "protein": "Индейка",
+      "ingredients": "—",
+      "plant": "Не найдено"
     }
   ],
   "taxonomy": [
@@ -936,117 +1638,117 @@
     {
       "code": "NAT",
       "name": "Натуральность состава",
-      "count": 15,
-      "pct": 56
+      "count": 29,
+      "pct": 57
     },
     {
       "code": "MEAT",
       "name": "Происхождение и качество мяса",
-      "count": 9,
+      "count": 17,
       "pct": 33
-    },
-    {
-      "code": "HYPO",
-      "name": "Гипоаллергенность / чувствит. пищеварение",
-      "count": 8,
-      "pct": 30
-    },
-    {
-      "code": "FUNC",
-      "name": "Функциональная польза для здоровья",
-      "count": 8,
-      "pct": 30
-    },
-    {
-      "code": "GRAIN",
-      "name": "Беззерновой / монобелковый состав",
-      "count": 8,
-      "pct": 30
-    },
-    {
-      "code": "HOLISTIC",
-      "name": "Холистик-позиционирование",
-      "count": 7,
-      "pct": 26
-    },
-    {
-      "code": "ORIGIN",
-      "name": "Страна / регион производства",
-      "count": 7,
-      "pct": 26
     },
     {
       "code": "PREMIUM",
       "name": "Премиальное позиционирование",
-      "count": 6,
+      "count": 17,
+      "pct": 33
+    },
+    {
+      "code": "ORIGIN",
+      "name": "Страна / регион производства",
+      "count": 15,
+      "pct": 29
+    },
+    {
+      "code": "FUNC",
+      "name": "Функциональная польза для здоровья",
+      "count": 12,
+      "pct": 24
+    },
+    {
+      "code": "HOLISTIC",
+      "name": "Холистик-позиционирование",
+      "count": 12,
+      "pct": 24
+    },
+    {
+      "code": "HYPO",
+      "name": "Гипоаллергенность / чувствит. пищеварение",
+      "count": 11,
+      "pct": 22
+    },
+    {
+      "code": "GRAIN",
+      "name": "Беззерновой / монобелковый состав",
+      "count": 11,
       "pct": 22
     },
     {
       "code": "VET",
       "name": "Ветеринарная / лечебная диета",
-      "count": 4,
-      "pct": 15
+      "count": 5,
+      "pct": 10
     },
     {
       "code": "DENT",
       "name": "Стоматологическая польза",
-      "count": 2,
-      "pct": 7
+      "count": 4,
+      "pct": 8
     },
     {
       "code": "TASTE",
       "name": "Вкусовая привлекательность / поведенческая польза",
       "count": 2,
-      "pct": 7
+      "pct": 4
     },
     {
       "code": "TECH",
       "name": "Особая технология производства",
       "count": 1,
-      "pct": 4
+      "pct": 2
     },
     {
       "code": "CONV",
       "name": "Удобство использования",
       "count": 1,
-      "pct": 4
+      "pct": 2
     }
   ],
   "protein_analytics": [
     {
+      "name": "Курица",
+      "count": 12,
+      "pct": 28
+    },
+    {
       "name": "Индейка",
       "count": 11,
-      "pct": 28
+      "pct": 26
+    },
+    {
+      "name": "Утка",
+      "count": 8,
+      "pct": 19
     },
     {
       "name": "Ягнёнок",
       "count": 8,
-      "pct": 20
-    },
-    {
-      "name": "Утка",
-      "count": 6,
-      "pct": 15
-    },
-    {
-      "name": "Курица",
-      "count": 6,
-      "pct": 15
+      "pct": 19
     },
     {
       "name": "Говядина",
+      "count": 6,
+      "pct": 14
+    },
+    {
+      "name": "Лосось",
       "count": 5,
       "pct": 12
     },
     {
       "name": "Тунец",
       "count": 4,
-      "pct": 10
-    },
-    {
-      "name": "Лосось",
-      "count": 4,
-      "pct": 10
+      "pct": 9
     },
     {
       "name": "Белая рыба",
@@ -1054,9 +1756,9 @@
       "pct": 5
     },
     {
-      "name": "Баранина",
-      "count": 1,
-      "pct": 2
+      "name": "Рыба",
+      "count": 2,
+      "pct": 5
     },
     {
       "name": "Птица (ассорти)",
@@ -1065,6 +1767,11 @@
     },
     {
       "name": "Кролик",
+      "count": 1,
+      "pct": 2
+    },
+    {
+      "name": "Баранина",
       "count": 1,
       "pct": 2
     },
@@ -1079,119 +1786,124 @@
       "pct": 2
     }
   ],
-  "protein_base": 40,
-  "protein_total_skus": 49,
+  "protein_base": 43,
+  "protein_total_skus": 51,
   "ingredient_analytics": [
     {
       "name": "Рис",
-      "count": 3,
-      "pct": 11
+      "count": 6,
+      "pct": 12
+    },
+    {
+      "name": "Морская капуста (водоросли)",
+      "count": 4,
+      "pct": 8
+    },
+    {
+      "name": "Омега-3/6",
+      "count": 2,
+      "pct": 4
     },
     {
       "name": "Батат",
       "count": 1,
-      "pct": 4
-    },
-    {
-      "name": "Омега-3/6",
-      "count": 1,
-      "pct": 4
+      "pct": 2
     },
     {
       "name": "Глюкозамин/хондроитин",
       "count": 1,
-      "pct": 4
+      "pct": 2
     },
     {
       "name": "Пробиотики",
       "count": 1,
-      "pct": 4
+      "pct": 2
     },
     {
       "name": "Яблоко",
       "count": 1,
-      "pct": 4
+      "pct": 2
     },
     {
       "name": "Артишок",
       "count": 1,
-      "pct": 4
+      "pct": 2
     },
     {
       "name": "Овёс",
       "count": 1,
-      "pct": 4
+      "pct": 2
     },
     {
       "name": "Витамины",
       "count": 1,
-      "pct": 4
+      "pct": 2
     },
     {
       "name": "Фолиевая кислота",
       "count": 1,
-      "pct": 4
-    },
-    {
-      "name": "Морская капуста (водоросли)",
-      "count": 1,
-      "pct": 4
+      "pct": 2
     },
     {
       "name": "Морковь",
       "count": 1,
-      "pct": 4
+      "pct": 2
     },
     {
       "name": "Картофель",
       "count": 1,
-      "pct": 4
+      "pct": 2
     },
     {
       "name": "Овощи",
       "count": 1,
-      "pct": 4
+      "pct": 2
     }
   ],
-  "ingredient_base": 27,
+  "ingredient_base": 51,
   "producer_analytics": [
     {
+      "name": "Испания",
+      "count": 5,
+      "pct": 31
+    },
+    {
       "name": "Италия",
-      "count": 3,
-      "pct": 33
+      "count": 4,
+      "pct": 25
+    },
+    {
+      "name": "ИП Клюкова А.А. (Россия)",
+      "count": 2,
+      "pct": 12
     },
     {
       "name": "Бельгия",
       "count": 1,
-      "pct": 11
+      "pct": 6
     },
     {
       "name": "ООО «ПетЭксперт» (Россия)",
       "count": 1,
-      "pct": 11
+      "pct": 6
     },
     {
       "name": "ООО «ПроРацион» (Россия)",
       "count": 1,
-      "pct": 11
+      "pct": 6
     },
     {
       "name": "Таиланд",
       "count": 1,
-      "pct": 11
-    },
-    {
-      "name": "ИП Клюкова А.А. (Россия)",
-      "count": 1,
-      "pct": 11
+      "pct": 6
     },
     {
       "name": "Китай",
       "count": 1,
-      "pct": 11
+      "pct": 6
     }
   ],
-  "producer_base": 9,
+  "producer_base": 16,
   "conclusions": [
     "1. Натуральность состава (NAT) — самое частое направление даже без учёта Holistic: 15 из 27 карточек (56%) заявляют «100% натурально», «без ГМО» или «без глицерина». Это «входной билет» для нового SKU почти в любом сегменте и ценовой категории, а не способ выделиться.",
     "2. Холистик (HOLISTIC) — отдельный от «натуральности» маркетинговый статус рецептуры: встречается у 7 из 27 (26%) — почти исключительно у GRANDORF и LiveRa, и всегда вместе с HYPO или NAT, никогда сам по себе — то есть используется как усилитель, а не самостоятельный аргумент.",

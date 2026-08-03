@@ -7,7 +7,7 @@ const fmtDate = (iso) => {
 };
 
 async function main() {
-  const res = await fetch("data.json?v=7");
+  const res = await fetch("data.json?v=8");
   const data = await res.json();
   state.data = data;
 
