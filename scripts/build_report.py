@@ -558,6 +558,75 @@ autosize(ws3, [9, 32, 55, 55])
 ws3.freeze_panes = "A2"
 
 # =====================================================================
+# Протеин / ингредиенты-клеймы / регион завода — нормализованные теги
+# (для товара может быть несколько тегов протеина/ингредиентов; региона
+# завода — не более одного). "—" в тегах не бывает: там, где на фасаде
+# не указано и не применимо, товар просто отсутствует в списке тегов.
+# =====================================================================
+PROTEIN_TAGS = {
+    "5214515666": ["Утка"], "5277005073": ["Ягнёнок"], "5276044539": ["Утка"],
+    "5259070728": ["Индейка"], "5280647420": ["Курица"], "4685211777": ["Говядина"],
+    "5110846419": ["Говядина"], "5277005334": ["Ягнёнок", "Индейка"], "5243322000": ["Индейка"],
+    "5248949561": ["Тунец", "Лосось"], "4098300679": [],  # не мясной продукт
+    "5293611532": ["Лосось", "Ягнёнок"], "5294915094": ["Курица", "Индейка"],
+    "5294272736": ["Утка", "Тунец", "Курица"], "5293523232": ["Говядина"],
+    "5306421483": ["Ягнёнок"], "5306617135": ["Индейка"], "5327569955": ["Утка"],
+    "5327539554": [], "5327528788": [],  # не указан на фасаде
+    "5327751575": ["Утка"], "5321602313": ["Говядина"], "5294994812": ["Белая рыба", "Лосось"],
+    "5306618148": ["Индейка"], "5259705799": ["Индейка"], "5254153891": ["Курица", "Лосось"],
+    "5322942235": [],  # "мясо" без конкретики
+}
+PROTEIN_UNKNOWN_OIDS = {"4098300679", "5327539554", "5327528788", "5322942235"}
+
+INGREDIENT_TAGS = {
+    "5277005073": ["Батат", "Омега-3/6", "Глюкозамин/хондроитин", "Пробиотики"],
+    "5276044539": ["Яблоко", "Артишок"],
+    "4098300679": ["Овёс", "Витамины", "Фолиевая кислота"],
+    "5294272736": ["Морская капуста (водоросли)", "Морковь"],
+    "5306421483": ["Рис"], "5306617135": ["Рис"], "5327569955": ["Картофель"],
+    "5306618148": ["Рис"], "5259705799": ["Овощи"],
+}
+
+PLANT_REGION = {
+    "5214515666": None, "5277005073": "Бельгия", "5276044539": "Россия — Липецкая обл.",
+    "5259070728": None, "5280647420": "Россия — Липецкая обл.", "4685211777": None,
+    "5110846419": "Россия — Волгоград", "5277005334": "Европа (страна не уточнена)",
+    "5243322000": "Россия — Новосибирск", "5248949561": "Таиланд", "4098300679": None,
+    "5293611532": None, "5294915094": None, "5294272736": None, "5293523232": None,
+    "5306421483": "Россия — Алтайский край", "5306617135": "Россия — Алтайский край",
+    "5327569955": "Италия", "5327539554": "Италия", "5327528788": "Италия",
+    "5327751575": "Россия — Краснодарский край", "5321602313": "Китай", "5294994812": None,
+    "5306618148": "Россия — Алтайский край", "5259705799": None, "5254153891": None,
+    "5322942235": "Россия — Алтайский край",
+}
+
+ws_pt = wb.create_sheet("Протеин-Ингредиенты-Завод")
+headers_pt = ["ID товара", "Название товара", "Тип тега", "Значение"]
+for i, h in enumerate(headers_pt, start=1):
+    ws_pt.cell(row=1, column=i, value=h)
+style_header_row(ws_pt, 1, len(headers_pt))
+
+name_by_oid = {p["oid"]: p["name"] for p in products}
+pt_rows = []
+for oid, tags in PROTEIN_TAGS.items():
+    for tag in tags:
+        pt_rows.append((oid, name_by_oid[oid], "Протеин", tag))
+for oid, tags in INGREDIENT_TAGS.items():
+    for tag in tags:
+        pt_rows.append((oid, name_by_oid[oid], "Ингредиент-клеймо", tag))
+for oid, region in PLANT_REGION.items():
+    pt_rows.append((oid, name_by_oid[oid], "Регион завода", region if region else "Неизвестно"))
+
+for i, row in enumerate(pt_rows, start=2):
+    for j, val in enumerate(row, start=1):
+        c = ws_pt.cell(row=i, column=j, value=val)
+        c.font = base_font
+        c.alignment = wrap
+        c.border = border
+autosize(ws_pt, [12, 34, 16, 30])
+ws_pt.freeze_panes = "A2"
+
+# =====================================================================
 # Sheet 4: Аналитика
 # =====================================================================
 ws4 = wb.create_sheet("Аналитика")
@@ -607,6 +676,55 @@ ws4.cell(row=r, column=3).font = Font(name=FONT_NAME, bold=True, size=10)
 
 autosize(ws4, [9, 34, 24, 14])
 
+# =====================================================================
+# Доп. аналитика: Протеин / Ингредиенты-клеймы / Регион завода
+# Базой 100% для протеина и региона завода служит количество товаров,
+# где значение удалось определить (неизвестные исключены из знаменателя,
+# как и для завода-изготовителя в целом). Для ингредиентов-клеймов базой
+# остаётся вся выборка — отсутствие такого клейма само по себе значимо.
+# =====================================================================
+protein_known = n_products - len(PROTEIN_UNKNOWN_OIDS)
+region_known = sum(1 for v in PLANT_REGION.values() if v)
+
+def add_tag_table(ws, start_row, title, tag_type, denominator, denom_label, exclude=()):
+    ws.cell(row=start_row, column=1, value=title).font = Font(name=FONT_NAME, bold=True, size=12)
+    hrow_t = start_row + 2
+    for i, h in enumerate(["Значение", "Товаров", "Доля"], start=1):
+        ws.cell(row=hrow_t, column=i, value=h)
+    style_header_row(ws, hrow_t, 3)
+    tags = sorted({row[3] for row in pt_rows if row[2] == tag_type and row[3] not in exclude})
+    r0 = hrow_t + 1
+    for i, tag in enumerate(tags):
+        rr = r0 + i
+        ws.cell(row=rr, column=1, value=tag)
+        ws.cell(row=rr, column=2,
+                value=f'=COUNTIFS(\'Протеин-Ингредиенты-Завод\'!C:C,"{tag_type}",\'Протеин-Ингредиенты-Завод\'!D:D,A{rr})')
+        ws.cell(row=rr, column=3, value=f'=B{rr}/{denominator}')
+        ws.cell(row=rr, column=3).number_format = "0%"
+        for c in range(1, 4):
+            ws.cell(row=rr, column=c).font = base_font
+            ws.cell(row=rr, column=c).border = border
+            ws.cell(row=rr, column=c).alignment = wrap
+    last_r = r0 + len(tags) - 1
+    note_r = last_r + 1
+    ws.cell(row=note_r, column=1, value=f"База 100% = {denominator} ({denom_label})").font = note_font
+    ws.merge_cells(f"A{note_r}:D{note_r}")
+    return note_r
+
+ws4.column_dimensions["A"].width = 34
+next_row = last_data_row + 4
+next_row = add_tag_table(ws4, next_row, "Протеин — популярность среди новинок",
+                          "Протеин", protein_known,
+                          f"товаров, где протеин указан на фасаде, из {n_products} в выборке")
+next_row = add_tag_table(ws4, next_row + 3, "Ингредиенты-клеймы (фасад) — популярность среди новинок",
+                          "Ингредиент-клеймо", n_products,
+                          f"вся выборка ({n_products}) — отсутствие клейма тоже значимо")
+next_row = add_tag_table(ws4, next_row + 3, "Регион завода-изготовителя — среди идентифицированных",
+                          "Регион завода", region_known,
+                          f"товаров с идентифицированным заводом, из {n_products} в выборке",
+                          exclude={"Неизвестно"})
+analytics_end_row = next_row
+
 # Диаграмма — популярность категорий клеймов
 from openpyxl.chart import BarChart, Reference
 chart = BarChart()
@@ -623,7 +741,7 @@ chart.width = 20
 ws4.add_chart(chart, f"F{hrow4}")
 
 # ---- Выводы ----
-concl_row = last_data_row + 22
+concl_row = max(analytics_end_row, hrow4 + 24) + 4
 ws4.cell(row=concl_row, column=1, value="Выводы (наблюдения: 2026-07-31, 2026-08-01, 2026-08-03)").font = Font(name=FONT_NAME, bold=True, size=12)
 conclusions = [
     "1. Натуральность состава (NAT) — по-прежнему самое частое направление и только укрепилось: 16 из 27 карточек "
