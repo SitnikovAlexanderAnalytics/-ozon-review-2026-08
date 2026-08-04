@@ -90,7 +90,7 @@ protein_analytics = [
     for tag, c in sorted(protein_counts.items(), key=lambda x: -x[1])
 ]
 
-# ---- ингредиенты-клеймы (фасад): база — вся выборка (27) ----
+# ---- ингредиенты-клеймы (лицевая сторона упаковки): база — вся выборка (27) ----
 ingredient_counts = defaultdict(int)
 for oid, tags in br.INGREDIENT_TAGS.items():
     for tag in tags:

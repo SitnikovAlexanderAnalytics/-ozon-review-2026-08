@@ -7,7 +7,7 @@ const fmtDate = (iso) => {
 };
 
 async function main() {
-  const res = await fetch("data.json?v=9");
+  const res = await fetch("data.json?v=10");
   const data = await res.json();
   state.data = data;
 
@@ -26,7 +26,7 @@ async function main() {
   renderChartTable("protein-table", data.protein_analytics);
   wireTableToggle("toggle-table-protein", "protein-chart", "protein-table-wrap");
   document.getElementById("protein-note").textContent =
-    `База 100% = ${data.protein_base} SKU, где протеин назван на фасаде, из ${data.protein_total_skus} SKU всего.`;
+    `База 100% = ${data.protein_base} SKU, где протеин назван на лицевой стороне упаковки, из ${data.protein_total_skus} SKU всего.`;
 
   renderChart("ingredient-chart", data.ingredient_analytics);
   renderChartTable("ingredient-table", data.ingredient_analytics);
@@ -159,7 +159,7 @@ function cardHtml(p) {
         </div>
         <dl class="card-meta">
           <div><dt>Протеин</dt><dd>${escapeHtml(p.protein || "—")}</dd></div>
-          <div><dt>Ингредиенты (фасад)</dt><dd>${escapeHtml(p.ingredients || "—")}</dd></div>
+          <div><dt>Ингредиенты (лицевая сторона упаковки)</dt><dd>${escapeHtml(p.ingredients || "—")}</dd></div>
           <div><dt>Завод-изготовитель</dt><dd>${escapeHtml(p.plant || "—")}</dd></div>
         </dl>
         <a class="card-link" href="${p.url}" target="_blank" rel="noopener">Открыть на Ozon →</a>
