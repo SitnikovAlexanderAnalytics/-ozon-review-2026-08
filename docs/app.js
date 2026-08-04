@@ -7,7 +7,7 @@ const fmtDate = (iso) => {
 };
 
 async function main() {
-  const res = await fetch("data.json?v=8");
+  const res = await fetch("data.json?v=9");
   const data = await res.json();
   state.data = data;
 
@@ -26,14 +26,13 @@ async function main() {
   renderChartTable("protein-table", data.protein_analytics);
   wireTableToggle("toggle-table-protein", "protein-chart", "protein-table-wrap");
   document.getElementById("protein-note").textContent =
-    `База 100% = ${data.protein_base} SKU, где протеин назван на фасаде, из ${data.protein_total_skus} SKU всего ` +
-    `(по всем товарам новых линеек, а не по одному представителю на линейку).`;
+    `База 100% = ${data.protein_base} SKU, где протеин назван на фасаде, из ${data.protein_total_skus} SKU всего.`;
 
   renderChart("ingredient-chart", data.ingredient_analytics);
   renderChartTable("ingredient-table", data.ingredient_analytics);
   wireTableToggle("toggle-table-ingredient", "ingredient-chart", "ingredient-table-wrap");
   document.getElementById("ingredient-note").textContent =
-    `База 100% = вся выборка (${data.ingredient_base}) — отсутствие ингредиента-клейма тоже значимо.`;
+    `База 100% = вся выборка (${data.ingredient_base}).`;
 
   renderChart("producer-chart", data.producer_analytics);
   renderChartTable("producer-table", data.producer_analytics);
