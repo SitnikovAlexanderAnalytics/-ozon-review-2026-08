@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-03",
-  "n_products": 51,
-  "days_tracked": 3,
-  "history_ids_total": 159,
+  "generated_at": "2026-08-04",
+  "n_products": 68,
+  "days_tracked": 4,
+  "history_ids_total": 181,
   "products": [
     {
       "oid": "5214515666",
@@ -1552,6 +1552,485 @@
       "protein": "Индейка",
       "ingredients": "—",
       "plant": "Не найдено"
+    },
+    {
+      "oid": "5345830359",
+      "date": "2026-08-04",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Сухой корм",
+      "brand": "Pets Brunch",
+      "name": "Adult Super Mini Breeds, индейка, гипоаллергенный, 4 кг",
+      "url": "https://www.ozon.ru/product/suhoy-korm-pets-brunch-dlya-sobak-miniatyurnyh-porod-s-indeykoy-gipoallergennyy-4-kg-5345830359/",
+      "photo": "photos/2026-08-04/5345830359_petsbrunch.jpg",
+      "claims_short": "Sensitive; укрепляет иммунитет; защита пищеварения; красота кожи и шерсти; Gluten Free; 41% мясных ингредиентов; Belgian recipe",
+      "claims": [
+        {
+          "code": "HYPO",
+          "category": "Гипоаллергенность / чувствит. пищеварение",
+          "text": "Sensitive; гипоаллергенный"
+        },
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Укрепляет иммунитет; защита пищеварения; красота кожи и шерсти"
+        },
+        {
+          "code": "GRAIN",
+          "category": "Беззерновой / монобелковый состав",
+          "text": "Gluten Free"
+        },
+        {
+          "code": "MEAT",
+          "category": "Происхождение и качество мяса",
+          "text": "41% мясных ингредиентов"
+        },
+        {
+          "code": "ORIGIN",
+          "category": "Страна / регион производства",
+          "text": "Belgian recipe"
+        }
+      ],
+      "protein": "Индейка",
+      "ingredients": "Пребиотики",
+      "plant": "Не найдено (Belgian recipe — рецептура, не завод)"
+    },
+    {
+      "oid": "5358300410",
+      "date": "2026-08-04",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Сухой корм",
+      "brand": "Mil.Dog",
+      "name": "Полнорационный сухой корм для собак мелких пород, 10 кг",
+      "url": "https://www.ozon.ru/product/korm-suhoy-10kg-dlya-sobak-melkih-porod-5358300410/",
+      "photo": "photos/2026-08-04/5358300410_generic10kg.jpg",
+      "claims_short": "Сделано в России; без искусственных ароматизаторов, усилителей вкуса и сои",
+      "claims": [
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "Без искусственных ароматизаторов, усилителей вкуса и сои"
+        },
+        {
+          "code": "ORIGIN",
+          "category": "Страна / регион производства",
+          "text": "Сделано в России"
+        }
+      ],
+      "protein": "Не конкретизирован (мясо и субпродукты)",
+      "ingredients": "Таурин; Кальций/Фосфор; Витамин D; Жирные кислоты",
+      "plant": "ООО «Ганеша» (Россия, Воронежская обл., г. Борисоглебск)"
+    },
+    {
+      "oid": "5357288481",
+      "date": "2026-08-04",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Влажный корм",
+      "brand": "Farmina N&D",
+      "name": "Quail & Pumpkin, перепел и тыква, 285 г",
+      "url": "https://www.ozon.ru/product/vlazhnyy-korm-farmina-n-d-quail-pumpkin-dlya-sobak-s-perepelom-i-tykvoy-285gr-5357288481/",
+      "photo": "photos/2026-08-04/5357288481_farmina_quail.jpg",
+      "claims_short": "Pumpkin line; Italian pet food",
+      "claims": [
+        {
+          "code": "ORIGIN",
+          "category": "Страна / регион производства",
+          "text": "Italian pet food (флаг Италии на этикетке)"
+        }
+      ],
+      "protein": "Перепел",
+      "ingredients": "Тыква",
+      "plant": "Farmina Pet Foods, Италия"
+    },
+    {
+      "oid": "5358242931",
+      "date": "2026-08-04",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Влажный корм",
+      "brand": "Родные корма",
+      "name": "Скоблянка мясная по-городецки, рубленое мясо, 970 г",
+      "url": "https://www.ozon.ru/product/vlazhnyy-korm-rodnye-korma-konservy-dlya-sobak-skoblyanka-myasnaya-po-gorodetski-970-g-5358242931/",
+      "photo": "photos/2026-08-04/5358242931_rodnye_skoblyanka.jpg",
+      "claims_short": "Премиум; мясо ингредиент №1; 75% мяса и мясных ингредиентов",
+      "claims": [
+        {
+          "code": "PREMIUM",
+          "category": "Премиальное позиционирование",
+          "text": "Премиум"
+        },
+        {
+          "code": "MEAT",
+          "category": "Происхождение и качество мяса",
+          "text": "Мясо ингредиент №1; 75% мяса и мясных ингредиентов"
+        }
+      ],
+      "protein": "Говядина",
+      "ingredients": "—",
+      "plant": "Не найдено (Зоопторг — вероятно дистрибьютор, не завод)"
+    },
+    {
+      "oid": "5358240926",
+      "date": "2026-08-04",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Влажный корм",
+      "brand": "Родные корма",
+      "name": "По-восточному, баранина с потрошками в желе, 970 г",
+      "url": "https://www.ozon.ru/product/vlazhnyy-korm-rodnye-korma-konservy-dlya-sobak-po-vostochnomu-baranina-i-potroshki-zhele-970-g-5358240926/",
+      "photo": "photos/2026-08-04/5358240926_rodnye_baranina.jpg",
+      "claims_short": "Премиум; мясо ингредиент №1; 75% мяса и мясных ингредиентов",
+      "claims": [
+        {
+          "code": "PREMIUM",
+          "category": "Премиальное позиционирование",
+          "text": "Премиум"
+        },
+        {
+          "code": "MEAT",
+          "category": "Происхождение и качество мяса",
+          "text": "Мясо ингредиент №1; 75% мяса и мясных ингредиентов"
+        }
+      ],
+      "protein": "Баранина",
+      "ingredients": "—",
+      "plant": "Не найдено (Зоопторг — вероятно дистрибьютор, не завод)"
+    },
+    {
+      "oid": "5359892602",
+      "date": "2026-08-04",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Сухой корм",
+      "brand": "Puffins",
+      "name": "Индейка и лосось, для стерилизованных кошек, 400 г х2",
+      "url": "https://www.ozon.ru/product/puffins-suhoy-korm-dlya-sterilizovannyh-koshek-i-kastrirovannyh-kotov-indeyka-i-losos-400-g-2-sht-5359892602/",
+      "photo": "photos/2026-08-04/5359892602_puffins_turkeysalmon.jpg",
+      "claims_short": "Low Grain; здоровый иммунитет; контроль веса; здоровье мочевыдел. системы; здоровое пищеварение; здоровье шерсти и кожи",
+      "claims": [
+        {
+          "code": "GRAIN",
+          "category": "Беззерновой / монобелковый состав",
+          "text": "Low Grain"
+        },
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Здоровый иммунитет; контроль веса; здоровье мочевыдел. системы; здоровое пищеварение; здоровье шерсти и кожи"
+        }
+      ],
+      "protein": "Индейка, Лосось",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5359453152",
+      "date": "2026-08-04",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Сухой корм",
+      "brand": "Puffins",
+      "name": "Говядина и лосось, для взрослых кошек, 400 г",
+      "url": "https://www.ozon.ru/product/puffins-suhoy-korm-dlya-koshek-govyadina-i-losos-400g-5359453152/",
+      "photo": "photos/2026-08-04/5359453152_puffins_beefsalmon.jpg",
+      "claims_short": "Low Grain; здоровый иммунитет; высокая усвояемость пищи; здоровое пищеварение; поддержание мышечного тонуса; здоровье кожи и шерсти",
+      "claims": [
+        {
+          "code": "GRAIN",
+          "category": "Беззерновой / монобелковый состав",
+          "text": "Low Grain"
+        },
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Здоровый иммунитет; высокая усвояемость пищи; здоровое пищеварение; поддержание мышечного тонуса; здоровье кожи и шерсти"
+        }
+      ],
+      "protein": "Говядина, Лосось",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5359660535",
+      "date": "2026-08-04",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Сухой корм",
+      "brand": "Puffins",
+      "name": "Мясное ассорти, для взрослых кошек, 400 г",
+      "url": "https://www.ozon.ru/product/puffins-suhoy-korm-dlya-vzroslyh-koshek-myasnoe-assorti-400-g-5359660535/",
+      "photo": "photos/2026-08-04/5359660535_puffins_assorti.jpg",
+      "claims_short": "Low Grain; здоровый иммунитет; здоровье сердца и глаз; здоровое пищеварение; сильные мышцы и связки; здоровье шерсти и кожи",
+      "claims": [
+        {
+          "code": "GRAIN",
+          "category": "Беззерновой / монобелковый состав",
+          "text": "Low Grain"
+        },
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Здоровый иммунитет; здоровье сердца и глаз; здоровое пищеварение; сильные мышцы и связки; здоровье шерсти и кожи"
+        }
+      ],
+      "protein": "Не конкретизирован (мясное ассорти)",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5359822345",
+      "date": "2026-08-04",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Сухой корм",
+      "brand": "GRANDORF",
+      "name": "Lamb & Turkey Adult Indoor, ягнёнок с индейкой, Single Grain, 8 кг",
+      "url": "https://www.ozon.ru/product/suhoy-korm-grandorf-yagnenok-s-indeykoy-dlya-domashnih-koshek-8-kg-5359822345/",
+      "photo": "photos/2026-08-04/5359822345_grandorf_lambturkey.jpg",
+      "claims_short": "Holistic & Hypoallergenic; Single Grain formula; Gluten Free; 70% premium animal ingredients; without plant protein; no artificial flavours/colours/preservatives; optimal Omega 3-6",
+      "claims": [
+        {
+          "code": "HYPO",
+          "category": "Гипоаллергенность / чувствит. пищеварение",
+          "text": "Hypoallergenic; ingredients for sensitive skin & stomach"
+        },
+        {
+          "code": "HOLISTIC",
+          "category": "Холистик-позиционирование",
+          "text": "Holistic"
+        },
+        {
+          "code": "GRAIN",
+          "category": "Беззерновой / монобелковый состав",
+          "text": "Single Grain formula; Gluten Free"
+        },
+        {
+          "code": "MEAT",
+          "category": "Происхождение и качество мяса",
+          "text": "70% premium animal ingredients"
+        },
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "Without the addition of plant protein; No artificial flavours/colours/preservatives"
+        },
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Optimal ratio of Omega 3-6 fatty acids; vitamins, minerals & natural antioxidants"
+        }
+      ],
+      "protein": "Ягнёнок, Индейка",
+      "ingredients": "Омега-3/6",
+      "plant": "Не найдено (не проверено отдельно для этого SKU)"
+    },
+    {
+      "oid": "5357563517",
+      "date": "2026-08-04",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Влажный корм",
+      "brand": "DELISH",
+      "name": "Super Premium, суп с курицей и овощами, 80 г",
+      "url": "https://www.ozon.ru/product/konservy-dlya-koshek-delish-super-premium-sup-s-kuritsey-i-ovoshchami-80-gramm-5357563517/",
+      "photo": "photos/2026-08-04/5357563517_delish_chicken.jpg",
+      "claims_short": "Super Premium; высокое содержание чистого мяса; премиальный состав",
+      "claims": [
+        {
+          "code": "PREMIUM",
+          "category": "Премиальное позиционирование",
+          "text": "Super Premium; премиальный состав"
+        },
+        {
+          "code": "MEAT",
+          "category": "Происхождение и качество мяса",
+          "text": "Высокое содержание чистого мяса"
+        }
+      ],
+      "protein": "Курица",
+      "ingredients": "Морковь; Овёс (пропаренный)",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5357853793",
+      "date": "2026-08-04",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Влажный корм",
+      "brand": "DELISH",
+      "name": "Super Premium, суп с говядиной и овощами, 80 г",
+      "url": "https://www.ozon.ru/product/konservy-dlya-koshek-delish-super-premium-sup-s-govyadinoy-i-ovoshchami-80-gramm-5357853793/",
+      "photo": "photos/2026-08-04/5357853793_delish_beef.jpg",
+      "claims_short": "Super Premium; высокое содержание чистого мяса",
+      "claims": [
+        {
+          "code": "PREMIUM",
+          "category": "Премиальное позиционирование",
+          "text": "Super Premium"
+        },
+        {
+          "code": "MEAT",
+          "category": "Происхождение и качество мяса",
+          "text": "Высокое содержание чистого мяса"
+        }
+      ],
+      "protein": "Говядина",
+      "ingredients": "Морковь; Овёс (пропаренный)",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5331257302",
+      "date": "2026-08-04",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Влажный корм",
+      "brand": "Blitz",
+      "name": "Sterilised, индейка и клюква, паучи, 85 г х24",
+      "url": "https://www.ozon.ru/product/pauchi-dlya-sterilizovannyh-koshek-indeyka-i-klyukva-85g-h-24-sht-5331257302/",
+      "photo": "photos/2026-08-04/5331257302_pauchi_turkeycranberry.jpg",
+      "claims_short": "Urinary care; Sensitive; обогащён пробиотиками; высокое качество",
+      "claims": [
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Urinary care"
+        },
+        {
+          "code": "HYPO",
+          "category": "Гипоаллергенность / чувствит. пищеварение",
+          "text": "Sensitive"
+        },
+        {
+          "code": "PREMIUM",
+          "category": "Премиальное позиционирование",
+          "text": "Высокое качество"
+        }
+      ],
+      "protein": "Индейка",
+      "ingredients": "Клюква; Пробиотики",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5358325770",
+      "date": "2026-08-04",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Лакомства",
+      "brand": "Mr.Whiskers",
+      "name": "Крем-лакомство в стиках, ассорти 7 вкусов х2, 14х15 г",
+      "url": "https://www.ozon.ru/product/krem-lakomstvo-dlya-koshek-v-stikah-5358325770/",
+      "photo": "photos/2026-08-04/5358325770_kremlakomstvo.jpg",
+      "claims_short": "Chicken+Catnip; Codfish+Fish oil (hair health); Salmon+Prebiotics (intestinal health); Rabbit (urinary tract); Tuna+Krill (immunity); Duck+Snow pear; Scallop",
+      "claims": [
+        {
+          "code": "TASTE",
+          "category": "Вкусовая привлекательность / поведенческая польза",
+          "text": "Лакомство для твоего пушистика; вкусное и полезное"
+        },
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Improve hair health (Codfish); improve intestinal health (Salmon); improve urinary tract (Rabbit); improve immunity (Tuna)"
+        }
+      ],
+      "protein": "Курица, Треска, Лосось, Кролик, Тунец, Утка, Гребешок",
+      "ingredients": "Катнип (Chicken); Рыбий жир (Codfish); Пребиотики (Salmon); Криль (Tuna)",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5358242441",
+      "date": "2026-08-04",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Лакомства",
+      "brand": "Мнямс",
+      "name": "Ферма кота Федора, хрустящие подушечки с паштетом, тунец, 40 г",
+      "url": "https://www.ozon.ru/product/lakomstvo-mnyams-hrustyashchie-podushechki-s-pashtetom-ferma-kota-fedora-dlya-koshek-i-kotyat-tunets-5358242441/",
+      "photo": "photos/2026-08-04/5358242441_mnyams_tuna.jpg",
+      "claims_short": "Без ГМО; без сои",
+      "claims": [
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "Без ГМО; без сои"
+        }
+      ],
+      "protein": "Тунец",
+      "ingredients": "Таурин",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5358240663",
+      "date": "2026-08-04",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Лакомства",
+      "brand": "Мнямс",
+      "name": "Ферма кота Федора, хрустящие подушечки с паштетом, говядина, 40 г",
+      "url": "https://www.ozon.ru/product/lakomstvo-mnyams-hrustyashchie-podushechki-s-pashtetom-ferma-kota-fedora-dlya-koshek-i-5358240663/",
+      "photo": "photos/2026-08-04/5358240663_mnyams_beef.jpg",
+      "claims_short": "Без ГМО; без сои",
+      "claims": [
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "Без ГМО; без сои"
+        }
+      ],
+      "protein": "Говядина",
+      "ingredients": "Таурин",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5358241683",
+      "date": "2026-08-04",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Лакомства",
+      "brand": "Мнямс",
+      "name": "Ферма кота Федора, хрустящие подушечки с паштетом, курица, 40 г",
+      "url": "https://www.ozon.ru/product/lakomstvo-mnyams-hrustyashchie-podushechki-s-pashtetom-ferma-kota-fedora-dlya-koshek-i-5358241683/",
+      "photo": "photos/2026-08-04/5358241683_mnyams_chicken.jpg",
+      "claims_short": "Без ГМО; без сои",
+      "claims": [
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "Без ГМО; без сои"
+        }
+      ],
+      "protein": "Курица",
+      "ingredients": "Таурин",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5358240549",
+      "date": "2026-08-04",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Лакомства",
+      "brand": "Четыре с хвостиком",
+      "name": "Травка для кошек, 4 злаковые культуры, 80 г",
+      "url": "https://www.ozon.ru/product/lakomstvo-chetyre-s-hvostikom-trava-dlya-prorashchivaniya-80-g-5358240549/",
+      "photo": "photos/2026-08-04/5358240549_4hvostika_trava.jpg",
+      "claims_short": "100% натуральный продукт; для выведения шерсти; источник витаминов А,В,Е",
+      "claims": [
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "100% натуральный продукт"
+        },
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Для выведения шерсти; спасает комнатные растения"
+        }
+      ],
+      "protein": "—(не мясной продукт, трава)",
+      "ingredients": "Овёс; Рожь; Пшеница; Тимофеевка; Витамины",
+      "plant": "Не найдено (бренд АВЗ — юрлицо/адрес не подтверждены отдельно)"
     }
   ],
   "taxonomy": [
@@ -1638,140 +2117,140 @@
     {
       "code": "NAT",
       "name": "Натуральность состава",
-      "count": 29,
-      "pct": 57
+      "count": 35,
+      "pct": 51
     },
     {
       "code": "MEAT",
       "name": "Происхождение и качество мяса",
-      "count": 17,
-      "pct": 33
+      "count": 23,
+      "pct": 34
     },
     {
       "code": "PREMIUM",
       "name": "Премиальное позиционирование",
-      "count": 17,
-      "pct": 33
-    },
-    {
-      "code": "ORIGIN",
-      "name": "Страна / регион производства",
-      "count": 15,
-      "pct": 29
+      "count": 22,
+      "pct": 32
     },
     {
       "code": "FUNC",
       "name": "Функциональная польза для здоровья",
-      "count": 12,
-      "pct": 24
+      "count": 20,
+      "pct": 29
     },
     {
-      "code": "HOLISTIC",
-      "name": "Холистик-позиционирование",
-      "count": 12,
+      "code": "ORIGIN",
+      "name": "Страна / регион производства",
+      "count": 18,
+      "pct": 26
+    },
+    {
+      "code": "GRAIN",
+      "name": "Беззерновой / монобелковый состав",
+      "count": 16,
       "pct": 24
     },
     {
       "code": "HYPO",
       "name": "Гипоаллергенность / чувствит. пищеварение",
-      "count": 11,
-      "pct": 22
+      "count": 14,
+      "pct": 21
     },
     {
-      "code": "GRAIN",
-      "name": "Беззерновой / монобелковый состав",
-      "count": 11,
-      "pct": 22
+      "code": "HOLISTIC",
+      "name": "Холистик-позиционирование",
+      "count": 13,
+      "pct": 19
     },
     {
       "code": "VET",
       "name": "Ветеринарная / лечебная диета",
       "count": 5,
-      "pct": 10
+      "pct": 7
     },
     {
       "code": "DENT",
       "name": "Стоматологическая польза",
       "count": 4,
-      "pct": 8
+      "pct": 6
     },
     {
       "code": "TASTE",
       "name": "Вкусовая привлекательность / поведенческая польза",
-      "count": 2,
+      "count": 3,
       "pct": 4
     },
     {
       "code": "TECH",
       "name": "Особая технология производства",
       "count": 1,
-      "pct": 2
+      "pct": 1
     },
     {
       "code": "CONV",
       "name": "Удобство использования",
       "count": 1,
-      "pct": 2
+      "pct": 1
     }
   ],
   "protein_analytics": [
     {
-      "name": "Курица",
-      "count": 12,
-      "pct": 28
-    },
-    {
       "name": "Индейка",
-      "count": 11,
+      "count": 15,
       "pct": 26
     },
     {
-      "name": "Утка",
-      "count": 8,
-      "pct": 19
-    },
-    {
-      "name": "Ягнёнок",
-      "count": 8,
-      "pct": 19
+      "name": "Курица",
+      "count": 15,
+      "pct": 26
     },
     {
       "name": "Говядина",
-      "count": 6,
-      "pct": 14
+      "count": 10,
+      "pct": 18
+    },
+    {
+      "name": "Утка",
+      "count": 9,
+      "pct": 16
+    },
+    {
+      "name": "Ягнёнок",
+      "count": 9,
+      "pct": 16
     },
     {
       "name": "Лосось",
-      "count": 5,
-      "pct": 12
+      "count": 8,
+      "pct": 14
     },
     {
       "name": "Тунец",
-      "count": 4,
-      "pct": 9
+      "count": 6,
+      "pct": 11
     },
     {
       "name": "Белая рыба",
       "count": 2,
-      "pct": 5
+      "pct": 4
     },
     {
       "name": "Рыба",
       "count": 2,
-      "pct": 5
-    },
-    {
-      "name": "Птица (ассорти)",
-      "count": 1,
-      "pct": 2
+      "pct": 4
     },
     {
       "name": "Кролик",
-      "count": 1,
-      "pct": 2
+      "count": 2,
+      "pct": 4
     },
     {
       "name": "Баранина",
+      "count": 2,
+      "pct": 4
+    },
+    {
+      "name": "Птица (ассорти)",
       "count": 1,
       "pct": 2
     },
@@ -1784,98 +2263,183 @@
       "name": "Краб",
       "count": 1,
       "pct": 2
+    },
+    {
+      "name": "Перепел",
+      "count": 1,
+      "pct": 2
+    },
+    {
+      "name": "Треска",
+      "count": 1,
+      "pct": 2
+    },
+    {
+      "name": "Гребешок",
+      "count": 1,
+      "pct": 2
     }
   ],
-  "protein_base": 43,
-  "protein_total_skus": 51,
+  "protein_base": 57,
+  "protein_total_skus": 68,
   "ingredient_analytics": [
     {
       "name": "Рис",
       "count": 6,
-      "pct": 12
+      "pct": 9
     },
     {
       "name": "Морская капуста (водоросли)",
       "count": 4,
-      "pct": 8
+      "pct": 6
+    },
+    {
+      "name": "Таурин",
+      "count": 4,
+      "pct": 6
     },
     {
       "name": "Омега-3/6",
-      "count": 2,
+      "count": 3,
       "pct": 4
+    },
+    {
+      "name": "Морковь",
+      "count": 3,
+      "pct": 4
+    },
+    {
+      "name": "Овёс",
+      "count": 3,
+      "pct": 4
+    },
+    {
+      "name": "Пробиотики",
+      "count": 2,
+      "pct": 3
+    },
+    {
+      "name": "Витамины",
+      "count": 2,
+      "pct": 3
+    },
+    {
+      "name": "Пребиотики",
+      "count": 2,
+      "pct": 3
     },
     {
       "name": "Батат",
       "count": 1,
-      "pct": 2
+      "pct": 1
     },
     {
       "name": "Глюкозамин/хондроитин",
       "count": 1,
-      "pct": 2
-    },
-    {
-      "name": "Пробиотики",
-      "count": 1,
-      "pct": 2
+      "pct": 1
     },
     {
       "name": "Яблоко",
       "count": 1,
-      "pct": 2
+      "pct": 1
     },
     {
       "name": "Артишок",
       "count": 1,
-      "pct": 2
+      "pct": 1
     },
     {
       "name": "Трава (овёс)",
       "count": 1,
-      "pct": 2
-    },
-    {
-      "name": "Витамины",
-      "count": 1,
-      "pct": 2
+      "pct": 1
     },
     {
       "name": "Фолиевая кислота",
       "count": 1,
-      "pct": 2
-    },
-    {
-      "name": "Морковь",
-      "count": 1,
-      "pct": 2
+      "pct": 1
     },
     {
       "name": "Картофель",
       "count": 1,
-      "pct": 2
+      "pct": 1
     },
     {
       "name": "Овощи",
       "count": 1,
-      "pct": 2
+      "pct": 1
+    },
+    {
+      "name": "Кальций/Фосфор",
+      "count": 1,
+      "pct": 1
+    },
+    {
+      "name": "Витамин D",
+      "count": 1,
+      "pct": 1
+    },
+    {
+      "name": "Жирные кислоты",
+      "count": 1,
+      "pct": 1
+    },
+    {
+      "name": "Тыква",
+      "count": 1,
+      "pct": 1
+    },
+    {
+      "name": "Клюква",
+      "count": 1,
+      "pct": 1
+    },
+    {
+      "name": "Катнип",
+      "count": 1,
+      "pct": 1
+    },
+    {
+      "name": "Рыбий жир",
+      "count": 1,
+      "pct": 1
+    },
+    {
+      "name": "Криль",
+      "count": 1,
+      "pct": 1
+    },
+    {
+      "name": "Рожь",
+      "count": 1,
+      "pct": 1
+    },
+    {
+      "name": "Пшеница",
+      "count": 1,
+      "pct": 1
+    },
+    {
+      "name": "Тимофеевка",
+      "count": 1,
+      "pct": 1
     }
   ],
-  "ingredient_base": 51,
+  "ingredient_base": 68,
   "producer_analytics": [
+    {
+      "name": "Италия",
+      "count": 5,
+      "pct": 28
+    },
     {
       "name": "Испания",
       "count": 5,
-      "pct": 31
-    },
-    {
-      "name": "Италия",
-      "count": 4,
-      "pct": 25
+      "pct": 28
     },
     {
       "name": "ИП Клюкова А.А. (Россия)",
       "count": 2,
-      "pct": 12
+      "pct": 11
     },
     {
       "name": "Бельгия",
@@ -1901,16 +2465,23 @@
       "name": "Китай",
       "count": 1,
       "pct": 6
+    },
+    {
+      "name": "ООО «Ганеша» (Россия, Воронежская обл., г. Борисоглебск)",
+      "count": 1,
+      "pct": 6
     }
   ],
-  "producer_base": 16,
+  "producer_base": 18,
   "conclusions": [
-    "1. Натуральность состава (NAT) — самое частое направление даже без учёта Holistic: 29 из 51 карточки (57%) заявляют «100% натурально», «без ГМО» или «без глицерина». Это «входной билет» для нового SKU почти в любом сегменте и ценовой категории, а не способ выделиться.",
-    "2. Холистик (HOLISTIC) — отдельный от «натуральности» маркетинговый статус рецептуры: встречается у 12 из 51 (24%) — почти исключительно у GRANDORF и LiveRa, и всегда вместе с HYPO или NAT, никогда сам по себе — то есть используется как усилитель, а не самостоятельный аргумент.",
-    "3. Ветеринарная/лечебная диета (VET) — 5 из 51 (10%), почти целиком за счёт линейки Farmina VetLife (Hypoallergenic, Renal, Diabetic, Gastrointestinal) — признак того, что лечебное питание становится самостоятельным растущим направлением, а не нишей одного бренда.",
-    "4. Завод-изготовитель вскрыл географический кластер контрактного производства в России: ООО «ПетЭксперт» (Липецкая обл., Елецкий р-н, ОЭЗ «Липецк») делает корм под брендом AWARD для АО «Валта Пет Продактс» и, вероятно, тот же кластер — под CLAN VET; ООО «ПроРацион» (Новосибирск) делает EDWIN; бренд LiveRa указывает «Корма из России» с адресом в Барнауле. Как и с GRANDORF/United Petfood в Европе, один и тот же завод может стоять за несколькими разными брендами на полке Ozon — бренд и реальный изготовитель систематически различны.",
-    "5. Протеиновый разрыв премиум/эконом: индейка и утка — основные протеины у гипоаллергенных и премиальных SKU (EDWIN, LiveRa Hypoallergenic, Farmina Duck, Premier, GRANDORF) — как менее аллергенные и более «премиальные» виды мяса; говядина доминирует в эконом-сегменте и базовых лакомствах (Мурчик, DelicaChoice, Лопай лапой, Альма) — как самое доступное и привычное мясное сырьё.",
-    "6. Сегментный разрыв в клеймах подтверждён на трёх независимых эконом-товарах: «Мурчик» (влажный корм для кошек), «DelicaChoice» (Китай) и «DOGNIS» — оба последних прессованные кости из жил, все три объективно новые SKU, и ни один не несёт ни одного клейма из справочника, только вес/размер/базовое описание. Messaging-борьба почти полностью сосредоточена в премиум- и средне-премиальном сегменте.",
-    "7. Важный нюанс по составу: клейм не всегда универсален внутри одной товарной линейки. У НЯМТОРИЯ «без глицерина» подтверждается для вкусов утка и курица, но вкус тунец, по составу на этикетке, глицерин СОДЕРЖИТ — «чистая этикетка» может относиться только к части ассортимента бренда, а не ко всей линейке."
+    "1. Натуральность состава (NAT) — по-прежнему самое частое направление: 35 из 68 карточек (51%) заявляют «100% натурально», «без ГМО», «без сои» или «без глицерина». Это «входной билет» для нового SKU почти в любом сегменте и ценовой категории, а не способ выделиться.",
+    "2. НОВОЕ: премиальное позиционирование (PREMIUM) резко выросло — 22 из 68 (32%), почти сравнявшись с происхождением мяса (MEAT, 23 из 68, 34%). Драйвер — волна брендов с явным «super premium» на фасаде (DELISH, Родные корма, Blitz) вдобавок к уже известным AWARD/EDWIN/Farmina — премиальная риторика явно становится нормой для нового SKU, а не отличительным признаком нишевых брендов.",
+    "3. Холистик (HOLISTIC) — отдельный от «натуральности» маркетинговый статус: 13 из 68 (19%), почти исключительно у GRANDORF и LiveRa, и всегда вместе с HYPO или NAT, никогда сам по себе.",
+    "4. Ветеринарная/лечебная диета (VET) — 5 из 68 (7%), почти целиком за счёт линейки Farmina VetLife (Hypoallergenic, Renal, Diabetic, Gastrointestinal) — устойчивое, но по-прежнему нишевое направление.",
+    "5. Завод-изготовитель вскрыл географический кластер контрактного производства: помимо российских ООО «ПетЭксперт» (AWARD, Липецкая обл.), ООО «ПроРацион» (EDWIN, Новосибирск) и ООО «Ганеша» (Mil.Dog, Воронежская обл.) — среди идентифицированных производителей Италия и Испания теперь идут вровень (по 5 из 18, 28% каждая: Farmina и Gosbi соответственно) — крупные европейские контрактные площадки остаются основой премиального сегмента. Для большинства новых брендов (Puffins, DELISH, Blitz, Родные корма, Mr.Whiskers, Мнямс) завод так и не удалось подтвердить — на упаковке нет читаемой этикетки с юрлицом.",
+    "6. Протеиновый расклад сместился: индейка и курица теперь делят первое место (по 15 из 57 определённых, 26% каждая) — курица подтянулась благодаря эконом- и средне-премиальным новинкам (DELISH, Puffins, Мнямс), тогда как раньше курица явно уступала индейке и утке в премиальном сегменте.",
+    "7. НОВОЕ: единичная карточка Mr.Whiskers (крем-лакомство, ассорти 7 вкусов) сама по себе ввела 3 протеина, которых не было в выборке — гребешок, треска, кролик — и функциональные добавки катnip/криль/пребиотики. Ассортиментные SKU способны в одиночку заметно сдвинуть протеиновую статистику линейки.",
+    "8. Сегментный разрыв в клеймах устойчив: «Мурчик», «DelicaChoice» (Китай) и «DOGNIS» — три независимых эконом-товара без единого клейма из справочника, только вес/размер/базовое описание. Но появилось исключение — «Родные корма» (эконом-канал, ЗООПТТОРГ) заявляет «Премиум» и «мясо ингредиент №1» наравне с дорогими брендами: премиальная риторика начинает просачиваться и в более доступный сегмент.",
+    "9. Важный нюанс по составу: клейм не всегда универсален внутри одной линейки. У НЯМТОРИЯ «без глицерина» подтверждается для вкусов утка и курица, но вкус тунец, по составу на этикетке, глицерин СОДЕРЖИТ — «чистая этикетка» может относиться только к части ассортимента бренда, а не ко всей линейке."
   ]
 }

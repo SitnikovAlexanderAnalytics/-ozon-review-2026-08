@@ -103,6 +103,16 @@
         <button class="chip" data-filter-method="diff" type="button">Только подтверждённые (ID-diff)</button>
         <button class="chip" data-filter-method="sort" type="button">Кандидаты (сорт. «Новинки»)</button>
       </div>
+      <div class="filter-group" role="group" aria-label="Тип продукции">
+        <button class="chip is-active" data-filter-ptype="all" type="button">Все типы</button>
+        <button class="chip" data-filter-ptype="Сухой корм" type="button">Сухой корм</button>
+        <button class="chip" data-filter-ptype="Влажный корм" type="button">Влажный корм</button>
+        <button class="chip" data-filter-ptype="Лакомства" type="button">Лакомства</button>
+        <button class="chip" data-filter-ptype="Каши" type="button">Каши</button>
+      </div>
+      <div class="filter-group" role="group" aria-label="Неделя года" id="week-filter-group">
+        <button class="chip is-active" data-filter-week="all" type="button">Все недели</button>
+      </div>
     </div>
     <div class="cards" id="cards"></div>
   </section>
@@ -143,6 +153,6 @@
   </div>
 </footer>
 
-<script src="app.js?v=11"></script>
+<script src="app.js?v=12"></script>
 </body>
 </html>

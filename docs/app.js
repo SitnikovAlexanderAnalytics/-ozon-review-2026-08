@@ -1,4 +1,4 @@
-const state = { data: null, animal: "all", method: "all", cardsShown: 20 };
+const state = { data: null, animal: "all", method: "all", ptype: "all", week: "all", cardsShown: 20 };
 const CARDS_PAGE_STEP = 20;
 
 const fmtDate = (iso) => {
@@ -6,8 +6,20 @@ const fmtDate = (iso) => {
   return `${d}.${m}.${y}`;
 };
 
+// ISO-8601 неделя года: считаем по четвергу той же недели, как в стандарте.
+function isoWeek(iso) {
+  const d = new Date(iso + "T00:00:00Z");
+  const day = (d.getUTCDay() + 6) % 7; // понедельник = 0
+  d.setUTCDate(d.getUTCDate() - day + 3); // четверг этой недели
+  const firstThursday = new Date(Date.UTC(d.getUTCFullYear(), 0, 4));
+  const firstDay = (firstThursday.getUTCDay() + 6) % 7;
+  firstThursday.setUTCDate(firstThursday.getUTCDate() - firstDay + 3);
+  const week = 1 + Math.round((d - firstThursday) / (7 * 86400000));
+  return `${d.getUTCFullYear()}-W${String(week).padStart(2, "0")}`;
+}
+
 async function main() {
-  const res = await fetch("data.json?v=11");
+  const res = await fetch("data.json?v=12");
   const data = await res.json();
   state.data = data;
 
@@ -18,6 +30,7 @@ async function main() {
   renderChartTable("chart-table", data.analytics);
   renderConclusions(data.conclusions);
   renderTaxonomy(data.taxonomy);
+  renderWeekFilterOptions();
   renderCards();
   wireFilters();
   wireTableToggle("toggle-table", "chart", "chart-table-wrap");
@@ -44,10 +57,8 @@ async function main() {
 
 function renderKpis(data) {
   const items = [
-    { value: data.n_products, label: "Товаров в выборке" },
+    { value: data.n_products, label: "Новых SKU разобрано" },
     { value: data.days_tracked, label: "Дней наблюдений" },
-    { value: data.history_ids_total, label: "ID товаров в базе" },
-    { value: data.analytics.length, label: "Категорий клеймов" },
   ];
   const el = document.getElementById("kpis");
   el.innerHTML = items.map(i => `
@@ -114,7 +125,9 @@ function renderCards() {
   const filtered = products
     .filter(p =>
       (state.animal === "all" || p.animal === state.animal) &&
-      (state.method === "all" || p.method === state.method)
+      (state.method === "all" || p.method === state.method) &&
+      (state.ptype === "all" || p.ptype === state.ptype) &&
+      (state.week === "all" || isoWeek(p.date) === state.week)
     )
     .sort((a, b) => b.date.localeCompare(a.date) || b.oid.localeCompare(a.oid));
 
@@ -187,6 +200,42 @@ function wireFilters() {
       renderCards();
     });
   });
+  document.querySelectorAll("[data-filter-ptype]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll("[data-filter-ptype]").forEach(b => b.classList.remove("is-active"));
+      btn.classList.add("is-active");
+      state.ptype = btn.dataset.filterPtype;
+      state.cardsShown = 20;
+      renderCards();
+    });
+  });
+}
+
+function wireWeekFilter() {
+  document.querySelectorAll("[data-filter-week]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll("[data-filter-week]").forEach(b => b.classList.remove("is-active"));
+      btn.classList.add("is-active");
+      state.week = btn.dataset.filterWeek;
+      state.cardsShown = 20;
+      renderCards();
+    });
+  });
+}
+
+function renderWeekFilterOptions() {
+  const { products } = state.data;
+  const weeks = [...new Set(products.map(p => isoWeek(p.date)))].sort();
+  const group = document.getElementById("week-filter-group");
+  weeks.forEach(w => {
+    const btn = document.createElement("button");
+    btn.className = "chip";
+    btn.type = "button";
+    btn.dataset.filterWeek = w;
+    btn.textContent = w.replace(/^\d+-W/, "Неделя ");
+    group.appendChild(btn);
+  });
+  wireWeekFilter();
 }
 
 function escapeHtml(s) {

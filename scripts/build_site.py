@@ -4,6 +4,7 @@
 Переиспользует данные о товарах/клеймах/таксономии из build_report.py, чтобы
 не дублировать вручную одни и те же списки в двух местах.
 """
+import csv
 import json
 import os
 import shutil
@@ -111,11 +112,15 @@ producer_analytics = [
     for tag, c in sorted(producer_counts.items(), key=lambda x: -x[1])
 ]
 
+distinct_dates = sorted({p["date"] for p in products_out})
+with open(os.path.join(PROJECT_DIR, "data", "products_history.csv"), encoding="utf-8-sig") as f:
+    history_ids_total = sum(1 for _ in csv.DictReader(f))
+
 data = {
-    "generated_at": "2026-08-03",
+    "generated_at": distinct_dates[-1],
     "n_products": n_products,
-    "days_tracked": 3,
-    "history_ids_total": 159,
+    "days_tracked": len(distinct_dates),
+    "history_ids_total": history_ids_total,
     "products": products_out,
     "taxonomy": taxonomy_out,
     "analytics": analytics,
