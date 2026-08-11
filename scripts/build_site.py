@@ -10,6 +10,7 @@ import os
 import shutil
 import sys
 from collections import defaultdict
+from datetime import date as _date
 
 sys.path.insert(0, os.path.dirname(__file__))
 import build_report as br  # noqa: E402  (импорт заодно пересоберёт xlsx — это ок)
@@ -116,10 +117,14 @@ distinct_dates = sorted({p["date"] for p in products_out})
 with open(os.path.join(PROJECT_DIR, "data", "products_history.csv"), encoding="utf-8-sig") as f:
     history_ids_total = sum(1 for _ in csv.DictReader(f))
 
+first_date = _date.fromisoformat(distinct_dates[0])
+last_date = _date.fromisoformat(distinct_dates[-1])
+days_tracked = (last_date - first_date).days + 1  # календарные дни, а не число прогонов
+
 data = {
     "generated_at": distinct_dates[-1],
     "n_products": n_products,
-    "days_tracked": len(distinct_dates),
+    "days_tracked": days_tracked,
     "history_ids_total": history_ids_total,
     "products": products_out,
     "taxonomy": taxonomy_out,
