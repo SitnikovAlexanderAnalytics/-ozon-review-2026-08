@@ -19,7 +19,7 @@ function isoWeek(iso) {
 }
 
 async function main() {
-  const res = await fetch("data.json?v=13");
+  const res = await fetch("data.json?v=14");
   const data = await res.json();
   state.data = data;
 
@@ -57,7 +57,7 @@ async function main() {
 
 function renderKpis(data) {
   const items = [
-    { value: data.n_products, label: "Новых SKU разобрано" },
+    { value: data.n_products, label: "Новых карточек разобрано" },
     { value: data.days_tracked, label: "Дней наблюдений" },
   ];
   const el = document.getElementById("kpis");
