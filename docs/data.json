@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-24",
-  "n_products": 213,
-  "days_tracked": 25,
-  "history_ids_total": 406,
+  "generated_at": "2026-09-02",
+  "n_products": 287,
+  "days_tracked": 34,
+  "history_ids_total": 518,
   "products": [
     {
       "oid": "5214515666",
@@ -2644,6 +2644,198 @@
       "plant": "Farmina Pet Foods, Италия"
     },
     {
+      "oid": "5658764220",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Сухой корм",
+      "brand": "Родные корма",
+      "name": "Для взрослых стерилизованных кошек, курица и ягоды, 1,5 кг",
+      "url": "https://www.ozon.ru/product/5658764220/",
+      "photo": "photos/2026-09-02/5658764220_rodnyekorma_cat.jpg",
+      "claims_short": "Мясо ингредиент №1; 63% белка животного происхождения; Премиум; здоровая кожа и шерсть; контроль веса; комплекс пробиотиков",
+      "claims": [
+        {
+          "code": "MEAT",
+          "category": "Происхождение и качество мяса",
+          "text": "Мясо ингредиент №1; 63% белка животного происхождения"
+        },
+        {
+          "code": "PREMIUM",
+          "category": "Премиальное позиционирование",
+          "text": "Премиум"
+        },
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Здоровая кожа и шерсть; контроль веса; комплекс пробиотиков"
+        }
+      ],
+      "protein": "Курица",
+      "ingredients": "Клюква; Черника",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5670474832",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Сухой корм",
+      "brand": "AWARD",
+      "name": "Hairball & Indoor, утка с индейкой, зелёная чечевица и Юкка Шидигера, 10 кг",
+      "url": "https://www.ozon.ru/product/5670474832/",
+      "photo": "photos/2026-09-02/5670474832_award_hairball.jpg",
+      "claims_short": "100% BIO; Hairball Control; Nutraceutical Formula; Superpremium Cat Food; Quality for Champions",
+      "claims": [
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "100% BIO"
+        },
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Hairball Control; Nutraceutical Formula"
+        },
+        {
+          "code": "PREMIUM",
+          "category": "Премиальное позиционирование",
+          "text": "Superpremium Cat Food; Quality for Champions"
+        }
+      ],
+      "protein": "Утка, Индейка",
+      "ingredients": "Зелёная чечевица; Юкка Шидигера",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5670477242",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Сухой корм",
+      "brand": "AWARD",
+      "name": "Urinary, курица, клюква, цикорий и рыбий жир, профилактика МКБ, 10 кг",
+      "url": "https://www.ozon.ru/product/5670477242/",
+      "photo": "photos/2026-09-02/5670477242_award_urinary.jpg",
+      "claims_short": "100% BIO; Urinary Health (профилактика мочекаменной болезни); Nutraceutical Formula; Superpremium Cat Food; Quality for Champions",
+      "claims": [
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "100% BIO"
+        },
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Urinary Health (профилактика МКБ); Nutraceutical Formula"
+        },
+        {
+          "code": "PREMIUM",
+          "category": "Премиальное позиционирование",
+          "text": "Superpremium Cat Food; Quality for Champions"
+        }
+      ],
+      "protein": "Курица",
+      "ingredients": "Клюква; Цикорий; Рыбий жир",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5670498757",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Сухой корм",
+      "brand": "AWARD",
+      "name": "Indoor Big cats, говядина с курицей, брокколи и юкка Шидигера, 10 кг",
+      "url": "https://www.ozon.ru/product/5670498757/",
+      "photo": "photos/2026-09-02/5670498757_award_indoor_big.jpg",
+      "claims_short": "100% BIO; Nutraceutical Formula; Superpremium Cat Food; Quality for Champions",
+      "claims": [
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "100% BIO"
+        },
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Nutraceutical Formula"
+        },
+        {
+          "code": "PREMIUM",
+          "category": "Премиальное позиционирование",
+          "text": "Superpremium Cat Food; Quality for Champions"
+        }
+      ],
+      "protein": "Говядина, Курица",
+      "ingredients": "Брокколи; Юкка Шидигера",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5670499419",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Сухой корм",
+      "brand": "AWARD",
+      "name": "Sterilized, индейка с курицей, клюква и цикорий, 10 кг",
+      "url": "https://www.ozon.ru/product/5670499419/",
+      "photo": "photos/2026-09-02/5670499419_award_sterilized_turkey.jpg",
+      "claims_short": "100% BIO; Urinary Health; Nutraceutical Formula; Superpremium Cat Food; Quality for Champions",
+      "claims": [
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "100% BIO"
+        },
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Urinary Health; Nutraceutical Formula"
+        },
+        {
+          "code": "PREMIUM",
+          "category": "Премиальное позиционирование",
+          "text": "Superpremium Cat Food; Quality for Champions"
+        }
+      ],
+      "protein": "Индейка, Курица",
+      "ingredients": "Клюква; Цикорий",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5670501608",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Сухой корм",
+      "brand": "AWARD",
+      "name": "Sterilized, белая рыба, семена льна, клюква и цикорий, 10 кг",
+      "url": "https://www.ozon.ru/product/5670501608/",
+      "photo": "photos/2026-09-02/5670501608_award_sterilized_fish.jpg",
+      "claims_short": "100% BIO; Urinary Health; Nutraceutical Formula; Superpremium Cat Food; Quality for Champions",
+      "claims": [
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "100% BIO"
+        },
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Urinary Health; Nutraceutical Formula"
+        },
+        {
+          "code": "PREMIUM",
+          "category": "Премиальное позиционирование",
+          "text": "Superpremium Cat Food; Quality for Champions"
+        }
+      ],
+      "protein": "Белая рыба",
+      "ingredients": "Семена льна; Клюква; Цикорий",
+      "plant": "Не найдено"
+    },
+    {
       "oid": "5424782869",
       "date": "2026-08-12",
       "method": "diff",
@@ -2809,6 +3001,187 @@
       "plant": "Не найдено"
     },
     {
+      "oid": "5669273502",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Влажный корм",
+      "brand": "Yummy",
+      "name": "Мясной Деликатес, индейка в желе, консервы, 100 г",
+      "url": "https://www.ozon.ru/product/5669273502/",
+      "photo": "photos/2026-09-02/5669273502_yummy_turkey.jpg",
+      "claims_short": "Без зерна; монобелковый",
+      "claims": [
+        {
+          "code": "GRAIN",
+          "category": "Беззерновой / монобелковый состав",
+          "text": "Без зерна; монобелковый"
+        }
+      ],
+      "protein": "Индейка",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5670094001",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Влажный корм",
+      "brand": "Мнямс",
+      "name": "Максимум вкуса, мясное рагу, говядина с морковью, консервы, 85 г х 12",
+      "url": "https://www.ozon.ru/product/5670094001/",
+      "photo": "photos/2026-09-02/5668919115_check.jpg",
+      "claims_short": "Не содержит злаков",
+      "claims": [
+        {
+          "code": "GRAIN",
+          "category": "Беззерновой / монобелковый состав",
+          "text": "Не содержит злаков"
+        }
+      ],
+      "protein": "Говядина",
+      "ingredients": "Морковь",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5670712472",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Влажный корм",
+      "brand": "Мнямс",
+      "name": "Максимум вкуса, томлёная телятина в соусе, пауч, 85 г",
+      "url": "https://www.ozon.ru/product/5670712472/",
+      "photo": "photos/2026-09-02/5670714887_mnyams_ferma_fish.jpg",
+      "claims_short": "Не содержит злаков",
+      "claims": [
+        {
+          "code": "GRAIN",
+          "category": "Беззерновой / монобелковый состав",
+          "text": "Не содержит злаков"
+        }
+      ],
+      "protein": "Телятина",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5670714813",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Влажный корм",
+      "brand": "Мнямс",
+      "name": "Сильный иммунитет, паштет из утки и перепела, для всех пород, 200 г х 3",
+      "url": "https://www.ozon.ru/product/5670714813/",
+      "photo": "photos/2026-09-02/5671464738_mnyams_duck_mousse.jpg",
+      "claims_short": "Не содержит злаков; сильный иммунитет",
+      "claims": [
+        {
+          "code": "GRAIN",
+          "category": "Беззерновой / монобелковый состав",
+          "text": "Не содержит злаков"
+        },
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Сильный иммунитет"
+        }
+      ],
+      "protein": "Утка, Перепел",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5670718836",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Влажный корм",
+      "brand": "Мнямс",
+      "name": "Мусс из курицы с печенью, дополнительный корм, 80 г х 6",
+      "url": "https://www.ozon.ru/product/5670718836/",
+      "photo": "photos/2026-09-02/5671464738_mnyams_duck_mousse.jpg",
+      "claims_short": "Не содержит злаков",
+      "claims": [
+        {
+          "code": "GRAIN",
+          "category": "Беззерновой / монобелковый состав",
+          "text": "Не содержит злаков"
+        }
+      ],
+      "protein": "Курица, Печень",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5670720625",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Влажный корм",
+      "brand": "Мнямс",
+      "name": "Террин по-версальски, паштет из телятины с ветчиной, 200 г х 5",
+      "url": "https://www.ozon.ru/product/5670720625/",
+      "photo": "photos/2026-09-02/5670720986_mnyams_rubets.jpg",
+      "claims_short": "Не содержит злаков",
+      "claims": [
+        {
+          "code": "GRAIN",
+          "category": "Беззерновой / монобелковый состав",
+          "text": "Не содержит злаков"
+        }
+      ],
+      "protein": "Телятина",
+      "ingredients": "Ветчина",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5671464738",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Влажный корм",
+      "brand": "Мнямс",
+      "name": "Мусс из утки, дополнительный корм, 80 г х 2",
+      "url": "https://www.ozon.ru/product/5671464738/",
+      "photo": "photos/2026-09-02/5671464738_mnyams_duck_mousse.jpg",
+      "claims_short": "Не содержит злаков",
+      "claims": [
+        {
+          "code": "GRAIN",
+          "category": "Беззерновой / монобелковый состав",
+          "text": "Не содержит злаков"
+        }
+      ],
+      "protein": "Утка",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5671505639",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Влажный корм",
+      "brand": "Мнямс",
+      "name": "Мусс по-французски, паштет из индейки с цукини, для щенков до 4 месяцев, 200 г х 3",
+      "url": "https://www.ozon.ru/product/5671505639/",
+      "photo": "photos/2026-09-02/5669273502_yummy_turkey.jpg",
+      "claims_short": "Не содержит злаков",
+      "claims": [
+        {
+          "code": "GRAIN",
+          "category": "Беззерновой / монобелковый состав",
+          "text": "Не содержит злаков"
+        }
+      ],
+      "protein": "Индейка",
+      "ingredients": "Цукини",
+      "plant": "Не найдено"
+    },
+    {
       "oid": "5430211436",
       "date": "2026-08-12",
       "method": "diff",
@@ -2865,6 +3238,245 @@
       ],
       "protein": "Индейка",
       "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5623144132",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Сухой корм",
+      "brand": "Farmina N&D",
+      "name": "Prime, ягнёнок и черника, беззерновой, для взрослых собак, 12 кг",
+      "url": "https://www.ozon.ru/product/5623144132/",
+      "photo": "photos/2026-09-02/5623144132_farmina_prime_dog_lamb.jpg",
+      "claims_short": "Grain Free; Nutrition System for Carnivores; Italian formula",
+      "claims": [
+        {
+          "code": "GRAIN",
+          "category": "Беззерновой / монобелковый состав",
+          "text": "Grain Free"
+        },
+        {
+          "code": "MEAT",
+          "category": "Происхождение и качество мяса",
+          "text": "Nutrition System for Carnivores"
+        },
+        {
+          "code": "PREMIUM",
+          "category": "Премиальное позиционирование",
+          "text": "Italian formula"
+        }
+      ],
+      "protein": "Ягнёнок",
+      "ingredients": "Черника",
+      "plant": "Farmina Pet Foods, Италия"
+    },
+    {
+      "oid": "5634101309",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Сухой корм",
+      "brand": "GRANDORF",
+      "name": "Veterinary Diet Hypoallergenic, кролик, при пищевой аллергии, 3 кг",
+      "url": "https://www.ozon.ru/product/5634101309/",
+      "photo": "photos/2026-09-02/5634101309_grandorf_vet_hypo.jpg",
+      "claims_short": "Ветеринарная диета (Approved by Vets); Hypoallergenic (пищевая аллергия и непереносимость); Gluten & Grain Free; антистресс; пробиотики/постбиотики для ЖКТ и иммунитета; здоровье кожи и шерсти",
+      "claims": [
+        {
+          "code": "VET",
+          "category": "Ветеринарная / лечебная диета",
+          "text": "Approved by Vets; ветеринарная диета"
+        },
+        {
+          "code": "HYPO",
+          "category": "Гипоаллергенность / чувствит. пищеварение",
+          "text": "При пищевой аллергии и непереносимости"
+        },
+        {
+          "code": "GRAIN",
+          "category": "Беззерновой / монобелковый состав",
+          "text": "Gluten & Grain Free"
+        },
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Антистресс; пробиотики/постбиотики для ЖКТ и иммунитета; здоровье кожи и шерсти"
+        }
+      ],
+      "protein": "Кролик",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5662623115",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Сухой корм",
+      "brand": "GRANDORF",
+      "name": "Fresh, филе лосося с бататом, беззерновой холистик, для мелких пород, 1 кг",
+      "url": "https://www.ozon.ru/product/5662623115/",
+      "photo": "photos/2026-09-02/5662623115_grandorf_fresh_salmon.jpg",
+      "claims_short": "Holistic; Grain Free; живые пробиотики",
+      "claims": [
+        {
+          "code": "HOLISTIC",
+          "category": "Холистик-позиционирование",
+          "text": "Holistic"
+        },
+        {
+          "code": "GRAIN",
+          "category": "Беззерновой / монобелковый состав",
+          "text": "Grain Free"
+        },
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Живые пробиотики"
+        }
+      ],
+      "protein": "Лосось",
+      "ingredients": "Батат",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5662623376",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Сухой корм",
+      "brand": "GRANDORF",
+      "name": "Fresh, мясо индейки с бататом, беззерновой холистик, для средних и крупных пород, 10 кг",
+      "url": "https://www.ozon.ru/product/5662623376/",
+      "photo": "photos/2026-09-02/5662623376_grandorf_fresh_turkey.jpg",
+      "claims_short": "Holistic; Grain Free; живые пробиотики",
+      "claims": [
+        {
+          "code": "HOLISTIC",
+          "category": "Холистик-позиционирование",
+          "text": "Holistic"
+        },
+        {
+          "code": "GRAIN",
+          "category": "Беззерновой / монобелковый состав",
+          "text": "Grain Free"
+        },
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Живые пробиотики"
+        }
+      ],
+      "protein": "Индейка",
+      "ingredients": "Батат",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5662626493",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Сухой корм",
+      "brand": "GRANDORF",
+      "name": "Fresh, мясо утки с бататом, беззерновой холистик, для средних и крупных пород, 10 кг",
+      "url": "https://www.ozon.ru/product/5662626493/",
+      "photo": "photos/2026-09-02/5662626493_grandorf_fresh_duck.jpg",
+      "claims_short": "Holistic; Grain Free; живые пробиотики",
+      "claims": [
+        {
+          "code": "HOLISTIC",
+          "category": "Холистик-позиционирование",
+          "text": "Holistic"
+        },
+        {
+          "code": "GRAIN",
+          "category": "Беззерновой / монобелковый состав",
+          "text": "Grain Free"
+        },
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Живые пробиотики"
+        }
+      ],
+      "protein": "Утка",
+      "ingredients": "Батат",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5670255238",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Сухой корм",
+      "brand": "Royal Canin",
+      "name": "Expert Neutered Adult, для стерилизованных/кастрированных собак мелких пород, 3,5 кг",
+      "url": "https://www.ozon.ru/product/5670255238/",
+      "photo": "photos/2026-09-02/5670255238_royalcanin_neutered_mini.jpg",
+      "claims_short": "№1 по рекомендации ветеринарных врачей; ветеринарный рацион (Expert)",
+      "claims": [
+        {
+          "code": "VET",
+          "category": "Ветеринарная / лечебная диета",
+          "text": "№1 по рекомендации ветеринарных врачей; ветеринарный рацион Expert"
+        },
+        {
+          "code": "PREMIUM",
+          "category": "Премиальное позиционирование",
+          "text": "Royal Canin"
+        }
+      ],
+      "protein": "Не указан на лицевой стороне упаковки",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5670469697",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Сухой корм",
+      "brand": "AWARD",
+      "name": "HYPO, белая рыба, брокколи, сельдерей и семена льна, для взрослых собак всех пород, 12 кг",
+      "url": "https://www.ozon.ru/product/5670469697/",
+      "photo": "photos/2026-09-02/5670469697_award_hypo_fish.jpg",
+      "claims_short": "Hypoallergenic; 100% BIO; 65% животного белка; 0% глютен/соя; Long-term Energy Boost; Nutraceutical Formula; Superpremium Dog Food; Quality for Champions",
+      "claims": [
+        {
+          "code": "HYPO",
+          "category": "Гипоаллергенность / чувствит. пищеварение",
+          "text": "Hypoallergenic"
+        },
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "100% BIO"
+        },
+        {
+          "code": "MEAT",
+          "category": "Происхождение и качество мяса",
+          "text": "65% животного белка"
+        },
+        {
+          "code": "GRAIN",
+          "category": "Беззерновой / монобелковый состав",
+          "text": "0% глютен; 0% соя"
+        },
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Long-term Energy Boost; Nutraceutical Formula"
+        },
+        {
+          "code": "PREMIUM",
+          "category": "Премиальное позиционирование",
+          "text": "Superpremium Dog Food; Quality for Champions"
+        }
+      ],
+      "protein": "Белая рыба",
+      "ingredients": "Брокколи; Сельдерей; Семена льна",
       "plant": "Не найдено"
     },
     {
@@ -3096,6 +3708,410 @@
         }
       ],
       "protein": "Говядина, Ягнёнок",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5632614860",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Лакомства",
+      "brand": "INABA",
+      "name": "Neji, говядина и куриное филе на гриле со вкусом сыра, 8 г х 3",
+      "url": "https://www.ozon.ru/product/5632614860/",
+      "photo": "photos/2026-09-02/5632614860_inaba_neji.jpg",
+      "claims_short": "Вкусовая привлекательность (гриль, вкус сыра)",
+      "claims": [
+        {
+          "code": "TASTE",
+          "category": "Вкусовая привлекательность / поведенческая польза",
+          "text": "На гриле, со вкусом сыра"
+        }
+      ],
+      "protein": "Говядина, Курица",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5632615231",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Лакомства",
+      "brand": "INABA",
+      "name": "Churu Bee, запечённые трубочки, куриное филе, для поддержания здоровья суставов, 10 г х 3",
+      "url": "https://www.ozon.ru/product/5632615231/",
+      "photo": "photos/2026-09-02/5632615231_inaba_churubee.jpg",
+      "claims_short": "Поддержание здоровья суставов",
+      "claims": [
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Поддержание здоровья суставов"
+        }
+      ],
+      "protein": "Курица",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5632624539",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Лакомства",
+      "brand": "INABA",
+      "name": "Churu, лакомство-пюре, куриное филе, для здоровья кожи и шерсти, 14 г х 4",
+      "url": "https://www.ozon.ru/product/5632624539/",
+      "photo": "photos/2026-09-02/5632624539_inaba_churu_skincoat.jpg",
+      "claims_short": "Здоровье кожи и шерсти",
+      "claims": [
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Здоровье кожи и шерсти"
+        }
+      ],
+      "protein": "Курица",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5654589093",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Лакомства",
+      "brand": "INABA",
+      "name": "Churu Ball, шарики с кремовой начинкой, куриное филе с добавлением овощей, 10 г х 3",
+      "url": "https://www.ozon.ru/product/5654589093/",
+      "photo": "photos/2026-09-02/5654589093_inaba_churuball_veg.jpg",
+      "claims_short": "Вкусовая привлекательность (кремовая начинка)",
+      "claims": [
+        {
+          "code": "TASTE",
+          "category": "Вкусовая привлекательность / поведенческая польза",
+          "text": "Кремовая начинка"
+        }
+      ],
+      "protein": "Курица",
+      "ingredients": "Овощи",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5654591896",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Лакомства",
+      "brand": "INABA",
+      "name": "Churu, лакомство-пюре, куриное филе, для здоровья ЖКТ, 14 г х 4",
+      "url": "https://www.ozon.ru/product/5654591896/",
+      "photo": "photos/2026-09-02/5654591896_inaba_churu_gi.jpg",
+      "claims_short": "Здоровье ЖКТ",
+      "claims": [
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Здоровье ЖКТ"
+        }
+      ],
+      "protein": "Курица",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5654592771",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Лакомства",
+      "brand": "INABA",
+      "name": "Churu Ball, шарики с кремовой начинкой, куриное филе, 10 г х 3",
+      "url": "https://www.ozon.ru/product/5654592771/",
+      "photo": "photos/2026-09-02/5654592771_inaba_churuball.jpg",
+      "claims_short": "Вкусовая привлекательность (кремовая начинка)",
+      "claims": [
+        {
+          "code": "TASTE",
+          "category": "Вкусовая привлекательность / поведенческая польза",
+          "text": "Кремовая начинка"
+        }
+      ],
+      "protein": "Курица",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5654599026",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Лакомства",
+      "brand": "INABA",
+      "name": "Tobitsuku, запечённое лакомство, куриное филе, для поддержания здоровья кожи, 25 г",
+      "url": "https://www.ozon.ru/product/5654599026/",
+      "photo": "photos/2026-09-02/5654599026_inaba_tobitsuku_skin.jpg",
+      "claims_short": "Поддержание здоровья кожи",
+      "claims": [
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Поддержание здоровья кожи"
+        }
+      ],
+      "protein": "Курица",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5654599608",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Лакомства",
+      "brand": "INABA",
+      "name": "Tobitsuku, запечённое лакомство, куриное филе, для поддержания здоровья ЖКТ, 25 г",
+      "url": "https://www.ozon.ru/product/5654599608/",
+      "photo": "photos/2026-09-02/5654599608_inaba_tobitsuku_gi.jpg",
+      "claims_short": "Поддержание здоровья ЖКТ",
+      "claims": [
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Поддержание здоровья ЖКТ"
+        }
+      ],
+      "protein": "Курица",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5670711483",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Лакомства",
+      "brand": "Мнямс",
+      "name": "DENTAL, зубной снек с лососем, 85 г",
+      "url": "https://www.ozon.ru/product/5670711483/",
+      "photo": "photos/2026-09-02/5670711483_mnyams_dental_salmon.jpg",
+      "claims_short": "Профилактика образования зубного камня; массаж дёсен",
+      "claims": [
+        {
+          "code": "DENT",
+          "category": "Стоматологическая польза",
+          "text": "Профилактика образования зубного камня; массаж дёсен"
+        }
+      ],
+      "protein": "Лосось",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5670715414",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Лакомства",
+      "brand": "Мнямс",
+      "name": "Колбаски аппетитные, 80 г",
+      "url": "https://www.ozon.ru/product/5670715414/",
+      "photo": "photos/2026-09-02/5670715414_mnyams_kolbaski.jpg",
+      "claims_short": "100% натуральное лакомство; без добавок и красителей; улучшает пищеварение",
+      "claims": [
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "100% натуральное лакомство; без добавок и красителей"
+        },
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Улучшает пищеварение"
+        }
+      ],
+      "protein": "Не указан на лицевой стороне упаковки",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5670717416",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Лакомства",
+      "brand": "Мнямс",
+      "name": "Грудки куриные, 50 г",
+      "url": "https://www.ozon.ru/product/5670717416/",
+      "photo": "photos/2026-09-02/5670717416_mnyams_chicken_breast.jpg",
+      "claims_short": "100% натуральное лакомство; без добавок и красителей; улучшает пищеварение",
+      "claims": [
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "100% натуральное лакомство; без добавок и красителей"
+        },
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Улучшает пищеварение"
+        }
+      ],
+      "protein": "Курица",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5670718664",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Лакомства",
+      "brand": "Мнямс",
+      "name": "Филе миньон по-фламандски, 75 г х 2",
+      "url": "https://www.ozon.ru/product/5670718664/",
+      "photo": "photos/2026-09-02/5670718664_mnyams_filemignon.jpg",
+      "claims_short": "100% натуральное лакомство; без добавок и красителей; улучшает пищеварение",
+      "claims": [
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "100% натуральное лакомство; без добавок и красителей"
+        },
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Улучшает пищеварение"
+        }
+      ],
+      "protein": "Не указан на лицевой стороне упаковки",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5670720986",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Лакомства",
+      "brand": "Мнямс",
+      "name": "Рубец говяжий, 70 г х 2",
+      "url": "https://www.ozon.ru/product/5670720986/",
+      "photo": "photos/2026-09-02/5670720986_mnyams_rubets.jpg",
+      "claims_short": "100% натуральное лакомство; без добавок и красителей; улучшает пищеварение",
+      "claims": [
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "100% натуральное лакомство; без добавок и красителей"
+        },
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Улучшает пищеварение"
+        }
+      ],
+      "protein": "Говядина",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5671459555",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Лакомства",
+      "brand": "Мнямс",
+      "name": "DENTAL, зубной снек с говядиной, для крупных пород",
+      "url": "https://www.ozon.ru/product/5671459555/",
+      "photo": "photos/2026-09-02/5671459555_mnyams_dental_beef.jpg",
+      "claims_short": "Профилактика образования зубного камня; массаж дёсен",
+      "claims": [
+        {
+          "code": "DENT",
+          "category": "Стоматологическая польза",
+          "text": "Профилактика образования зубного камня; массаж дёсен"
+        }
+      ],
+      "protein": "Говядина",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5671490575",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Лакомства",
+      "brand": "Мнямс",
+      "name": "DENTAL, зубные косточки, для щенков и взрослых животных, 70 г",
+      "url": "https://www.ozon.ru/product/5671490575/",
+      "photo": "photos/2026-09-02/5671490575_mnyams_dental_bones.jpg",
+      "claims_short": "Профилактика образования зубного камня; массаж дёсен",
+      "claims": [
+        {
+          "code": "DENT",
+          "category": "Стоматологическая польза",
+          "text": "Профилактика образования зубного камня; массаж дёсен"
+        }
+      ],
+      "protein": "Не указан на лицевой стороне упаковки",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5671509904",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Лакомства",
+      "brand": "Мнямс",
+      "name": "Трахея говяжья, 95 г",
+      "url": "https://www.ozon.ru/product/5671509904/",
+      "photo": "photos/2026-09-02/5671509904_mnyams_trachea.jpg",
+      "claims_short": "100% натуральное лакомство; без добавок и красителей; улучшает пищеварение",
+      "claims": [
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "100% натуральное лакомство; без добавок и красителей"
+        },
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Улучшает пищеварение"
+        }
+      ],
+      "protein": "Говядина",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5671561038",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Собаки",
+      "ptype": "Лакомства",
+      "brand": "Мнямс",
+      "name": "Колбаски из баранины, 125 г х 2",
+      "url": "https://www.ozon.ru/product/5671561038/",
+      "photo": "photos/2026-09-02/5671561038_mnyams_lamb_sausages.jpg",
+      "claims_short": "100% натуральное лакомство; без добавок и красителей; улучшает пищеварение",
+      "claims": [
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "100% натуральное лакомство; без добавок и красителей"
+        },
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Улучшает пищеварение"
+        }
+      ],
+      "protein": "Баранина",
       "ingredients": "—",
       "plant": "Не найдено"
     },
@@ -5784,6 +6800,391 @@
       "plant": "Не найдено"
     },
     {
+      "oid": "5654017462",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Влажный корм",
+      "brand": "AlphaPet WOW",
+      "name": "Superpremium, кролик с потрошками, кусочки в соусе, для чувствительного пищеварения, 28х85 г",
+      "url": "https://www.ozon.ru/product/5654017462/",
+      "photo": "photos/2026-09-02/5654017462_alphapet_wow_rabbit.jpg",
+      "claims_short": "Чувствительное пищеварение; здоровое пищеварение; Fresh Meat (Rich Meat Profile); Superpremium; комплекс AlphaPetBIO",
+      "claims": [
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Чувствительное пищеварение; здоровое пищеварение"
+        },
+        {
+          "code": "MEAT",
+          "category": "Происхождение и качество мяса",
+          "text": "Fresh Meat (Rich Meat Profile)"
+        },
+        {
+          "code": "PREMIUM",
+          "category": "Премиальное позиционирование",
+          "text": "Superpremium"
+        },
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "Комплекс AlphaPetBIO"
+        }
+      ],
+      "protein": "Кролик",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5664781811",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Влажный корм",
+      "brand": "P.E.P.P.O.",
+      "name": "Курица, кусочки в соусе, 24х85 г",
+      "url": "https://www.ozon.ru/product/5664781811/",
+      "photo": "photos/2026-09-02/5664781811_peppo_chicken.jpg",
+      "claims_short": "Натуральные ингредиенты; поддержка иммунитета; 85% мяса в каждом кусочке",
+      "claims": [
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "Натуральные ингредиенты"
+        },
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Поддержка иммунитета"
+        },
+        {
+          "code": "MEAT",
+          "category": "Происхождение и качество мяса",
+          "text": "85% мяса в каждом кусочке"
+        }
+      ],
+      "protein": "Курица",
+      "ingredients": "Фукус; Юкка; Черника",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5664784502",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Влажный корм",
+      "brand": "P.E.P.P.O.",
+      "name": "Ягнёнок, кусочки в соусе, для котят, 24х85 г",
+      "url": "https://www.ozon.ru/product/5664784502/",
+      "photo": "photos/2026-09-02/5664784502_peppo_lamb.jpg",
+      "claims_short": "Натуральные ингредиенты; поддержка иммунитета; 85% мяса в каждом кусочке",
+      "claims": [
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "Натуральные ингредиенты"
+        },
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Поддержка иммунитета"
+        },
+        {
+          "code": "MEAT",
+          "category": "Происхождение и качество мяса",
+          "text": "85% мяса в каждом кусочке"
+        }
+      ],
+      "protein": "Ягнёнок",
+      "ingredients": "Фукус; Юкка; Черника",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5668947557",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Влажный корм",
+      "brand": "Вкусная Миска",
+      "name": "Говядина в нежном соусе, дополнительный корм, 5х85 г",
+      "url": "https://www.ozon.ru/product/5668947557/",
+      "photo": "photos/2026-09-02/5668947557_generic_beef_cat.jpg",
+      "claims_short": "С витаминами и минералами; без красителей; без ГМО",
+      "claims": [
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "Без красителей; без ГМО"
+        },
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "С витаминами и минералами"
+        }
+      ],
+      "protein": "Говядина",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5669095176",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Влажный корм",
+      "brand": "Вкусная Миска",
+      "name": "Кролик в соусе, дополнительный корм, 5х85 г",
+      "url": "https://www.ozon.ru/product/5669095176/",
+      "photo": "photos/2026-09-02/5669095176_vkusnaya_miska_rabbit.jpg",
+      "claims_short": "С витаминами и минералами; без красителей; без ГМО",
+      "claims": [
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "Без красителей; без ГМО"
+        },
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "С витаминами и минералами"
+        }
+      ],
+      "protein": "Кролик",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5670228940",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Влажный корм",
+      "brand": "Whiskas",
+      "name": "Особое удовольствие, желе с индейкой, печенью и овощами, 28х75 г",
+      "url": "https://www.ozon.ru/product/5670228940/",
+      "photo": "photos/2026-09-02/5670228940_whiskas.jpg",
+      "claims_short": "Особое удовольствие (вкусовая привлекательность)",
+      "claims": [
+        {
+          "code": "TASTE",
+          "category": "Вкусовая привлекательность / поведенческая польза",
+          "text": "Особое удовольствие"
+        }
+      ],
+      "protein": "Индейка, Печень",
+      "ingredients": "Овощи",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5670237889",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Влажный корм",
+      "brand": "SHEBA",
+      "name": "Ломтики в соусе, кролик и индейка, 28х75 г",
+      "url": "https://www.ozon.ru/product/5670237889/",
+      "photo": "photos/2026-09-02/5670237889_sheba_rabbit_turkey.jpg",
+      "claims_short": "Ломтики в соусе (вкусовая привлекательность)",
+      "claims": [
+        {
+          "code": "TASTE",
+          "category": "Вкусовая привлекательность / поведенческая польза",
+          "text": "Ломтики в соусе"
+        }
+      ],
+      "protein": "Кролик, Индейка",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5670251820",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Влажный корм",
+      "brand": "SHEBA",
+      "name": "Ломтики в соусе, курица, 28х75 г",
+      "url": "https://www.ozon.ru/product/5670251820/",
+      "photo": "photos/2026-09-02/5670251820_sheba_chicken.jpg",
+      "claims_short": "Ломтики в соусе (вкусовая привлекательность)",
+      "claims": [
+        {
+          "code": "TASTE",
+          "category": "Вкусовая привлекательность / поведенческая польза",
+          "text": "Ломтики в соусе"
+        }
+      ],
+      "protein": "Курица",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5670328613",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Влажный корм",
+      "brand": "Perfect Fit",
+      "name": "С чувствительным пищеварением, индейка в соусе, 28х75 г",
+      "url": "https://www.ozon.ru/product/5670328613/",
+      "photo": "photos/2026-09-02/5670328613_perfectfit_turkey.jpg",
+      "claims_short": "Чувствительное пищеварение; здоровая микрофлора кишечника; без добавления пшеницы и сои; разработано со специалистами Waltham Petcare Science Institute",
+      "claims": [
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Чувствительное пищеварение; здоровая микрофлора кишечника"
+        },
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "Без добавления пшеницы и сои"
+        },
+        {
+          "code": "PREMIUM",
+          "category": "Премиальное позиционирование",
+          "text": "Разработано со специалистами Waltham Petcare Science Institute"
+        }
+      ],
+      "protein": "Индейка",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5670392893",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Влажный корм",
+      "brand": "Royal Canin",
+      "name": "Sterilised, консервированный корм в соусе, для стерилизованных взрослых кошек, 85 г",
+      "url": "https://www.ozon.ru/product/5670392893/",
+      "photo": "photos/2026-09-02/5670392893_royalcanin_sterilised_gravy.jpg",
+      "claims_short": "Health Nutrition since 1968",
+      "claims": [
+        {
+          "code": "PREMIUM",
+          "category": "Премиальное позиционирование",
+          "text": "Health Nutrition since 1968"
+        }
+      ],
+      "protein": "Не указан на лицевой стороне упаковки",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5670714887",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Влажный корм",
+      "brand": "Мнямс (Ферма кота Фёдора)",
+      "name": "Сочные кусочки с лососем, креветками и форелью, пауч, 85 г х 8",
+      "url": "https://www.ozon.ru/product/5670714887/",
+      "photo": "photos/2026-09-02/5670714887_mnyams_ferma_fish.jpg",
+      "claims_short": "Без ГМО; без сои; витамин Е",
+      "claims": [
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "Без ГМО; без сои"
+        }
+      ],
+      "protein": "Лосось, Креветки, Форель",
+      "ingredients": "Витамин Е",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5670716904",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Влажный корм",
+      "brand": "Мнямс (Ферма кота Фёдора)",
+      "name": "Нежные кусочки с индейкой в желе, для котят, пауч, 85 г",
+      "url": "https://www.ozon.ru/product/5670716904/",
+      "photo": "photos/2026-09-02/5670716904_mnyams_ferma_turkey.jpg",
+      "claims_short": "Без ГМО; без сои",
+      "claims": [
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "Без ГМО; без сои"
+        }
+      ],
+      "protein": "Индейка",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5670719609",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Влажный корм",
+      "brand": "Мнямс (Ферма кота Фёдора)",
+      "name": "Нежные кусочки с телятиной, для котят, пауч, 85 г х 16",
+      "url": "https://www.ozon.ru/product/5670719609/",
+      "photo": "photos/2026-09-02/5670719609_mnyams_ferma_veal.jpg",
+      "claims_short": "Без ГМО; без сои",
+      "claims": [
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "Без ГМО; без сои"
+        }
+      ],
+      "protein": "Телятина",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5670721156",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Влажный корм",
+      "brand": "Мнямс (Ферма кота Фёдора)",
+      "name": "Сочные кусочки с говядиной в желе, пауч, 85 г х 8",
+      "url": "https://www.ozon.ru/product/5670721156/",
+      "photo": "photos/2026-09-02/5670721156_mnyams_ferma_beef.jpg",
+      "claims_short": "Без ГМО; без сои",
+      "claims": [
+        {
+          "code": "NAT",
+          "category": "Натуральность состава",
+          "text": "Без ГМО; без сои"
+        }
+      ],
+      "protein": "Говядина",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5671557401",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Влажный корм",
+      "brand": "Мнямс",
+      "name": "Кусочки в соусе с уткой, для домашних кошек, пауч, 85 г х 6",
+      "url": "https://www.ozon.ru/product/5671557401/",
+      "photo": "photos/2026-09-02/5671557401_mnyams_duck.jpg",
+      "claims_short": "Профилактика мочекаменной болезни; поддержание оптимальной кондиции",
+      "claims": [
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Профилактика мочекаменной болезни; поддержание оптимальной кондиции"
+        }
+      ],
+      "protein": "Утка",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
       "oid": "5566642607",
       "date": "2026-08-24",
       "method": "diff",
@@ -5802,6 +7203,468 @@
         }
       ],
       "protein": "Курица, Утка",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5632614370",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Лакомства",
+      "brand": "INABA",
+      "name": "CIAO Paste, куриное филе с лактобактериями, для здоровья кожи и шерсти, 80 г",
+      "url": "https://www.ozon.ru/product/5632614370/",
+      "photo": "photos/2026-09-02/5632614370_inaba_ciaopaste.jpg",
+      "claims_short": "Здоровье кожи и шерсти",
+      "claims": [
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Здоровье кожи и шерсти"
+        }
+      ],
+      "protein": "Курица",
+      "ingredients": "Лактобактерии",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5632614943",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Лакомства",
+      "brand": "INABA",
+      "name": "CIAO Churu, лакомство-пюре, тунец Кацуо, 14 г х 4",
+      "url": "https://www.ozon.ru/product/5632614943/",
+      "photo": "photos/2026-09-02/5632614943_inaba_churu_tuna_katsuo.jpg",
+      "claims_short": "Вкусовая привлекательность",
+      "claims": [
+        {
+          "code": "TASTE",
+          "category": "Вкусовая привлекательность / поведенческая польза",
+          "text": "Лакомство-пюре"
+        }
+      ],
+      "protein": "Тунец",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5632615075",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Лакомства",
+      "brand": "INABA",
+      "name": "Yaki Sasami, куриное филе со вкусом краба, 26 г",
+      "url": "https://www.ozon.ru/product/5632615075/",
+      "photo": "photos/2026-09-02/5632615075_inaba_yakisasami_crab.jpg",
+      "claims_short": "Вкусовая привлекательность",
+      "claims": [
+        {
+          "code": "TASTE",
+          "category": "Вкусовая привлекательность / поведенческая польза",
+          "text": "Со вкусом краба"
+        }
+      ],
+      "protein": "Курица",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5632615106",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Лакомства",
+      "brand": "INABA",
+      "name": "Yaki Miksu, запечённое ассорти, кацуобуси, куриный бульон и кальмар, 25 г",
+      "url": "https://www.ozon.ru/product/5632615106/",
+      "photo": "photos/2026-09-02/5632615106_inaba_yakimiksu.jpg",
+      "claims_short": "Вкусовая привлекательность",
+      "claims": [
+        {
+          "code": "TASTE",
+          "category": "Вкусовая привлекательность / поведенческая польза",
+          "text": "Со вкусом кацуобуси, куриного бульона и кальмара"
+        }
+      ],
+      "protein": "Курица, Кальмар",
+      "ingredients": "Кацуобуси",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5632619730",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Лакомства",
+      "brand": "INABA",
+      "name": "CIAO Churu, лакомство-пюре, куриное филе, для здоровья кожи и шерсти, 14 г х 4",
+      "url": "https://www.ozon.ru/product/5632619730/",
+      "photo": "photos/2026-09-02/5632619730_inaba_churu_cat_skincoat.jpg",
+      "claims_short": "Здоровье кожи и шерсти",
+      "claims": [
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Здоровье кожи и шерсти"
+        }
+      ],
+      "protein": "Курица",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5654586643",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Лакомства",
+      "brand": "INABA",
+      "name": "CIAO Churu, лакомство-пюре, тунец Магуро, 14 г х 4",
+      "url": "https://www.ozon.ru/product/5654586643/",
+      "photo": "photos/2026-09-02/5654586643_inaba_churu_tuna_maguro.jpg",
+      "claims_short": "Вкусовая привлекательность",
+      "claims": [
+        {
+          "code": "TASTE",
+          "category": "Вкусовая привлекательность / поведенческая польза",
+          "text": "Лакомство-пюре"
+        }
+      ],
+      "protein": "Тунец",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5654587557",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Лакомства",
+      "brand": "INABA",
+      "name": "Tobitsuku, запечённое лакомство, со вкусом куриного бульона, 25 г",
+      "url": "https://www.ozon.ru/product/5654587557/",
+      "photo": "photos/2026-09-02/5654587557_inaba_tobitsuku_cat_broth.jpg",
+      "claims_short": "Вкусовая привлекательность",
+      "claims": [
+        {
+          "code": "TASTE",
+          "category": "Вкусовая привлекательность / поведенческая польза",
+          "text": "Со вкусом куриного бульона"
+        }
+      ],
+      "protein": "Курица",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5654590710",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Лакомства",
+      "brand": "INABA",
+      "name": "CIAO Churu, лакомство-пюре, куриное филе, поддержание pH мочи, 14 г х 4",
+      "url": "https://www.ozon.ru/product/5654590710/",
+      "photo": "photos/2026-09-02/5654590710_inaba_churu_ph.jpg",
+      "claims_short": "Поддержание pH мочи",
+      "claims": [
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Поддержание pH мочи"
+        }
+      ],
+      "protein": "Курица",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5654591217",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Лакомства",
+      "brand": "INABA",
+      "name": "CIAO Pon Churu, суфле-паштет, тунец Магуро, 35 г х 2",
+      "url": "https://www.ozon.ru/product/5654591217/",
+      "photo": "photos/2026-09-02/5654591217_inaba_ponchuru_tuna.jpg",
+      "claims_short": "Вкусовая привлекательность",
+      "claims": [
+        {
+          "code": "TASTE",
+          "category": "Вкусовая привлекательность / поведенческая польза",
+          "text": "Суфле-паштет"
+        }
+      ],
+      "protein": "Тунец",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5654591653",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Лакомства",
+      "brand": "INABA",
+      "name": "CIAO Churu, лакомство-пюре, куриное филе и краб, 14 г х 4",
+      "url": "https://www.ozon.ru/product/5654591653/",
+      "photo": "photos/2026-09-02/5654591653_inaba_churu_chicken_crab.jpg",
+      "claims_short": "Вкусовая привлекательность",
+      "claims": [
+        {
+          "code": "TASTE",
+          "category": "Вкусовая привлекательность / поведенческая польза",
+          "text": "Лакомство-пюре"
+        }
+      ],
+      "protein": "Курица, Краб",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5654592626",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Лакомства",
+      "brand": "INABA",
+      "name": "CIAO Churu, лакомство-пюре, тунец Магуро и морской гребешок, 14 г х 4",
+      "url": "https://www.ozon.ru/product/5654592626/",
+      "photo": "photos/2026-09-02/5654592626_inaba_churu_tuna_scallop.jpg",
+      "claims_short": "Вкусовая привлекательность",
+      "claims": [
+        {
+          "code": "TASTE",
+          "category": "Вкусовая привлекательность / поведенческая польза",
+          "text": "Лакомство-пюре"
+        }
+      ],
+      "protein": "Тунец, Гребешок",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5654594462",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Лакомства",
+      "brand": "INABA",
+      "name": "CIAO Churu, лакомство-пюре, тунец Магуро и лобстер, 14 г х 4",
+      "url": "https://www.ozon.ru/product/5654594462/",
+      "photo": "photos/2026-09-02/5654594462_inaba_churu_tuna_lobster.jpg",
+      "claims_short": "Вкусовая привлекательность",
+      "claims": [
+        {
+          "code": "TASTE",
+          "category": "Вкусовая привлекательность / поведенческая польза",
+          "text": "Лакомство-пюре"
+        }
+      ],
+      "protein": "Тунец, Лобстер",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5654596008",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Лакомства",
+      "brand": "INABA",
+      "name": "CIAO Churu, лакомство-пюре, куриное филе, для здоровья мочеполовой системы, 14 г х 4",
+      "url": "https://www.ozon.ru/product/5654596008/",
+      "photo": "photos/2026-09-02/5654596008_inaba_churu_urinary.jpg",
+      "claims_short": "Здоровье мочеполовой системы",
+      "claims": [
+        {
+          "code": "FUNC",
+          "category": "Функциональная польза для здоровья",
+          "text": "Здоровье мочеполовой системы"
+        }
+      ],
+      "protein": "Курица",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5654598009",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Лакомства",
+      "brand": "INABA",
+      "name": "CIAO Churu, лакомство-пюре, куриное филе и кальмар, 14 г х 4",
+      "url": "https://www.ozon.ru/product/5654598009/",
+      "photo": "photos/2026-09-02/5654598009_inaba_churu_chicken_squid.jpg",
+      "claims_short": "Вкусовая привлекательность",
+      "claims": [
+        {
+          "code": "TASTE",
+          "category": "Вкусовая привлекательность / поведенческая польза",
+          "text": "Лакомство-пюре"
+        }
+      ],
+      "protein": "Курица, Кальмар",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5654598442",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Лакомства",
+      "brand": "INABA",
+      "name": "Tobitsuku, запечённое лакомство, со вкусом морского гребешка, 25 г",
+      "url": "https://www.ozon.ru/product/5654598442/",
+      "photo": "photos/2026-09-02/5654598442_inaba_tobitsuku_scallop.jpg",
+      "claims_short": "Вкусовая привлекательность",
+      "claims": [
+        {
+          "code": "TASTE",
+          "category": "Вкусовая привлекательность / поведенческая польза",
+          "text": "Со вкусом морского гребешка"
+        }
+      ],
+      "protein": "Гребешок",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5654598890",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Лакомства",
+      "brand": "INABA",
+      "name": "CIAO Churu, лакомство-пюре, куриное филе, для котят, 14 г х 4",
+      "url": "https://www.ozon.ru/product/5654598890/",
+      "photo": "photos/2026-09-02/5654598890_inaba_churu_kitten.jpg",
+      "claims_short": "Вкусовая привлекательность",
+      "claims": [
+        {
+          "code": "TASTE",
+          "category": "Вкусовая привлекательность / поведенческая польза",
+          "text": "Лакомство-пюре"
+        }
+      ],
+      "protein": "Курица",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5654599052",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Лакомства",
+      "brand": "INABA",
+      "name": "Yaki Sasami, куриное филе со вкусом говядины, 26 г",
+      "url": "https://www.ozon.ru/product/5654599052/",
+      "photo": "photos/2026-09-02/5654599052_inaba_yakisasami_beef.jpg",
+      "claims_short": "Вкусовая привлекательность",
+      "claims": [
+        {
+          "code": "TASTE",
+          "category": "Вкусовая привлекательность / поведенческая польза",
+          "text": "Со вкусом говядины"
+        }
+      ],
+      "protein": "Курица, Говядина",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5654599091",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Лакомства",
+      "brand": "INABA",
+      "name": "CIAO Pon Churu, суфле-паштет, куриное филе и морской гребешок, 35 г х 2",
+      "url": "https://www.ozon.ru/product/5654599091/",
+      "photo": "photos/2026-09-02/5654599091_inaba_ponchuru_chicken_scallop.jpg",
+      "claims_short": "Вкусовая привлекательность",
+      "claims": [
+        {
+          "code": "TASTE",
+          "category": "Вкусовая привлекательность / поведенческая польза",
+          "text": "Суфле-паштет"
+        }
+      ],
+      "protein": "Курица, Гребешок",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5654599124",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Лакомства",
+      "brand": "INABA",
+      "name": "CIAO Churu, лакомство-пюре, куриное филе и креветка, 14 г х 4",
+      "url": "https://www.ozon.ru/product/5654599124/",
+      "photo": "photos/2026-09-02/5654599124_inaba_churu_chicken_shrimp.jpg",
+      "claims_short": "Вкусовая привлекательность",
+      "claims": [
+        {
+          "code": "TASTE",
+          "category": "Вкусовая привлекательность / поведенческая польза",
+          "text": "Лакомство-пюре"
+        }
+      ],
+      "protein": "Курица, Креветки",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5670711038",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Лакомства",
+      "brand": "Мнямс",
+      "name": "Крем-лакомство, утка с тунцом Кацуо, 4х15 г",
+      "url": "https://www.ozon.ru/product/5670711038/",
+      "photo": "photos/2026-09-02/5670711038_mnyams_crem_duck_tuna.jpg",
+      "claims_short": "Нежное пюре-лакомство",
+      "claims": [
+        {
+          "code": "TASTE",
+          "category": "Вкусовая привлекательность / поведенческая польза",
+          "text": "Нежное пюре-лакомство"
+        }
+      ],
+      "protein": "Утка, Тунец",
+      "ingredients": "—",
+      "plant": "Не найдено"
+    },
+    {
+      "oid": "5671503941",
+      "date": "2026-09-02",
+      "method": "diff",
+      "animal": "Кошки",
+      "ptype": "Лакомства",
+      "brand": "Мнямс",
+      "name": "Крем-лакомство, курица, 4х15 г",
+      "url": "https://www.ozon.ru/product/5671503941/",
+      "photo": "photos/2026-09-02/5671503941_mnyams_crem_chicken.jpg",
+      "claims_short": "Нежное пюре-лакомство",
+      "claims": [
+        {
+          "code": "TASTE",
+          "category": "Вкусовая привлекательность / поведенческая польза",
+          "text": "Нежное пюре-лакомство"
+        }
+      ],
+      "protein": "Курица",
       "ingredients": "—",
       "plant": "Не найдено"
     },
@@ -6229,74 +8092,74 @@
     {
       "code": "NAT",
       "name": "Натуральность состава",
-      "count": 106,
-      "pct": 50
+      "count": 128,
+      "pct": 45
     },
     {
       "code": "FUNC",
       "name": "Функциональная польза для здоровья",
-      "count": 82,
-      "pct": 38
+      "count": 116,
+      "pct": 40
     },
     {
       "code": "MEAT",
       "name": "Происхождение и качество мяса",
-      "count": 79,
-      "pct": 37
+      "count": 85,
+      "pct": 30
     },
     {
       "code": "PREMIUM",
       "name": "Премиальное позиционирование",
-      "count": 61,
-      "pct": 29
+      "count": 73,
+      "pct": 25
     },
     {
       "code": "GRAIN",
       "name": "Беззерновой / монобелковый состав",
-      "count": 45,
+      "count": 59,
       "pct": 21
     },
     {
       "code": "ORIGIN",
       "name": "Страна / регион производства",
       "count": 40,
-      "pct": 19
-    },
-    {
-      "code": "HYPO",
-      "name": "Гипоаллергенность / чувствит. пищеварение",
-      "count": 20,
-      "pct": 9
-    },
-    {
-      "code": "HOLISTIC",
-      "name": "Холистик-позиционирование",
-      "count": 20,
-      "pct": 9
+      "pct": 14
     },
     {
       "code": "TASTE",
       "name": "Вкусовая привлекательность / поведенческая польза",
-      "count": 15,
-      "pct": 7
+      "count": 38,
+      "pct": 13
+    },
+    {
+      "code": "HOLISTIC",
+      "name": "Холистик-позиционирование",
+      "count": 23,
+      "pct": 8
+    },
+    {
+      "code": "HYPO",
+      "name": "Гипоаллергенность / чувствит. пищеварение",
+      "count": 22,
+      "pct": 8
     },
     {
       "code": "DENT",
       "name": "Стоматологическая польза",
-      "count": 14,
-      "pct": 7
+      "count": 17,
+      "pct": 6
     },
     {
       "code": "CONV",
       "name": "Удобство использования",
       "count": 13,
-      "pct": 6
+      "pct": 5
     },
     {
       "code": "VET",
       "name": "Ветеринарная / лечебная диета",
-      "count": 10,
-      "pct": 5
+      "count": 12,
+      "pct": 4
     },
     {
       "code": "TECH",
@@ -6308,53 +8171,73 @@
   "protein_analytics": [
     {
       "name": "Курица",
-      "count": 48,
-      "pct": 27
+      "count": 78,
+      "pct": 31
     },
     {
       "name": "Индейка",
-      "count": 35,
-      "pct": 19
+      "count": 44,
+      "pct": 18
     },
     {
       "name": "Говядина",
-      "count": 31,
-      "pct": 17
+      "count": 40,
+      "pct": 16
     },
     {
       "name": "Утка",
-      "count": 28,
-      "pct": 15
+      "count": 34,
+      "pct": 14
     },
     {
       "name": "Лосось",
-      "count": 23,
-      "pct": 13
-    },
-    {
-      "name": "Ягнёнок",
-      "count": 18,
+      "count": 26,
       "pct": 10
     },
     {
+      "name": "Ягнёнок",
+      "count": 20,
+      "pct": 8
+    },
+    {
       "name": "Тунец",
-      "count": 13,
-      "pct": 7
+      "count": 19,
+      "pct": 8
     },
     {
       "name": "Кролик",
-      "count": 13,
+      "count": 17,
       "pct": 7
+    },
+    {
+      "name": "Телятина",
+      "count": 8,
+      "pct": 3
     },
     {
       "name": "Треска",
       "count": 6,
-      "pct": 3
+      "pct": 2
     },
     {
-      "name": "Телятина",
+      "name": "Белая рыба",
       "count": 5,
-      "pct": 3
+      "pct": 2
+    },
+    {
+      "name": "Перепел",
+      "count": 5,
+      "pct": 2
+    },
+    {
+      "name": "Гребешок",
+      "count": 5,
+      "pct": 2
+    },
+    {
+      "name": "Печень",
+      "count": 5,
+      "pct": 2
     },
     {
       "name": "Рыба",
@@ -6362,101 +8245,111 @@
       "pct": 2
     },
     {
-      "name": "Перепел",
+      "name": "Креветки",
       "count": 4,
       "pct": 2
     },
     {
-      "name": "Белая рыба",
-      "count": 3,
-      "pct": 2
-    },
-    {
-      "name": "Печень",
-      "count": 3,
-      "pct": 2
-    },
-    {
       "name": "Баранина",
-      "count": 2,
-      "pct": 1
-    },
-    {
-      "name": "Креветки",
-      "count": 2,
+      "count": 3,
       "pct": 1
     },
     {
       "name": "Краб",
-      "count": 2,
+      "count": 3,
       "pct": 1
     },
     {
-      "name": "Гребешок",
+      "name": "Кальмар",
       "count": 2,
       "pct": 1
     },
     {
       "name": "Птица (ассорти)",
       "count": 1,
-      "pct": 1
+      "pct": 0
     },
     {
       "name": "Свинина",
       "count": 1,
-      "pct": 1
+      "pct": 0
     },
     {
       "name": "Кабан",
       "count": 1,
-      "pct": 1
+      "pct": 0
     },
     {
       "name": "Творог",
       "count": 1,
-      "pct": 1
+      "pct": 0
     },
     {
       "name": "Калтык и язык",
       "count": 1,
-      "pct": 1
+      "pct": 0
     },
     {
       "name": "Рубец",
       "count": 1,
-      "pct": 1
+      "pct": 0
     },
     {
       "name": "Сыр",
       "count": 1,
-      "pct": 1
+      "pct": 0
     },
     {
       "name": "Перепелиное яйцо",
       "count": 1,
-      "pct": 1
+      "pct": 0
+    },
+    {
+      "name": "Форель",
+      "count": 1,
+      "pct": 0
+    },
+    {
+      "name": "Лобстер",
+      "count": 1,
+      "pct": 0
     }
   ],
-  "protein_base": 181,
-  "protein_total_skus": 213,
+  "protein_base": 250,
+  "protein_total_skus": 287,
   "ingredient_analytics": [
     {
       "name": "Рис",
       "count": 8,
-      "pct": 4
+      "pct": 3
     },
     {
       "name": "Овёс",
       "count": 7,
-      "pct": 3
+      "pct": 2
+    },
+    {
+      "name": "Клюква",
+      "count": 7,
+      "pct": 2
+    },
+    {
+      "name": "Черника",
+      "count": 7,
+      "pct": 2
     },
     {
       "name": "Омега-3/6",
       "count": 6,
-      "pct": 3
+      "pct": 2
     },
     {
       "name": "Морковь",
+      "count": 5,
+      "pct": 2
+    },
+    {
+      "name": "Брокколи",
       "count": 5,
       "pct": 2
     },
@@ -6468,27 +8361,22 @@
     {
       "name": "Морская капуста (водоросли)",
       "count": 4,
-      "pct": 2
+      "pct": 1
     },
     {
       "name": "Таурин",
       "count": 4,
-      "pct": 2
+      "pct": 1
     },
     {
       "name": "Тыква",
       "count": 4,
-      "pct": 2
+      "pct": 1
     },
     {
       "name": "Полба",
       "count": 4,
-      "pct": 2
-    },
-    {
-      "name": "Черника",
-      "count": 4,
-      "pct": 2
+      "pct": 1
     },
     {
       "name": "Пробиотики",
@@ -6501,17 +8389,22 @@
       "pct": 1
     },
     {
-      "name": "Клюква",
-      "count": 3,
-      "pct": 1
-    },
-    {
-      "name": "Брокколи",
+      "name": "Рыбий жир",
       "count": 3,
       "pct": 1
     },
     {
       "name": "Спаржа",
+      "count": 3,
+      "pct": 1
+    },
+    {
+      "name": "Семена льна",
+      "count": 3,
+      "pct": 1
+    },
+    {
+      "name": "Цикорий",
       "count": 3,
       "pct": 1
     },
@@ -6541,11 +8434,6 @@
       "pct": 1
     },
     {
-      "name": "Рыбий жир",
-      "count": 2,
-      "pct": 1
-    },
-    {
       "name": "Киноа",
       "count": 2,
       "pct": 1
@@ -6557,6 +8445,26 @@
     },
     {
       "name": "Злаки",
+      "count": 2,
+      "pct": 1
+    },
+    {
+      "name": "Сельдерей",
+      "count": 2,
+      "pct": 1
+    },
+    {
+      "name": "Юкка Шидигера",
+      "count": 2,
+      "pct": 1
+    },
+    {
+      "name": "Фукус",
+      "count": 2,
+      "pct": 1
+    },
+    {
+      "name": "Юкка",
       "count": 2,
       "pct": 1
     },
@@ -6666,16 +8574,6 @@
       "pct": 0
     },
     {
-      "name": "Сельдерей",
-      "count": 1,
-      "pct": 0
-    },
-    {
-      "name": "Семена льна",
-      "count": 1,
-      "pct": 0
-    },
-    {
       "name": "Алоэ вера",
       "count": 1,
       "pct": 0
@@ -6719,14 +8617,29 @@
       "name": "Молочные продукты",
       "count": 1,
       "pct": 0
+    },
+    {
+      "name": "Зелёная чечевица",
+      "count": 1,
+      "pct": 0
+    },
+    {
+      "name": "Витамин Е",
+      "count": 1,
+      "pct": 0
+    },
+    {
+      "name": "Кацуобуси",
+      "count": 1,
+      "pct": 0
     }
   ],
-  "ingredient_base": 213,
+  "ingredient_base": 287,
   "producer_analytics": [
     {
       "name": "Италия",
       "count": 22,
-      "pct": 51
+      "pct": 50
     },
     {
       "name": "Испания",
@@ -6782,19 +8695,24 @@
       "name": "Австрия",
       "count": 1,
       "pct": 2
+    },
+    {
+      "name": "Farmina Pet Foods, Италия",
+      "count": 1,
+      "pct": 2
     }
   ],
-  "producer_base": 43,
+  "producer_base": 44,
   "conclusions": [
-    "1. Натуральность состава (NAT) вернулась на первое место с большим отрывом — 106 из 213 карточек (50%). Это не заслуга крупных премиальных брендов из Day 6 (Farmina, Royal Canin) — рост целиком обеспечила волна мелких и средних брендов Day 7 (Wanpy, biohaus, TiTBiT, Murkel, генерические каши), для которых «без ГМО/натуральный состав» остаётся минимальным входным клеймом почти в любом сегменте.",
-    "2. Функциональная польза (FUNC) обогнала происхождение мяса (MEAT) и вышла на второе место — 82 из 213 (38%) против 79 (37%). Драйвер — взрывной рост узкофункциональных лакомств и кормов Day 7: 3 отдельных вкуса AWARD Special Care (каждый под свою проблему — МКБ, пищеварение, кожа/шерсть), линейка кремов-пюре Murkel, влажные корма Wanpy («Healthy Digestion»), Karmy и Hilton (гипоаллергенные линии) — функциональная специализация впервые обгоняет по частоте базовое «происхождение мяса».",
-    "3. Премиальное позиционирование (PREMIUM, 61 из 213, 29%) и беззерновой/монобелковый состав (GRAIN, 45, 21%) остаются на прежних местах в рейтинге, но их доля от выборки снижается по мере роста числа простых эконом-товаров (генерические каши, Зоогурман, TASTY, Мнямс Деликатес) без единого клейма из справочника.",
-    "4. Завод-изготовитель: концентрация в Италии усилилась ещё больше — 22 из 43 идентифицированных производителей (51%). Помимо Farmina, за 12 дней добавились ещё 3 итальянских бренда с указанной страной на упаковке — Primordial, Monge, Vivere — все независимо друг от друга контрактуются в Италии. Испания закрепилась на втором месте (6 из 43, 14%: Gosbi + новый Optima Nova), Франция впервые вошла в тройку (4 из 43, 9%: Gourmet Gold + Royal Canin). Для большинства новых российских и китайских брендов Day 7 (АЛЬМАКОРМ, Wanpy, AlphaPet, Ферма кота Федора, Murkel) завод так и не подтверждён.",
-    "5. Протеиновый расклад: курица закрепилась на первом месте (48 из 181 определённых, 27%) — самый заметный вклад дала линейка AlphaPet (более 6 SKU с курицей во всех суб-линиях). Индейка на втором месте (35, 19%), говядина на третьем (31, 17%), утка поднялась на четвёртое (28, 15%) благодаря волне Wanpy (кошки и собаки, сухой и влажный корм).",
-    "6. НОВОЕ: один бренд-зонтик способен за одну волну ввести десятки почти неразличимых SKU — AlphaPet (Superpremium/Menu/Sensitive/Sterilized/Senior/Kitten) дал более 12 отдельных карточек за 12 дней, а Wanpy (сухой+влажный, собаки+кошки) — более 20. Это усложняет подсчёт «новых SKU» как метрики бренд-активности: рост числа карточек может отражать не выход на рынок, а простое перечисление вариаций внутри уже присутствующего бренда.",
-    "7. ПОДТВЕРЖДЕНО эмпирически: доля реальных «новых карточек» среди кандидатов с ID выше порога заметно ниже 100% из-за 3P-эффекта. Из ~180 кандидатов, найденных за 12-дневный разрыв, лишь 103 (57%) оказались уникальными товарами/вкусами — остальные 43% составили повторные листинги той же рецептуры другим продавцом или в другой фасовке (целые линейки АЛЬМАКОРМ, TiTBiT Dent и Wanpy оказались переизданы заново под новыми ID). Это прямое численное подтверждение ограничения метода №1 (см. «Ограничения метода»).",
-    "8. Стоматологические/функциональные лакомства продолжают расширяться в форматах: TiTBiT за 12 дней добавил к линейке Dent (жевательные снеки) ещё «Мясное печенье» (бисквиты/сушки), рыбную соломку и кубики — один бренд теперь покрывает 4+ разных формата лакомств для одной и той же цели (стоматология/лакомство).",
-    "9. Бренд CLAN за один день диверсифицировался сразу в 3 непересекающиеся суб-линии для собак — Classic (кусочки в соусе с функциональными добавками типа клюквы и ромашки), Pride (консервы из необычных субпродуктов без единого клейма) и Vet (ветеринарная диета) — три разных ценовых и коммуникационных позиционирования под одним зонтичным брендом.",
-    "10. Клеймы внутри одной линейки по-прежнему бывают как полностью унифицированы (все вкусы biohaus и TiTBiT Dent несут идентичный набор клейм независимо от протеина), так и системно различны по подлинии (Farmina «Ancestral Grain» продаёт древние злаки как ценность, а «Pumpkin»/«Ocean»/«Prime» того же бренда — их полное отсутствие) — единого правила для бренда нет, каждую подлинию нужно разбирать отдельно."
+    "1. Натуральность состава (NAT) остаётся на первом месте, но разрыв с функциональной пользой (FUNC) резко сократился — 128 из 287 карточек (45%) против 116 (40%). Впервые за наблюдения FUNC почти сравнялась с NAT как самое частое направление клеймов.",
+    "2. НОВОЕ: вкусовая привлекательность (TASTE) практически с нуля выросла до 38 из 287 (13%) и вошла в топ-7 категорий — почти целиком благодаря одномоментному запуску японского бренда INABA (CIAO/Churu/Yaki для собак и кошек), у которого большинство SKU без функционального заявления позиционируются именно через вкус и формат лакомства, а не через пользу для здоровья.",
+    "3. САМЫЙ КРУПНЫЙ БРЕНД-ЗАПУСК за всё время наблюдений: INABA единомоментно вывела около 27 отдельных SKU сразу в 4 подкатегориях (лакомства для собак и кошек, с побочными находками в кормах) — линейки Churu (лакомство-пюре, более 15 вкусо-функциональных вариаций), Yaki Sasami/Yaki Miksu (запечённые снеки), Tobitsuku, CIAO Paste и CIAO Pon Churu суфле. Это превосходит даже предыдущий рекорд (AlphaPet/Wanpy, день 7) и подтверждает вывод №6 предыдущего отчёта: один бренд-зонтик способен единомоментно создать десятки почти неразличимых карточек.",
+    "4. AWARD расширил линейку сухих кормов для кошек сразу 5 SKU (Hairball & Indoor, Urinary, Indoor Big cats, Sterilized x2) — точное зеркало уже известного шаблона AWARD для собак (100% BIO, Nutraceutical Formula, Superpremium, Quality for Champions), адаптированного под кошачьи функциональные ниши.",
+    "5. ПОДТВЕРЖДЕНО повторно и в наиболее чистом виде: подкатегория «Каша для собак» за 9-дневный разрыв дала 24 кандидата с ID выше порога — и все 24 (100%) оказались повторными листингами уже известной 6-вкусовой линейки АЛЬМАКОРМ (это уже третий цикл переиздания той же линейки за время наблюдений). Из 112 кандидатов по всем 7 подкатегориям в сумме лишь 74 (66%) оказались настоящими новыми карточками — прямое численное продолжение вывода №7 предыдущего отчёта об эффекте 3P-продаж.",
+    "6. Мнямс продолжает самую широкую диверсификацию форматов среди всех брендов в выборке: за один день добавил 8 сухих лакомств для собак (джерки, дентал-снеки, рубец, трахея, колбаски), 8 новых консервов/паучей для собак (муссы, паштеты, террин) и 6 позиций для кошек (линейка Ферма кота Фёдора, крем-лакомства) — бренд теперь присутствует практически во всех типах продукции трекера одновременно.",
+    "7. Завод-изготовитель: доля Италии среди идентифицированных производителей осталась на прежнем уровне (22 из 44, 50%) — новых итальянских брендов в этом снимке не нашлось, доля просто перестала расти. Для подавляющего большинства новых брендов дня (INABA, Мнямс, Wanpy-конкуренты P.E.P.P.O. и Вкусная Миска, AlphaPet WOW) завод не подтверждён — японские и российские мелкие бренды систематически хуже раскрывают производственную цепочку, чем европейские премиальные.",
+    "8. Протеиновый расклад: курица укрепила лидерство (78 из 250 определённых, 31%, было 27%) — драйвер тот же INABA, где курица — основной протеин почти всех сухих снеков и очень многих Churu-вариаций. Индейка (44, 18%) и говядина (40, 16%) сохранили 2-3 места.",
+    "9. Ветеринарная диета (VET) впервые представлена сразу двумя разными форматами позиционирования в одном снимке: Royal Canin Expert Neutered («№1 по рекомендации ветеринарных врачей») и GRANDORF Veterinary Diet Hypoallergenic («Approved by Vets») — оба явно апеллируют к врачебному одобрению как отдельному доказательству качества, а не просто описывают диетическую функцию.",
+    "10. Клеймы внутри линейки INABA демонстрируют новый, не встречавшийся ранее паттерн: один и тот же базовый продукт (лакомство-пюре Churu, курица) выпускается в 4+ параллельных вариантах, различающихся ТОЛЬКО заявленной функцией на этикетке (кожа/шерсть, ЖКТ, pH мочи, мочеполовая система) при идентичном составе и формате — то есть бренд буквально мультиплицирует SKU через маркетинговую сегментацию по функции, а не через реальную вариацию продукта."
   ]
 }

@@ -247,6 +247,86 @@ PHOTO_FILES = {
     "5584169750": ("2026-08-24", "5584169750_murkel_chicken.jpg"),
     "5584218651": ("2026-08-24", "5584218651_murkel_flax_chicken_liver.jpg"),
     "5584264918": ("2026-08-24", "5584264918_murkel_tuna.jpg"),
+    # Day 8 (2026-09-02) — Сухой корм для кошек
+    "5658764220": ("2026-09-02", "5658764220_rodnyekorma_cat.jpg"),
+    "5670474832": ("2026-09-02", "5670474832_award_hairball.jpg"),
+    "5670477242": ("2026-09-02", "5670477242_award_urinary.jpg"),
+    "5670498757": ("2026-09-02", "5670498757_award_indoor_big.jpg"),
+    "5670499419": ("2026-09-02", "5670499419_award_sterilized_turkey.jpg"),
+    "5670501608": ("2026-09-02", "5670501608_award_sterilized_fish.jpg"),
+    # Day 8 (2026-09-02) — Влажный корм для собак
+    "5669273502": ("2026-09-02", "5669273502_yummy_turkey.jpg"),
+    "5670094001": ("2026-09-02", "5668919115_check.jpg"),
+    "5670712472": ("2026-09-02", "5670714887_mnyams_ferma_fish.jpg"),
+    "5670714813": ("2026-09-02", "5671464738_mnyams_duck_mousse.jpg"),
+    "5670718836": ("2026-09-02", "5671464738_mnyams_duck_mousse.jpg"),
+    "5670720625": ("2026-09-02", "5670720986_mnyams_rubets.jpg"),
+    "5671464738": ("2026-09-02", "5671464738_mnyams_duck_mousse.jpg"),
+    "5671505639": ("2026-09-02", "5669273502_yummy_turkey.jpg"),
+    # Day 8 (2026-09-02) — Сухой корм для собак
+    "5623144132": ("2026-09-02", "5623144132_farmina_prime_dog_lamb.jpg"),
+    "5634101309": ("2026-09-02", "5634101309_grandorf_vet_hypo.jpg"),
+    "5662623115": ("2026-09-02", "5662623115_grandorf_fresh_salmon.jpg"),
+    "5662623376": ("2026-09-02", "5662623376_grandorf_fresh_turkey.jpg"),
+    "5662626493": ("2026-09-02", "5662626493_grandorf_fresh_duck.jpg"),
+    "5670255238": ("2026-09-02", "5670255238_royalcanin_neutered_mini.jpg"),
+    "5670469697": ("2026-09-02", "5670469697_award_hypo_fish.jpg"),
+    # Day 8 (2026-09-02) — Влажный корм для кошек
+    "5654017462": ("2026-09-02", "5654017462_alphapet_wow_rabbit.jpg"),
+    "5664781811": ("2026-09-02", "5664781811_peppo_chicken.jpg"),
+    "5664784502": ("2026-09-02", "5664784502_peppo_lamb.jpg"),
+    "5668947557": ("2026-09-02", "5668947557_generic_beef_cat.jpg"),
+    "5669095176": ("2026-09-02", "5669095176_vkusnaya_miska_rabbit.jpg"),
+    "5670228940": ("2026-09-02", "5670228940_whiskas.jpg"),
+    "5670237889": ("2026-09-02", "5670237889_sheba_rabbit_turkey.jpg"),
+    "5670251820": ("2026-09-02", "5670251820_sheba_chicken.jpg"),
+    "5670328613": ("2026-09-02", "5670328613_perfectfit_turkey.jpg"),
+    "5670392893": ("2026-09-02", "5670392893_royalcanin_sterilised_gravy.jpg"),
+    "5670714887": ("2026-09-02", "5670714887_mnyams_ferma_fish.jpg"),
+    "5670716904": ("2026-09-02", "5670716904_mnyams_ferma_turkey.jpg"),
+    "5670719609": ("2026-09-02", "5670719609_mnyams_ferma_veal.jpg"),
+    "5670721156": ("2026-09-02", "5670721156_mnyams_ferma_beef.jpg"),
+    "5671557401": ("2026-09-02", "5671557401_mnyams_duck.jpg"),
+    # Day 8 (2026-09-02) — Лакомства для собак
+    "5632614860": ("2026-09-02", "5632614860_inaba_neji.jpg"),
+    "5632615231": ("2026-09-02", "5632615231_inaba_churubee.jpg"),
+    "5632624539": ("2026-09-02", "5632624539_inaba_churu_skincoat.jpg"),
+    "5654589093": ("2026-09-02", "5654589093_inaba_churuball_veg.jpg"),
+    "5654591896": ("2026-09-02", "5654591896_inaba_churu_gi.jpg"),
+    "5654592771": ("2026-09-02", "5654592771_inaba_churuball.jpg"),
+    "5654599026": ("2026-09-02", "5654599026_inaba_tobitsuku_skin.jpg"),
+    "5654599608": ("2026-09-02", "5654599608_inaba_tobitsuku_gi.jpg"),
+    "5670711483": ("2026-09-02", "5670711483_mnyams_dental_salmon.jpg"),
+    "5670715414": ("2026-09-02", "5670715414_mnyams_kolbaski.jpg"),
+    "5670717416": ("2026-09-02", "5670717416_mnyams_chicken_breast.jpg"),
+    "5670718664": ("2026-09-02", "5670718664_mnyams_filemignon.jpg"),
+    "5670720986": ("2026-09-02", "5670720986_mnyams_rubets.jpg"),
+    "5671459555": ("2026-09-02", "5671459555_mnyams_dental_beef.jpg"),
+    "5671490575": ("2026-09-02", "5671490575_mnyams_dental_bones.jpg"),
+    "5671509904": ("2026-09-02", "5671509904_mnyams_trachea.jpg"),
+    "5671561038": ("2026-09-02", "5671561038_mnyams_lamb_sausages.jpg"),
+    # Day 8 (2026-09-02) — Лакомства для кошек
+    "5632614370": ("2026-09-02", "5632614370_inaba_ciaopaste.jpg"),
+    "5632614943": ("2026-09-02", "5632614943_inaba_churu_tuna_katsuo.jpg"),
+    "5632615075": ("2026-09-02", "5632615075_inaba_yakisasami_crab.jpg"),
+    "5632615106": ("2026-09-02", "5632615106_inaba_yakimiksu.jpg"),
+    "5632619730": ("2026-09-02", "5632619730_inaba_churu_cat_skincoat.jpg"),
+    "5654586643": ("2026-09-02", "5654586643_inaba_churu_tuna_maguro.jpg"),
+    "5654587557": ("2026-09-02", "5654587557_inaba_tobitsuku_cat_broth.jpg"),
+    "5654590710": ("2026-09-02", "5654590710_inaba_churu_ph.jpg"),
+    "5654591217": ("2026-09-02", "5654591217_inaba_ponchuru_tuna.jpg"),
+    "5654591653": ("2026-09-02", "5654591653_inaba_churu_chicken_crab.jpg"),
+    "5654592626": ("2026-09-02", "5654592626_inaba_churu_tuna_scallop.jpg"),
+    "5654594462": ("2026-09-02", "5654594462_inaba_churu_tuna_lobster.jpg"),
+    "5654596008": ("2026-09-02", "5654596008_inaba_churu_urinary.jpg"),
+    "5654598009": ("2026-09-02", "5654598009_inaba_churu_chicken_squid.jpg"),
+    "5654598442": ("2026-09-02", "5654598442_inaba_tobitsuku_scallop.jpg"),
+    "5654598890": ("2026-09-02", "5654598890_inaba_churu_kitten.jpg"),
+    "5654599052": ("2026-09-02", "5654599052_inaba_yakisasami_beef.jpg"),
+    "5654599091": ("2026-09-02", "5654599091_inaba_ponchuru_chicken_scallop.jpg"),
+    "5654599124": ("2026-09-02", "5654599124_inaba_churu_chicken_shrimp.jpg"),
+    "5670711038": ("2026-09-02", "5670711038_mnyams_crem_duck_tuna.jpg"),
+    "5671503941": ("2026-09-02", "5671503941_mnyams_crem_chicken.jpg"),
 }
 
 def photo_path(oid):
@@ -990,6 +1070,42 @@ products = [
          url="https://www.ozon.ru/product/5424784781/",
          claims_short="Weight Management (контроль веса); Nutrition System for Carnivores; Italian formula",
          protein="Утка", ingredients="Киноа; Брокколи; Спаржа", plant="Farmina Pet Foods, Италия"),
+    dict(animal="Кошки", ptype="Сухой корм", brand="Родные корма",
+         name="Для взрослых стерилизованных кошек, курица и ягоды, 1,5 кг",
+         oid="5658764220",
+         url="https://www.ozon.ru/product/5658764220/",
+         claims_short="Мясо ингредиент №1; 63% белка животного происхождения; Премиум; здоровая кожа и шерсть; контроль веса; комплекс пробиотиков",
+         protein="Курица", ingredients="Клюква; Черника", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Сухой корм", brand="AWARD",
+         name="Hairball & Indoor, утка с индейкой, зелёная чечевица и Юкка Шидигера, 10 кг",
+         oid="5670474832",
+         url="https://www.ozon.ru/product/5670474832/",
+         claims_short="100% BIO; Hairball Control; Nutraceutical Formula; Superpremium Cat Food; Quality for Champions",
+         protein="Утка, Индейка", ingredients="Зелёная чечевица; Юкка Шидигера", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Сухой корм", brand="AWARD",
+         name="Urinary, курица, клюква, цикорий и рыбий жир, профилактика МКБ, 10 кг",
+         oid="5670477242",
+         url="https://www.ozon.ru/product/5670477242/",
+         claims_short="100% BIO; Urinary Health (профилактика мочекаменной болезни); Nutraceutical Formula; Superpremium Cat Food; Quality for Champions",
+         protein="Курица", ingredients="Клюква; Цикорий; Рыбий жир", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Сухой корм", brand="AWARD",
+         name="Indoor Big cats, говядина с курицей, брокколи и юкка Шидигера, 10 кг",
+         oid="5670498757",
+         url="https://www.ozon.ru/product/5670498757/",
+         claims_short="100% BIO; Nutraceutical Formula; Superpremium Cat Food; Quality for Champions",
+         protein="Говядина, Курица", ingredients="Брокколи; Юкка Шидигера", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Сухой корм", brand="AWARD",
+         name="Sterilized, индейка с курицей, клюква и цикорий, 10 кг",
+         oid="5670499419",
+         url="https://www.ozon.ru/product/5670499419/",
+         claims_short="100% BIO; Urinary Health; Nutraceutical Formula; Superpremium Cat Food; Quality for Champions",
+         protein="Индейка, Курица", ingredients="Клюква; Цикорий", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Сухой корм", brand="AWARD",
+         name="Sterilized, белая рыба, семена льна, клюква и цикорий, 10 кг",
+         oid="5670501608",
+         url="https://www.ozon.ru/product/5670501608/",
+         claims_short="100% BIO; Urinary Health; Nutraceutical Formula; Superpremium Cat Food; Quality for Champions",
+         protein="Белая рыба", ingredients="Семена льна; Клюква; Цикорий", plant="Не найдено"),
     dict(animal="Кошки", ptype="Сухой корм", brand="Farmina N&D",
          name="Prime, курица и гранат, беззерновой, для котят, 5 кг",
          oid="5424782869",
@@ -1020,6 +1136,54 @@ products = [
          url="https://www.ozon.ru/product/5431102190/",
          claims_short="Профилактическое лакомство для чистки зубов; массирует дёсны; укрепление иммунитета",
          protein="Телятина", ingredients="—", plant="Не найдено"),
+    dict(animal="Собаки", ptype="Влажный корм", brand="Yummy",
+         name="Мясной Деликатес, индейка в желе, консервы, 100 г",
+         oid="5669273502",
+         url="https://www.ozon.ru/product/5669273502/",
+         claims_short="Без зерна; монобелковый",
+         protein="Индейка", ingredients="—", plant="Не найдено"),
+    dict(animal="Собаки", ptype="Влажный корм", brand="Мнямс",
+         name="Максимум вкуса, мясное рагу, говядина с морковью, консервы, 85 г х 12",
+         oid="5670094001",
+         url="https://www.ozon.ru/product/5670094001/",
+         claims_short="Не содержит злаков",
+         protein="Говядина", ingredients="Морковь", plant="Не найдено"),
+    dict(animal="Собаки", ptype="Влажный корм", brand="Мнямс",
+         name="Максимум вкуса, томлёная телятина в соусе, пауч, 85 г",
+         oid="5670712472",
+         url="https://www.ozon.ru/product/5670712472/",
+         claims_short="Не содержит злаков",
+         protein="Телятина", ingredients="—", plant="Не найдено"),
+    dict(animal="Собаки", ptype="Влажный корм", brand="Мнямс",
+         name="Сильный иммунитет, паштет из утки и перепела, для всех пород, 200 г х 3",
+         oid="5670714813",
+         url="https://www.ozon.ru/product/5670714813/",
+         claims_short="Не содержит злаков; сильный иммунитет",
+         protein="Утка, Перепел", ingredients="—", plant="Не найдено"),
+    dict(animal="Собаки", ptype="Влажный корм", brand="Мнямс",
+         name="Мусс из курицы с печенью, дополнительный корм, 80 г х 6",
+         oid="5670718836",
+         url="https://www.ozon.ru/product/5670718836/",
+         claims_short="Не содержит злаков",
+         protein="Курица, Печень", ingredients="—", plant="Не найдено"),
+    dict(animal="Собаки", ptype="Влажный корм", brand="Мнямс",
+         name="Террин по-версальски, паштет из телятины с ветчиной, 200 г х 5",
+         oid="5670720625",
+         url="https://www.ozon.ru/product/5670720625/",
+         claims_short="Не содержит злаков",
+         protein="Телятина", ingredients="Ветчина", plant="Не найдено"),
+    dict(animal="Собаки", ptype="Влажный корм", brand="Мнямс",
+         name="Мусс из утки, дополнительный корм, 80 г х 2",
+         oid="5671464738",
+         url="https://www.ozon.ru/product/5671464738/",
+         claims_short="Не содержит злаков",
+         protein="Утка", ingredients="—", plant="Не найдено"),
+    dict(animal="Собаки", ptype="Влажный корм", brand="Мнямс",
+         name="Мусс по-французски, паштет из индейки с цукини, для щенков до 4 месяцев, 200 г х 3",
+         oid="5671505639",
+         url="https://www.ozon.ru/product/5671505639/",
+         claims_short="Не содержит злаков",
+         protein="Индейка", ingredients="Цукини", plant="Не найдено"),
     dict(animal="Собаки", ptype="Влажный корм", brand="AWARD",
          name="Monoprotein, паштет, телятина, консервы, 400 г х 12",
          oid="5430211436",
@@ -1034,6 +1198,48 @@ products = [
          url="https://www.ozon.ru/product/5432604231/",
          claims_short="Способствует формированию пищеварительной системы; поддерживает работу пищевыделительной системы; поддерживает здоровье иммунной системы; свежее мясо",
          protein="Индейка", ingredients="—", plant="Не найдено"),
+    dict(animal="Собаки", ptype="Сухой корм", brand="Farmina N&D",
+         name="Prime, ягнёнок и черника, беззерновой, для взрослых собак, 12 кг",
+         oid="5623144132",
+         url="https://www.ozon.ru/product/5623144132/",
+         claims_short="Grain Free; Nutrition System for Carnivores; Italian formula",
+         protein="Ягнёнок", ingredients="Черника", plant="Farmina Pet Foods, Италия"),
+    dict(animal="Собаки", ptype="Сухой корм", brand="GRANDORF",
+         name="Veterinary Diet Hypoallergenic, кролик, при пищевой аллергии, 3 кг",
+         oid="5634101309",
+         url="https://www.ozon.ru/product/5634101309/",
+         claims_short="Ветеринарная диета (Approved by Vets); Hypoallergenic (пищевая аллергия и непереносимость); Gluten & Grain Free; антистресс; пробиотики/постбиотики для ЖКТ и иммунитета; здоровье кожи и шерсти",
+         protein="Кролик", ingredients="—", plant="Не найдено"),
+    dict(animal="Собаки", ptype="Сухой корм", brand="GRANDORF",
+         name="Fresh, филе лосося с бататом, беззерновой холистик, для мелких пород, 1 кг",
+         oid="5662623115",
+         url="https://www.ozon.ru/product/5662623115/",
+         claims_short="Holistic; Grain Free; живые пробиотики",
+         protein="Лосось", ingredients="Батат", plant="Не найдено"),
+    dict(animal="Собаки", ptype="Сухой корм", brand="GRANDORF",
+         name="Fresh, мясо индейки с бататом, беззерновой холистик, для средних и крупных пород, 10 кг",
+         oid="5662623376",
+         url="https://www.ozon.ru/product/5662623376/",
+         claims_short="Holistic; Grain Free; живые пробиотики",
+         protein="Индейка", ingredients="Батат", plant="Не найдено"),
+    dict(animal="Собаки", ptype="Сухой корм", brand="GRANDORF",
+         name="Fresh, мясо утки с бататом, беззерновой холистик, для средних и крупных пород, 10 кг",
+         oid="5662626493",
+         url="https://www.ozon.ru/product/5662626493/",
+         claims_short="Holistic; Grain Free; живые пробиотики",
+         protein="Утка", ingredients="Батат", plant="Не найдено"),
+    dict(animal="Собаки", ptype="Сухой корм", brand="Royal Canin",
+         name="Expert Neutered Adult, для стерилизованных/кастрированных собак мелких пород, 3,5 кг",
+         oid="5670255238",
+         url="https://www.ozon.ru/product/5670255238/",
+         claims_short="№1 по рекомендации ветеринарных врачей; ветеринарный рацион (Expert)",
+         protein="Не указан на лицевой стороне упаковки", ingredients="—", plant="Не найдено"),
+    dict(animal="Собаки", ptype="Сухой корм", brand="AWARD",
+         name="HYPO, белая рыба, брокколи, сельдерей и семена льна, для взрослых собак всех пород, 12 кг",
+         oid="5670469697",
+         url="https://www.ozon.ru/product/5670469697/",
+         claims_short="Hypoallergenic; 100% BIO; 65% животного белка; 0% глютен/соя; Long-term Energy Boost; Nutraceutical Formula; Superpremium Dog Food; Quality for Champions",
+         protein="Белая рыба", ingredients="Брокколи; Сельдерей; Семена льна", plant="Не найдено"),
     dict(animal="Собаки", ptype="Лакомства", brand="Pedigree",
          name="Dentastix Light, для мелких пород, индейка, 35 палочек",
          oid="5432823007",
@@ -1093,6 +1299,108 @@ products = [
          url="https://www.ozon.ru/product/5433103171/",
          claims_short="Натуральный состав; 100% мяса; без ГМО",
          protein="Говядина, Ягнёнок", ingredients="—", plant="Не найдено"),
+    dict(animal="Собаки", ptype="Лакомства", brand="INABA",
+         name="Neji, говядина и куриное филе на гриле со вкусом сыра, 8 г х 3",
+         oid="5632614860",
+         url="https://www.ozon.ru/product/5632614860/",
+         claims_short="Вкусовая привлекательность (гриль, вкус сыра)",
+         protein="Говядина, Курица", ingredients="—", plant="Не найдено"),
+    dict(animal="Собаки", ptype="Лакомства", brand="INABA",
+         name="Churu Bee, запечённые трубочки, куриное филе, для поддержания здоровья суставов, 10 г х 3",
+         oid="5632615231",
+         url="https://www.ozon.ru/product/5632615231/",
+         claims_short="Поддержание здоровья суставов",
+         protein="Курица", ingredients="—", plant="Не найдено"),
+    dict(animal="Собаки", ptype="Лакомства", brand="INABA",
+         name="Churu, лакомство-пюре, куриное филе, для здоровья кожи и шерсти, 14 г х 4",
+         oid="5632624539",
+         url="https://www.ozon.ru/product/5632624539/",
+         claims_short="Здоровье кожи и шерсти",
+         protein="Курица", ingredients="—", plant="Не найдено"),
+    dict(animal="Собаки", ptype="Лакомства", brand="INABA",
+         name="Churu Ball, шарики с кремовой начинкой, куриное филе с добавлением овощей, 10 г х 3",
+         oid="5654589093",
+         url="https://www.ozon.ru/product/5654589093/",
+         claims_short="Вкусовая привлекательность (кремовая начинка)",
+         protein="Курица", ingredients="Овощи", plant="Не найдено"),
+    dict(animal="Собаки", ptype="Лакомства", brand="INABA",
+         name="Churu, лакомство-пюре, куриное филе, для здоровья ЖКТ, 14 г х 4",
+         oid="5654591896",
+         url="https://www.ozon.ru/product/5654591896/",
+         claims_short="Здоровье ЖКТ",
+         protein="Курица", ingredients="—", plant="Не найдено"),
+    dict(animal="Собаки", ptype="Лакомства", brand="INABA",
+         name="Churu Ball, шарики с кремовой начинкой, куриное филе, 10 г х 3",
+         oid="5654592771",
+         url="https://www.ozon.ru/product/5654592771/",
+         claims_short="Вкусовая привлекательность (кремовая начинка)",
+         protein="Курица", ingredients="—", plant="Не найдено"),
+    dict(animal="Собаки", ptype="Лакомства", brand="INABA",
+         name="Tobitsuku, запечённое лакомство, куриное филе, для поддержания здоровья кожи, 25 г",
+         oid="5654599026",
+         url="https://www.ozon.ru/product/5654599026/",
+         claims_short="Поддержание здоровья кожи",
+         protein="Курица", ingredients="—", plant="Не найдено"),
+    dict(animal="Собаки", ptype="Лакомства", brand="INABA",
+         name="Tobitsuku, запечённое лакомство, куриное филе, для поддержания здоровья ЖКТ, 25 г",
+         oid="5654599608",
+         url="https://www.ozon.ru/product/5654599608/",
+         claims_short="Поддержание здоровья ЖКТ",
+         protein="Курица", ingredients="—", plant="Не найдено"),
+    dict(animal="Собаки", ptype="Лакомства", brand="Мнямс",
+         name="DENTAL, зубной снек с лососем, 85 г",
+         oid="5670711483",
+         url="https://www.ozon.ru/product/5670711483/",
+         claims_short="Профилактика образования зубного камня; массаж дёсен",
+         protein="Лосось", ingredients="—", plant="Не найдено"),
+    dict(animal="Собаки", ptype="Лакомства", brand="Мнямс",
+         name="Колбаски аппетитные, 80 г",
+         oid="5670715414",
+         url="https://www.ozon.ru/product/5670715414/",
+         claims_short="100% натуральное лакомство; без добавок и красителей; улучшает пищеварение",
+         protein="Не указан на лицевой стороне упаковки", ingredients="—", plant="Не найдено"),
+    dict(animal="Собаки", ptype="Лакомства", brand="Мнямс",
+         name="Грудки куриные, 50 г",
+         oid="5670717416",
+         url="https://www.ozon.ru/product/5670717416/",
+         claims_short="100% натуральное лакомство; без добавок и красителей; улучшает пищеварение",
+         protein="Курица", ingredients="—", plant="Не найдено"),
+    dict(animal="Собаки", ptype="Лакомства", brand="Мнямс",
+         name="Филе миньон по-фламандски, 75 г х 2",
+         oid="5670718664",
+         url="https://www.ozon.ru/product/5670718664/",
+         claims_short="100% натуральное лакомство; без добавок и красителей; улучшает пищеварение",
+         protein="Не указан на лицевой стороне упаковки", ingredients="—", plant="Не найдено"),
+    dict(animal="Собаки", ptype="Лакомства", brand="Мнямс",
+         name="Рубец говяжий, 70 г х 2",
+         oid="5670720986",
+         url="https://www.ozon.ru/product/5670720986/",
+         claims_short="100% натуральное лакомство; без добавок и красителей; улучшает пищеварение",
+         protein="Говядина", ingredients="—", plant="Не найдено"),
+    dict(animal="Собаки", ptype="Лакомства", brand="Мнямс",
+         name="DENTAL, зубной снек с говядиной, для крупных пород",
+         oid="5671459555",
+         url="https://www.ozon.ru/product/5671459555/",
+         claims_short="Профилактика образования зубного камня; массаж дёсен",
+         protein="Говядина", ingredients="—", plant="Не найдено"),
+    dict(animal="Собаки", ptype="Лакомства", brand="Мнямс",
+         name="DENTAL, зубные косточки, для щенков и взрослых животных, 70 г",
+         oid="5671490575",
+         url="https://www.ozon.ru/product/5671490575/",
+         claims_short="Профилактика образования зубного камня; массаж дёсен",
+         protein="Не указан на лицевой стороне упаковки", ingredients="—", plant="Не найдено"),
+    dict(animal="Собаки", ptype="Лакомства", brand="Мнямс",
+         name="Трахея говяжья, 95 г",
+         oid="5671509904",
+         url="https://www.ozon.ru/product/5671509904/",
+         claims_short="100% натуральное лакомство; без добавок и красителей; улучшает пищеварение",
+         protein="Говядина", ingredients="—", plant="Не найдено"),
+    dict(animal="Собаки", ptype="Лакомства", brand="Мнямс",
+         name="Колбаски из баранины, 125 г х 2",
+         oid="5671561038",
+         url="https://www.ozon.ru/product/5671561038/",
+         claims_short="100% натуральное лакомство; без добавок и красителей; улучшает пищеварение",
+         protein="Баранина", ingredients="—", plant="Не найдено"),
     dict(animal="Собаки", ptype="Лакомства", brand="Кинолог в берцах",
          name="Утиные головы для собак, натуральное лакомство, 50 г",
          oid="5436654518",
@@ -1673,6 +1981,96 @@ products = [
          url="https://www.ozon.ru/product/5566620215/",
          claims_short="Grain Free; Complete",
          protein="Курица, Говядина", ingredients="—", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Влажный корм", brand="AlphaPet WOW",
+         name="Superpremium, кролик с потрошками, кусочки в соусе, для чувствительного пищеварения, 28х85 г",
+         oid="5654017462",
+         url="https://www.ozon.ru/product/5654017462/",
+         claims_short="Чувствительное пищеварение; здоровое пищеварение; Fresh Meat (Rich Meat Profile); Superpremium; комплекс AlphaPetBIO",
+         protein="Кролик", ingredients="—", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Влажный корм", brand="P.E.P.P.O.",
+         name="Курица, кусочки в соусе, 24х85 г",
+         oid="5664781811",
+         url="https://www.ozon.ru/product/5664781811/",
+         claims_short="Натуральные ингредиенты; поддержка иммунитета; 85% мяса в каждом кусочке",
+         protein="Курица", ingredients="Фукус; Юкка; Черника", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Влажный корм", brand="P.E.P.P.O.",
+         name="Ягнёнок, кусочки в соусе, для котят, 24х85 г",
+         oid="5664784502",
+         url="https://www.ozon.ru/product/5664784502/",
+         claims_short="Натуральные ингредиенты; поддержка иммунитета; 85% мяса в каждом кусочке",
+         protein="Ягнёнок", ingredients="Фукус; Юкка; Черника", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Влажный корм", brand="Вкусная Миска",
+         name="Говядина в нежном соусе, дополнительный корм, 5х85 г",
+         oid="5668947557",
+         url="https://www.ozon.ru/product/5668947557/",
+         claims_short="С витаминами и минералами; без красителей; без ГМО",
+         protein="Говядина", ingredients="—", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Влажный корм", brand="Вкусная Миска",
+         name="Кролик в соусе, дополнительный корм, 5х85 г",
+         oid="5669095176",
+         url="https://www.ozon.ru/product/5669095176/",
+         claims_short="С витаминами и минералами; без красителей; без ГМО",
+         protein="Кролик", ingredients="—", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Влажный корм", brand="Whiskas",
+         name="Особое удовольствие, желе с индейкой, печенью и овощами, 28х75 г",
+         oid="5670228940",
+         url="https://www.ozon.ru/product/5670228940/",
+         claims_short="Особое удовольствие (вкусовая привлекательность)",
+         protein="Индейка, Печень", ingredients="Овощи", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Влажный корм", brand="SHEBA",
+         name="Ломтики в соусе, кролик и индейка, 28х75 г",
+         oid="5670237889",
+         url="https://www.ozon.ru/product/5670237889/",
+         claims_short="Ломтики в соусе (вкусовая привлекательность)",
+         protein="Кролик, Индейка", ingredients="—", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Влажный корм", brand="SHEBA",
+         name="Ломтики в соусе, курица, 28х75 г",
+         oid="5670251820",
+         url="https://www.ozon.ru/product/5670251820/",
+         claims_short="Ломтики в соусе (вкусовая привлекательность)",
+         protein="Курица", ingredients="—", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Влажный корм", brand="Perfect Fit",
+         name="С чувствительным пищеварением, индейка в соусе, 28х75 г",
+         oid="5670328613",
+         url="https://www.ozon.ru/product/5670328613/",
+         claims_short="Чувствительное пищеварение; здоровая микрофлора кишечника; без добавления пшеницы и сои; разработано со специалистами Waltham Petcare Science Institute",
+         protein="Индейка", ingredients="—", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Влажный корм", brand="Royal Canin",
+         name="Sterilised, консервированный корм в соусе, для стерилизованных взрослых кошек, 85 г",
+         oid="5670392893",
+         url="https://www.ozon.ru/product/5670392893/",
+         claims_short="Health Nutrition since 1968",
+         protein="Не указан на лицевой стороне упаковки", ingredients="—", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Влажный корм", brand="Мнямс (Ферма кота Фёдора)",
+         name="Сочные кусочки с лососем, креветками и форелью, пауч, 85 г х 8",
+         oid="5670714887",
+         url="https://www.ozon.ru/product/5670714887/",
+         claims_short="Без ГМО; без сои; витамин Е",
+         protein="Лосось, Креветки, Форель", ingredients="Витамин Е", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Влажный корм", brand="Мнямс (Ферма кота Фёдора)",
+         name="Нежные кусочки с индейкой в желе, для котят, пауч, 85 г",
+         oid="5670716904",
+         url="https://www.ozon.ru/product/5670716904/",
+         claims_short="Без ГМО; без сои",
+         protein="Индейка", ingredients="—", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Влажный корм", brand="Мнямс (Ферма кота Фёдора)",
+         name="Нежные кусочки с телятиной, для котят, пауч, 85 г х 16",
+         oid="5670719609",
+         url="https://www.ozon.ru/product/5670719609/",
+         claims_short="Без ГМО; без сои",
+         protein="Телятина", ingredients="—", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Влажный корм", brand="Мнямс (Ферма кота Фёдора)",
+         name="Сочные кусочки с говядиной в желе, пауч, 85 г х 8",
+         oid="5670721156",
+         url="https://www.ozon.ru/product/5670721156/",
+         claims_short="Без ГМО; без сои",
+         protein="Говядина", ingredients="—", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Влажный корм", brand="Мнямс",
+         name="Кусочки в соусе с уткой, для домашних кошек, пауч, 85 г х 6",
+         oid="5671557401",
+         url="https://www.ozon.ru/product/5671557401/",
+         claims_short="Профилактика мочекаменной болезни; поддержание оптимальной кондиции",
+         protein="Утка", ingredients="—", plant="Не найдено"),
     dict(animal="Кошки", ptype="Влажный корм", brand="Schesir",
          name="After Dark, паштет из курицы и утки, беззерновой, консервы, 12х80 г",
          oid="5566642607",
@@ -1684,6 +2082,132 @@ products = [
     # 5577401282 (говяжья трахея 100г) — тот же товар/линейка, что уже учтённый
     # 5577402177 у собак (дубль по фасовке, ошибочно всплыл в выдаче категории кошек);
     # 5557001158 — пустой/удалённый листинг без названия и фото, не профилируется.
+    dict(animal="Кошки", ptype="Лакомства", brand="INABA",
+         name="CIAO Paste, куриное филе с лактобактериями, для здоровья кожи и шерсти, 80 г",
+         oid="5632614370",
+         url="https://www.ozon.ru/product/5632614370/",
+         claims_short="Здоровье кожи и шерсти",
+         protein="Курица", ingredients="Лактобактерии", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Лакомства", brand="INABA",
+         name="CIAO Churu, лакомство-пюре, тунец Кацуо, 14 г х 4",
+         oid="5632614943",
+         url="https://www.ozon.ru/product/5632614943/",
+         claims_short="Вкусовая привлекательность",
+         protein="Тунец", ingredients="—", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Лакомства", brand="INABA",
+         name="Yaki Sasami, куриное филе со вкусом краба, 26 г",
+         oid="5632615075",
+         url="https://www.ozon.ru/product/5632615075/",
+         claims_short="Вкусовая привлекательность",
+         protein="Курица", ingredients="—", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Лакомства", brand="INABA",
+         name="Yaki Miksu, запечённое ассорти, кацуобуси, куриный бульон и кальмар, 25 г",
+         oid="5632615106",
+         url="https://www.ozon.ru/product/5632615106/",
+         claims_short="Вкусовая привлекательность",
+         protein="Курица, Кальмар", ingredients="Кацуобуси", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Лакомства", brand="INABA",
+         name="CIAO Churu, лакомство-пюре, куриное филе, для здоровья кожи и шерсти, 14 г х 4",
+         oid="5632619730",
+         url="https://www.ozon.ru/product/5632619730/",
+         claims_short="Здоровье кожи и шерсти",
+         protein="Курица", ingredients="—", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Лакомства", brand="INABA",
+         name="CIAO Churu, лакомство-пюре, тунец Магуро, 14 г х 4",
+         oid="5654586643",
+         url="https://www.ozon.ru/product/5654586643/",
+         claims_short="Вкусовая привлекательность",
+         protein="Тунец", ingredients="—", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Лакомства", brand="INABA",
+         name="Tobitsuku, запечённое лакомство, со вкусом куриного бульона, 25 г",
+         oid="5654587557",
+         url="https://www.ozon.ru/product/5654587557/",
+         claims_short="Вкусовая привлекательность",
+         protein="Курица", ingredients="—", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Лакомства", brand="INABA",
+         name="CIAO Churu, лакомство-пюре, куриное филе, поддержание pH мочи, 14 г х 4",
+         oid="5654590710",
+         url="https://www.ozon.ru/product/5654590710/",
+         claims_short="Поддержание pH мочи",
+         protein="Курица", ingredients="—", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Лакомства", brand="INABA",
+         name="CIAO Pon Churu, суфле-паштет, тунец Магуро, 35 г х 2",
+         oid="5654591217",
+         url="https://www.ozon.ru/product/5654591217/",
+         claims_short="Вкусовая привлекательность",
+         protein="Тунец", ingredients="—", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Лакомства", brand="INABA",
+         name="CIAO Churu, лакомство-пюре, куриное филе и краб, 14 г х 4",
+         oid="5654591653",
+         url="https://www.ozon.ru/product/5654591653/",
+         claims_short="Вкусовая привлекательность",
+         protein="Курица, Краб", ingredients="—", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Лакомства", brand="INABA",
+         name="CIAO Churu, лакомство-пюре, тунец Магуро и морской гребешок, 14 г х 4",
+         oid="5654592626",
+         url="https://www.ozon.ru/product/5654592626/",
+         claims_short="Вкусовая привлекательность",
+         protein="Тунец, Гребешок", ingredients="—", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Лакомства", brand="INABA",
+         name="CIAO Churu, лакомство-пюре, тунец Магуро и лобстер, 14 г х 4",
+         oid="5654594462",
+         url="https://www.ozon.ru/product/5654594462/",
+         claims_short="Вкусовая привлекательность",
+         protein="Тунец, Лобстер", ingredients="—", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Лакомства", brand="INABA",
+         name="CIAO Churu, лакомство-пюре, куриное филе, для здоровья мочеполовой системы, 14 г х 4",
+         oid="5654596008",
+         url="https://www.ozon.ru/product/5654596008/",
+         claims_short="Здоровье мочеполовой системы",
+         protein="Курица", ingredients="—", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Лакомства", brand="INABA",
+         name="CIAO Churu, лакомство-пюре, куриное филе и кальмар, 14 г х 4",
+         oid="5654598009",
+         url="https://www.ozon.ru/product/5654598009/",
+         claims_short="Вкусовая привлекательность",
+         protein="Курица, Кальмар", ingredients="—", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Лакомства", brand="INABA",
+         name="Tobitsuku, запечённое лакомство, со вкусом морского гребешка, 25 г",
+         oid="5654598442",
+         url="https://www.ozon.ru/product/5654598442/",
+         claims_short="Вкусовая привлекательность",
+         protein="Гребешок", ingredients="—", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Лакомства", brand="INABA",
+         name="CIAO Churu, лакомство-пюре, куриное филе, для котят, 14 г х 4",
+         oid="5654598890",
+         url="https://www.ozon.ru/product/5654598890/",
+         claims_short="Вкусовая привлекательность",
+         protein="Курица", ingredients="—", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Лакомства", brand="INABA",
+         name="Yaki Sasami, куриное филе со вкусом говядины, 26 г",
+         oid="5654599052",
+         url="https://www.ozon.ru/product/5654599052/",
+         claims_short="Вкусовая привлекательность",
+         protein="Курица, Говядина", ingredients="—", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Лакомства", brand="INABA",
+         name="CIAO Pon Churu, суфле-паштет, куриное филе и морской гребешок, 35 г х 2",
+         oid="5654599091",
+         url="https://www.ozon.ru/product/5654599091/",
+         claims_short="Вкусовая привлекательность",
+         protein="Курица, Гребешок", ingredients="—", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Лакомства", brand="INABA",
+         name="CIAO Churu, лакомство-пюре, куриное филе и креветка, 14 г х 4",
+         oid="5654599124",
+         url="https://www.ozon.ru/product/5654599124/",
+         claims_short="Вкусовая привлекательность",
+         protein="Курица, Креветки", ingredients="—", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Лакомства", brand="Мнямс",
+         name="Крем-лакомство, утка с тунцом Кацуо, 4х15 г",
+         oid="5670711038",
+         url="https://www.ozon.ru/product/5670711038/",
+         claims_short="Нежное пюре-лакомство",
+         protein="Утка, Тунец", ingredients="—", plant="Не найдено"),
+    dict(animal="Кошки", ptype="Лакомства", brand="Мнямс",
+         name="Крем-лакомство, курица, 4х15 г",
+         oid="5671503941",
+         url="https://www.ozon.ru/product/5671503941/",
+         claims_short="Нежное пюре-лакомство",
+         protein="Курица", ingredients="—", plant="Не найдено"),
     dict(animal="Кошки", ptype="Лакомства", brand="АШАН Pets",
          name="Хрустящие сердечки, индейка со сливками, 40 г х 3",
          oid="5542724663",
@@ -1785,7 +2309,13 @@ cats_per_product = [3, 6, 6, 4, 1, 4, 2, 5, 4, 3, 2,  3, 3, 3, 0,
                      # Day 7 (2026-08-24) — Влажный корм для кошек
                      1, 1, 1, 4, 4, 4, 4, 4, 4, 4, 4, 4, 0, 0, 0, 0, 2, 1, 1, 1, 1,
                      # Day 7 (2026-08-24) — Лакомства для кошек
-                     2, 1, 1, 1, 2, 4, 4, 4, 2, 2, 2, 2]
+                     2, 1, 1, 1, 2, 4, 4, 4, 2, 2, 2, 2,
+] + [0] * 74
+# Day 8 (2026-09-02) и далее: значения-плейсхолдеры выше не используются —
+# реальное "Кол-во категорий клеймов" пересчитывается из claim_rows после его
+# определения (см. ниже, после заполнения листа "Клеймы"). Плейсхолдер нужен
+# только чтобы zip(products, cats_per_product) не обрезал новые товары по
+# длине списка при добавлении очередной партии.
 
 METHOD_BY_DATE = {
     "2026-07-31": "Сортировка «Новинки» (не подтверждено ID)",
@@ -1794,6 +2324,7 @@ METHOD_BY_DATE = {
     "2026-08-04": "Подтверждено: ID выше макс. известного на 2026-08-03",
     "2026-08-12": "Подтверждено: ID выше макс. известного на 2026-08-04",
     "2026-08-24": "Подтверждено: ID выше макс. известного на 2026-08-12",
+    "2026-09-02": "Подтверждено: ID выше макс. известного на 2026-08-24",
 }
 PHOTO_COL = 12
 
@@ -2568,6 +3099,160 @@ claim_rows = [
 
     ("5584264918", "Murkel тунец+молочные продукты", "Кошки", "Лакомства", "NAT", "Натуральность состава", "Натуральный состав"),
     ("5584264918", "Murkel тунец+молочные продукты", "Кошки", "Лакомства", "FUNC", "Функциональная польза для здоровья", "Для поддержания пищеварения/иммунитета"),
+
+    # --- Day 8 (2026-09-02): Сухой корм для кошек ---
+    ("5658764220", "Родные корма курица+ягоды (кошки)", "Кошки", "Сухой корм", "MEAT", "Происхождение и качество мяса", "Мясо ингредиент №1; 63% белка животного происхождения"),
+    ("5658764220", "Родные корма курица+ягоды (кошки)", "Кошки", "Сухой корм", "PREMIUM", "Премиальное позиционирование", "Премиум"),
+    ("5658764220", "Родные корма курица+ягоды (кошки)", "Кошки", "Сухой корм", "FUNC", "Функциональная польза для здоровья", "Здоровая кожа и шерсть; контроль веса; комплекс пробиотиков"),
+
+    ("5670474832", "AWARD Hairball & Indoor утка+индейка", "Кошки", "Сухой корм", "NAT", "Натуральность состава", "100% BIO"),
+    ("5670474832", "AWARD Hairball & Indoor утка+индейка", "Кошки", "Сухой корм", "FUNC", "Функциональная польза для здоровья", "Hairball Control; Nutraceutical Formula"),
+    ("5670474832", "AWARD Hairball & Indoor утка+индейка", "Кошки", "Сухой корм", "PREMIUM", "Премиальное позиционирование", "Superpremium Cat Food; Quality for Champions"),
+
+    ("5670477242", "AWARD Urinary курица", "Кошки", "Сухой корм", "NAT", "Натуральность состава", "100% BIO"),
+    ("5670477242", "AWARD Urinary курица", "Кошки", "Сухой корм", "FUNC", "Функциональная польза для здоровья", "Urinary Health (профилактика МКБ); Nutraceutical Formula"),
+    ("5670477242", "AWARD Urinary курица", "Кошки", "Сухой корм", "PREMIUM", "Премиальное позиционирование", "Superpremium Cat Food; Quality for Champions"),
+
+    ("5670498757", "AWARD Indoor Big cats говядина+курица", "Кошки", "Сухой корм", "NAT", "Натуральность состава", "100% BIO"),
+    ("5670498757", "AWARD Indoor Big cats говядина+курица", "Кошки", "Сухой корм", "FUNC", "Функциональная польза для здоровья", "Nutraceutical Formula"),
+    ("5670498757", "AWARD Indoor Big cats говядина+курица", "Кошки", "Сухой корм", "PREMIUM", "Премиальное позиционирование", "Superpremium Cat Food; Quality for Champions"),
+
+    ("5670499419", "AWARD Sterilized индейка+курица", "Кошки", "Сухой корм", "NAT", "Натуральность состава", "100% BIO"),
+    ("5670499419", "AWARD Sterilized индейка+курица", "Кошки", "Сухой корм", "FUNC", "Функциональная польза для здоровья", "Urinary Health; Nutraceutical Formula"),
+    ("5670499419", "AWARD Sterilized индейка+курица", "Кошки", "Сухой корм", "PREMIUM", "Премиальное позиционирование", "Superpremium Cat Food; Quality for Champions"),
+
+    ("5670501608", "AWARD Sterilized белая рыба", "Кошки", "Сухой корм", "NAT", "Натуральность состава", "100% BIO"),
+    ("5670501608", "AWARD Sterilized белая рыба", "Кошки", "Сухой корм", "FUNC", "Функциональная польза для здоровья", "Urinary Health; Nutraceutical Formula"),
+    ("5670501608", "AWARD Sterilized белая рыба", "Кошки", "Сухой корм", "PREMIUM", "Премиальное позиционирование", "Superpremium Cat Food; Quality for Champions"),
+
+    # --- Day 8 (2026-09-02): Влажный корм для собак ---
+    ("5669273502", "Yummy Мясной Деликатес индейка", "Собаки", "Влажный корм", "GRAIN", "Беззерновой / монобелковый состав", "Без зерна; монобелковый"),
+    ("5670094001", "Мнямс Максимум вкуса говядина+морковь", "Собаки", "Влажный корм", "GRAIN", "Беззерновой / монобелковый состав", "Не содержит злаков"),
+    ("5670712472", "Мнямс Максимум вкуса телятина", "Собаки", "Влажный корм", "GRAIN", "Беззерновой / монобелковый состав", "Не содержит злаков"),
+    ("5670714813", "Мнямс Сильный иммунитет утка+перепел", "Собаки", "Влажный корм", "GRAIN", "Беззерновой / монобелковый состав", "Не содержит злаков"),
+    ("5670714813", "Мнямс Сильный иммунитет утка+перепел", "Собаки", "Влажный корм", "FUNC", "Функциональная польза для здоровья", "Сильный иммунитет"),
+    ("5670718836", "Мнямс мусс курица+печень", "Собаки", "Влажный корм", "GRAIN", "Беззерновой / монобелковый состав", "Не содержит злаков"),
+    ("5670720625", "Мнямс Террин по-версальски телятина+ветчина", "Собаки", "Влажный корм", "GRAIN", "Беззерновой / монобелковый состав", "Не содержит злаков"),
+    ("5671464738", "Мнямс мусс утка", "Собаки", "Влажный корм", "GRAIN", "Беззерновой / монобелковый состав", "Не содержит злаков"),
+    ("5671505639", "Мнямс Мусс по-французски индейка+цукини", "Собаки", "Влажный корм", "GRAIN", "Беззерновой / монобелковый состав", "Не содержит злаков"),
+
+    # --- Day 8 (2026-09-02): Сухой корм для собак ---
+    ("5623144132", "Farmina N&D Prime ягнёнок+черника (собаки)", "Собаки", "Сухой корм", "GRAIN", "Беззерновой / монобелковый состав", "Grain Free"),
+    ("5623144132", "Farmina N&D Prime ягнёнок+черника (собаки)", "Собаки", "Сухой корм", "MEAT", "Происхождение и качество мяса", "Nutrition System for Carnivores"),
+    ("5623144132", "Farmina N&D Prime ягнёнок+черника (собаки)", "Собаки", "Сухой корм", "PREMIUM", "Премиальное позиционирование", "Italian formula"),
+
+    ("5634101309", "GRANDORF Veterinary Diet Hypoallergenic кролик", "Собаки", "Сухой корм", "VET", "Ветеринарная / лечебная диета", "Approved by Vets; ветеринарная диета"),
+    ("5634101309", "GRANDORF Veterinary Diet Hypoallergenic кролик", "Собаки", "Сухой корм", "HYPO", "Гипоаллергенность / чувствит. пищеварение", "При пищевой аллергии и непереносимости"),
+    ("5634101309", "GRANDORF Veterinary Diet Hypoallergenic кролик", "Собаки", "Сухой корм", "GRAIN", "Беззерновой / монобелковый состав", "Gluten & Grain Free"),
+    ("5634101309", "GRANDORF Veterinary Diet Hypoallergenic кролик", "Собаки", "Сухой корм", "FUNC", "Функциональная польза для здоровья", "Антистресс; пробиотики/постбиотики для ЖКТ и иммунитета; здоровье кожи и шерсти"),
+
+    ("5662623115", "GRANDORF Fresh лосось+батат", "Собаки", "Сухой корм", "HOLISTIC", "Холистик-позиционирование", "Holistic"),
+    ("5662623115", "GRANDORF Fresh лосось+батат", "Собаки", "Сухой корм", "GRAIN", "Беззерновой / монобелковый состав", "Grain Free"),
+    ("5662623115", "GRANDORF Fresh лосось+батат", "Собаки", "Сухой корм", "FUNC", "Функциональная польза для здоровья", "Живые пробиотики"),
+
+    ("5662623376", "GRANDORF Fresh индейка+батат", "Собаки", "Сухой корм", "HOLISTIC", "Холистик-позиционирование", "Holistic"),
+    ("5662623376", "GRANDORF Fresh индейка+батат", "Собаки", "Сухой корм", "GRAIN", "Беззерновой / монобелковый состав", "Grain Free"),
+    ("5662623376", "GRANDORF Fresh индейка+батат", "Собаки", "Сухой корм", "FUNC", "Функциональная польза для здоровья", "Живые пробиотики"),
+
+    ("5662626493", "GRANDORF Fresh утка+батат", "Собаки", "Сухой корм", "HOLISTIC", "Холистик-позиционирование", "Holistic"),
+    ("5662626493", "GRANDORF Fresh утка+батат", "Собаки", "Сухой корм", "GRAIN", "Беззерновой / монобелковый состав", "Grain Free"),
+    ("5662626493", "GRANDORF Fresh утка+батат", "Собаки", "Сухой корм", "FUNC", "Функциональная польза для здоровья", "Живые пробиотики"),
+
+    ("5670255238", "Royal Canin Expert Neutered Adult мини (собаки)", "Собаки", "Сухой корм", "VET", "Ветеринарная / лечебная диета", "№1 по рекомендации ветеринарных врачей; ветеринарный рацион Expert"),
+    ("5670255238", "Royal Canin Expert Neutered Adult мини (собаки)", "Собаки", "Сухой корм", "PREMIUM", "Премиальное позиционирование", "Royal Canin"),
+
+    ("5670469697", "AWARD HYPO белая рыба (собаки)", "Собаки", "Сухой корм", "HYPO", "Гипоаллергенность / чувствит. пищеварение", "Hypoallergenic"),
+    ("5670469697", "AWARD HYPO белая рыба (собаки)", "Собаки", "Сухой корм", "NAT", "Натуральность состава", "100% BIO"),
+    ("5670469697", "AWARD HYPO белая рыба (собаки)", "Собаки", "Сухой корм", "MEAT", "Происхождение и качество мяса", "65% животного белка"),
+    ("5670469697", "AWARD HYPO белая рыба (собаки)", "Собаки", "Сухой корм", "GRAIN", "Беззерновой / монобелковый состав", "0% глютен; 0% соя"),
+    ("5670469697", "AWARD HYPO белая рыба (собаки)", "Собаки", "Сухой корм", "FUNC", "Функциональная польза для здоровья", "Long-term Energy Boost; Nutraceutical Formula"),
+    ("5670469697", "AWARD HYPO белая рыба (собаки)", "Собаки", "Сухой корм", "PREMIUM", "Премиальное позиционирование", "Superpremium Dog Food; Quality for Champions"),
+
+    # --- Day 8 (2026-09-02): Влажный корм для кошек ---
+    ("5654017462", "AlphaPet WOW кролик+потрошки", "Кошки", "Влажный корм", "FUNC", "Функциональная польза для здоровья", "Чувствительное пищеварение; здоровое пищеварение"),
+    ("5654017462", "AlphaPet WOW кролик+потрошки", "Кошки", "Влажный корм", "MEAT", "Происхождение и качество мяса", "Fresh Meat (Rich Meat Profile)"),
+    ("5654017462", "AlphaPet WOW кролик+потрошки", "Кошки", "Влажный корм", "PREMIUM", "Премиальное позиционирование", "Superpremium"),
+    ("5654017462", "AlphaPet WOW кролик+потрошки", "Кошки", "Влажный корм", "NAT", "Натуральность состава", "Комплекс AlphaPetBIO"),
+
+    ("5664781811", "P.E.P.P.O. курица", "Кошки", "Влажный корм", "NAT", "Натуральность состава", "Натуральные ингредиенты"),
+    ("5664781811", "P.E.P.P.O. курица", "Кошки", "Влажный корм", "FUNC", "Функциональная польза для здоровья", "Поддержка иммунитета"),
+    ("5664781811", "P.E.P.P.O. курица", "Кошки", "Влажный корм", "MEAT", "Происхождение и качество мяса", "85% мяса в каждом кусочке"),
+
+    ("5664784502", "P.E.P.P.O. ягнёнок (котята)", "Кошки", "Влажный корм", "NAT", "Натуральность состава", "Натуральные ингредиенты"),
+    ("5664784502", "P.E.P.P.O. ягнёнок (котята)", "Кошки", "Влажный корм", "FUNC", "Функциональная польза для здоровья", "Поддержка иммунитета"),
+    ("5664784502", "P.E.P.P.O. ягнёнок (котята)", "Кошки", "Влажный корм", "MEAT", "Происхождение и качество мяса", "85% мяса в каждом кусочке"),
+
+    ("5668947557", "Вкусная Миска говядина", "Кошки", "Влажный корм", "NAT", "Натуральность состава", "Без красителей; без ГМО"),
+    ("5668947557", "Вкусная Миска говядина", "Кошки", "Влажный корм", "FUNC", "Функциональная польза для здоровья", "С витаминами и минералами"),
+
+    ("5669095176", "Вкусная Миска кролик", "Кошки", "Влажный корм", "NAT", "Натуральность состава", "Без красителей; без ГМО"),
+    ("5669095176", "Вкусная Миска кролик", "Кошки", "Влажный корм", "FUNC", "Функциональная польза для здоровья", "С витаминами и минералами"),
+
+    ("5670228940", "Whiskas Особое удовольствие индейка+печень+овощи", "Кошки", "Влажный корм", "TASTE", "Вкусовая привлекательность / поведенческая польза", "Особое удовольствие"),
+    ("5670237889", "SHEBA кролик+индейка", "Кошки", "Влажный корм", "TASTE", "Вкусовая привлекательность / поведенческая польза", "Ломтики в соусе"),
+    ("5670251820", "SHEBA курица", "Кошки", "Влажный корм", "TASTE", "Вкусовая привлекательность / поведенческая польза", "Ломтики в соусе"),
+
+    ("5670328613", "Perfect Fit индейка", "Кошки", "Влажный корм", "FUNC", "Функциональная польза для здоровья", "Чувствительное пищеварение; здоровая микрофлора кишечника"),
+    ("5670328613", "Perfect Fit индейка", "Кошки", "Влажный корм", "NAT", "Натуральность состава", "Без добавления пшеницы и сои"),
+    ("5670328613", "Perfect Fit индейка", "Кошки", "Влажный корм", "PREMIUM", "Премиальное позиционирование", "Разработано со специалистами Waltham Petcare Science Institute"),
+
+    ("5670392893", "Royal Canin Sterilised соус (кошки)", "Кошки", "Влажный корм", "PREMIUM", "Премиальное позиционирование", "Health Nutrition since 1968"),
+
+    ("5670714887", "Мнямс Ферма кота Фёдора лосось+креветки+форель", "Кошки", "Влажный корм", "NAT", "Натуральность состава", "Без ГМО; без сои"),
+    ("5670716904", "Мнямс Ферма кота Фёдора индейка (котята)", "Кошки", "Влажный корм", "NAT", "Натуральность состава", "Без ГМО; без сои"),
+    ("5670719609", "Мнямс Ферма кота Фёдора телятина (котята)", "Кошки", "Влажный корм", "NAT", "Натуральность состава", "Без ГМО; без сои"),
+    ("5670721156", "Мнямс Ферма кота Фёдора говядина", "Кошки", "Влажный корм", "NAT", "Натуральность состава", "Без ГМО; без сои"),
+
+    ("5671557401", "Мнямс кусочки в соусе утка (кошки)", "Кошки", "Влажный корм", "FUNC", "Функциональная польза для здоровья", "Профилактика мочекаменной болезни; поддержание оптимальной кондиции"),
+
+    # --- Day 8 (2026-09-02): Лакомства для собак ---
+    ("5632614860", "INABA Neji говядина+курица+сыр", "Собаки", "Лакомства", "TASTE", "Вкусовая привлекательность / поведенческая польза", "На гриле, со вкусом сыра"),
+    ("5632615231", "INABA Churu Bee курица (суставы)", "Собаки", "Лакомства", "FUNC", "Функциональная польза для здоровья", "Поддержание здоровья суставов"),
+    ("5632624539", "INABA Churu курица (кожа и шерсть, собаки)", "Собаки", "Лакомства", "FUNC", "Функциональная польза для здоровья", "Здоровье кожи и шерсти"),
+    ("5654589093", "INABA Churu Ball курица+овощи", "Собаки", "Лакомства", "TASTE", "Вкусовая привлекательность / поведенческая польза", "Кремовая начинка"),
+    ("5654591896", "INABA Churu курица (ЖКТ, собаки)", "Собаки", "Лакомства", "FUNC", "Функциональная польза для здоровья", "Здоровье ЖКТ"),
+    ("5654592771", "INABA Churu Ball курица", "Собаки", "Лакомства", "TASTE", "Вкусовая привлекательность / поведенческая польза", "Кремовая начинка"),
+    ("5654599026", "INABA Tobitsuku курица (кожа, собаки)", "Собаки", "Лакомства", "FUNC", "Функциональная польза для здоровья", "Поддержание здоровья кожи"),
+    ("5654599608", "INABA Tobitsuku курица (ЖКТ, собаки)", "Собаки", "Лакомства", "FUNC", "Функциональная польза для здоровья", "Поддержание здоровья ЖКТ"),
+
+    ("5670711483", "Мнямс DENTAL лосось", "Собаки", "Лакомства", "DENT", "Стоматологическая польза", "Профилактика образования зубного камня; массаж дёсен"),
+    ("5670715414", "Мнямс Колбаски аппетитные", "Собаки", "Лакомства", "NAT", "Натуральность состава", "100% натуральное лакомство; без добавок и красителей"),
+    ("5670715414", "Мнямс Колбаски аппетитные", "Собаки", "Лакомства", "FUNC", "Функциональная польза для здоровья", "Улучшает пищеварение"),
+    ("5670717416", "Мнямс Грудки куриные", "Собаки", "Лакомства", "NAT", "Натуральность состава", "100% натуральное лакомство; без добавок и красителей"),
+    ("5670717416", "Мнямс Грудки куриные", "Собаки", "Лакомства", "FUNC", "Функциональная польза для здоровья", "Улучшает пищеварение"),
+    ("5670718664", "Мнямс Филе миньон по-фламандски", "Собаки", "Лакомства", "NAT", "Натуральность состава", "100% натуральное лакомство; без добавок и красителей"),
+    ("5670718664", "Мнямс Филе миньон по-фламандски", "Собаки", "Лакомства", "FUNC", "Функциональная польза для здоровья", "Улучшает пищеварение"),
+    ("5670720986", "Мнямс Рубец говяжий", "Собаки", "Лакомства", "NAT", "Натуральность состава", "100% натуральное лакомство; без добавок и красителей"),
+    ("5670720986", "Мнямс Рубец говяжий", "Собаки", "Лакомства", "FUNC", "Функциональная польза для здоровья", "Улучшает пищеварение"),
+    ("5671459555", "Мнямс DENTAL говядина (крупные породы)", "Собаки", "Лакомства", "DENT", "Стоматологическая польза", "Профилактика образования зубного камня; массаж дёсен"),
+    ("5671490575", "Мнямс DENTAL зубные косточки", "Собаки", "Лакомства", "DENT", "Стоматологическая польза", "Профилактика образования зубного камня; массаж дёсен"),
+    ("5671509904", "Мнямс Трахея говяжья", "Собаки", "Лакомства", "NAT", "Натуральность состава", "100% натуральное лакомство; без добавок и красителей"),
+    ("5671509904", "Мнямс Трахея говяжья", "Собаки", "Лакомства", "FUNC", "Функциональная польза для здоровья", "Улучшает пищеварение"),
+    ("5671561038", "Мнямс Колбаски из баранины", "Собаки", "Лакомства", "NAT", "Натуральность состава", "100% натуральное лакомство; без добавок и красителей"),
+    ("5671561038", "Мнямс Колбаски из баранины", "Собаки", "Лакомства", "FUNC", "Функциональная польза для здоровья", "Улучшает пищеварение"),
+
+    # --- Day 8 (2026-09-02): Лакомства для кошек ---
+    ("5632614370", "INABA CIAO Paste курица+лактобактерии", "Кошки", "Лакомства", "FUNC", "Функциональная польза для здоровья", "Здоровье кожи и шерсти"),
+    ("5632614943", "INABA CIAO Churu тунец Кацуо", "Кошки", "Лакомства", "TASTE", "Вкусовая привлекательность / поведенческая польза", "Лакомство-пюре"),
+    ("5632615075", "INABA Yaki Sasami курица+краб", "Кошки", "Лакомства", "TASTE", "Вкусовая привлекательность / поведенческая польза", "Со вкусом краба"),
+    ("5632615106", "INABA Yaki Miksu ассорти", "Кошки", "Лакомства", "TASTE", "Вкусовая привлекательность / поведенческая польза", "Со вкусом кацуобуси, куриного бульона и кальмара"),
+    ("5632619730", "INABA CIAO Churu курица (кожа и шерсть, кошки)", "Кошки", "Лакомства", "FUNC", "Функциональная польза для здоровья", "Здоровье кожи и шерсти"),
+    ("5654586643", "INABA CIAO Churu тунец Магуро", "Кошки", "Лакомства", "TASTE", "Вкусовая привлекательность / поведенческая польза", "Лакомство-пюре"),
+    ("5654587557", "INABA Tobitsuku куриный бульон (кошки)", "Кошки", "Лакомства", "TASTE", "Вкусовая привлекательность / поведенческая польза", "Со вкусом куриного бульона"),
+    ("5654590710", "INABA CIAO Churu курица (pH мочи)", "Кошки", "Лакомства", "FUNC", "Функциональная польза для здоровья", "Поддержание pH мочи"),
+    ("5654591217", "INABA CIAO Pon Churu тунец Магуро суфле", "Кошки", "Лакомства", "TASTE", "Вкусовая привлекательность / поведенческая польза", "Суфле-паштет"),
+    ("5654591653", "INABA CIAO Churu курица+краб", "Кошки", "Лакомства", "TASTE", "Вкусовая привлекательность / поведенческая польза", "Лакомство-пюре"),
+    ("5654592626", "INABA CIAO Churu тунец+гребешок", "Кошки", "Лакомства", "TASTE", "Вкусовая привлекательность / поведенческая польза", "Лакомство-пюре"),
+    ("5654594462", "INABA CIAO Churu тунец+лобстер", "Кошки", "Лакомства", "TASTE", "Вкусовая привлекательность / поведенческая польза", "Лакомство-пюре"),
+    ("5654596008", "INABA CIAO Churu курица (мочеполовая система)", "Кошки", "Лакомства", "FUNC", "Функциональная польза для здоровья", "Здоровье мочеполовой системы"),
+    ("5654598009", "INABA CIAO Churu курица+кальмар", "Кошки", "Лакомства", "TASTE", "Вкусовая привлекательность / поведенческая польза", "Лакомство-пюре"),
+    ("5654598442", "INABA Tobitsuku морской гребешок", "Кошки", "Лакомства", "TASTE", "Вкусовая привлекательность / поведенческая польза", "Со вкусом морского гребешка"),
+    ("5654598890", "INABA CIAO Churu курица (котята)", "Кошки", "Лакомства", "TASTE", "Вкусовая привлекательность / поведенческая польза", "Лакомство-пюре"),
+    ("5654599052", "INABA Yaki Sasami курица+говядина", "Кошки", "Лакомства", "TASTE", "Вкусовая привлекательность / поведенческая польза", "Со вкусом говядины"),
+    ("5654599091", "INABA CIAO Pon Churu курица+гребешок суфле", "Кошки", "Лакомства", "TASTE", "Вкусовая привлекательность / поведенческая польза", "Суфле-паштет"),
+    ("5654599124", "INABA CIAO Churu курица+креветка", "Кошки", "Лакомства", "TASTE", "Вкусовая привлекательность / поведенческая польза", "Лакомство-пюре"),
+    ("5670711038", "Мнямс крем утка+тунец Кацуо", "Кошки", "Лакомства", "TASTE", "Вкусовая привлекательность / поведенческая польза", "Нежное пюре-лакомство"),
+    ("5671503941", "Мнямс крем курица", "Кошки", "Лакомства", "TASTE", "Вкусовая привлекательность / поведенческая польза", "Нежное пюре-лакомство"),
 ]
 
 for i, row in enumerate(claim_rows, start=2):
@@ -2579,6 +3264,16 @@ for i, row in enumerate(claim_rows, start=2):
 
 autosize(ws2, [12, 30, 12, 12, 10, 32, 55])
 ws2.freeze_panes = "A2"
+
+# Пересчитываем "Кол-во категорий клеймов" на листе "Примеры" напрямую из
+# claim_rows (а не из вручную поддерживаемого cats_per_product) — так это
+# поле физически не может разойтись с реальными клеймами ниже по мере роста
+# выборки и правок задним числом.
+_ncat_by_oid = {}
+for _row in claim_rows:
+    _ncat_by_oid.setdefault(_row[0], set()).add(_row[4])
+for _i, _p in enumerate(products):
+    ws.cell(row=hrow + 1 + _i, column=13, value=len(_ncat_by_oid.get(_p["oid"], set())))
 
 # =====================================================================
 # Sheet 3: Клеймы-справочник (таксономия)
@@ -2758,6 +3453,34 @@ PROTEIN_TAGS = {
     "5543551335": ["Утка"], "5549365822": [], "5579052755": ["Утка", "Тунец"],
     "5579058668": ["Курица"], "5579066625": ["Лосось", "Тунец"], "5582640835": ["Курица"],
     "5584169750": ["Курица"], "5584218651": ["Курица", "Печень"], "5584264918": ["Тунец"],
+
+    # ---- Day 8 (2026-09-02) ----
+    "5658764220": ["Курица"],
+    "5670474832": ["Утка", "Индейка"], "5670477242": ["Курица"], "5670498757": ["Говядина", "Курица"],
+    "5670499419": ["Индейка", "Курица"], "5670501608": ["Белая рыба"],
+    "5669273502": ["Индейка"], "5670094001": ["Говядина"], "5670712472": ["Телятина"],
+    "5670714813": ["Утка", "Перепел"], "5670718836": ["Курица", "Печень"], "5670720625": ["Телятина"],
+    "5671464738": ["Утка"], "5671505639": ["Индейка"],
+    "5623144132": ["Ягнёнок"], "5634101309": ["Кролик"], "5662623115": ["Лосось"],
+    "5662623376": ["Индейка"], "5662626493": ["Утка"], "5670255238": [], "5670469697": ["Белая рыба"],
+    "5654017462": ["Кролик"], "5664781811": ["Курица"], "5664784502": ["Ягнёнок"],
+    "5668947557": ["Говядина"], "5669095176": ["Кролик"], "5670228940": ["Индейка", "Печень"],
+    "5670237889": ["Кролик", "Индейка"], "5670251820": ["Курица"], "5670328613": ["Индейка"],
+    "5670392893": [], "5670714887": ["Лосось", "Креветки", "Форель"], "5670716904": ["Индейка"],
+    "5670719609": ["Телятина"], "5670721156": ["Говядина"], "5671557401": ["Утка"],
+    "5632614860": ["Говядина", "Курица"], "5632615231": ["Курица"], "5632624539": ["Курица"],
+    "5654589093": ["Курица"], "5654591896": ["Курица"], "5654592771": ["Курица"],
+    "5654599026": ["Курица"], "5654599608": ["Курица"],
+    "5670711483": ["Лосось"], "5670715414": [], "5670717416": ["Курица"], "5670718664": [],
+    "5670720986": ["Говядина"], "5671459555": ["Говядина"], "5671490575": [], "5671509904": ["Говядина"],
+    "5671561038": ["Баранина"],
+    "5632614370": ["Курица"], "5632614943": ["Тунец"], "5632615075": ["Курица"],
+    "5632615106": ["Курица", "Кальмар"], "5632619730": ["Курица"], "5654586643": ["Тунец"],
+    "5654587557": ["Курица"], "5654590710": ["Курица"], "5654591217": ["Тунец"],
+    "5654591653": ["Курица", "Краб"], "5654592626": ["Тунец", "Гребешок"], "5654594462": ["Тунец", "Лобстер"],
+    "5654596008": ["Курица"], "5654598009": ["Курица", "Кальмар"], "5654598442": ["Гребешок"],
+    "5654598890": ["Курица"], "5654599052": ["Курица", "Говядина"], "5654599091": ["Курица", "Гребешок"],
+    "5654599124": ["Курица", "Креветки"], "5670711038": ["Утка", "Тунец"], "5671503941": ["Курица"],
 }
 
 # Пары SKU одной линейки, отличающиеся только весом/размером упаковки — по
@@ -2782,6 +3505,7 @@ PROTEIN_UNKNOWN_OIDS = {
     "5543934520", "5543935895", "5574288140",
     "5544357753", "5551551944",
     "5549365822",
+    "5670255238", "5670392893", "5670715414", "5670718664", "5671490575",
 }
 PROTEIN_TOTAL_SKUS = len(PROTEIN_TAGS) + len(EXTRA_PROTEIN_ONLY)
 
@@ -2853,6 +3577,19 @@ INGREDIENT_TAGS = {
     "5542724663": ["Сливки"], "5582640835": ["Тыквенная клетчатка"],
     "5584169750": ["Рыбий жир", "Козье молоко"], "5584218651": ["Льняное семя"],
     "5584264918": ["Молочные продукты"],
+
+    # ---- Day 8 (2026-09-02) ----
+    "5658764220": ["Клюква", "Черника"],
+    "5670474832": ["Зелёная чечевица", "Юкка Шидигера"],
+    "5670477242": ["Клюква", "Цикорий", "Рыбий жир"],
+    "5670498757": ["Брокколи", "Юкка Шидигера"],
+    "5670499419": ["Клюква", "Цикорий"],
+    "5670501608": ["Семена льна", "Клюква", "Цикорий"],
+    "5670469697": ["Брокколи", "Сельдерей", "Семена льна"],
+    "5664781811": ["Фукус", "Юкка", "Черника"],
+    "5664784502": ["Фукус", "Юкка", "Черника"],
+    "5670714887": ["Витамин Е"],
+    "5632615106": ["Кацуобуси"],
 }
 
 # Правило: для России — название юрлица/завода (если его не видно на этикетке —
@@ -2965,6 +3702,27 @@ PLANT_REGION = {
     "5542724663": None, "5543308856": None, "5543534231": None, "5543551335": None,
     "5549365822": None, "5579052755": None, "5579058668": None, "5579066625": None,
     "5582640835": None, "5584169750": None, "5584218651": None, "5584264918": None,
+
+    # ---- Day 8 (2026-09-02) ----
+    "5658764220": None,
+    "5670474832": None, "5670477242": None, "5670498757": None, "5670499419": None, "5670501608": None,
+    "5669273502": None, "5670094001": None, "5670712472": None, "5670714813": None,
+    "5670718836": None, "5670720625": None, "5671464738": None, "5671505639": None,
+    "5623144132": "Farmina Pet Foods, Италия", "5634101309": None,
+    "5662623115": None, "5662623376": None, "5662626493": None,
+    "5670255238": None, "5670469697": None,
+    "5654017462": None, "5664781811": None, "5664784502": None, "5668947557": None, "5669095176": None,
+    "5670228940": None, "5670237889": None, "5670251820": None, "5670328613": None, "5670392893": None,
+    "5670714887": None, "5670716904": None, "5670719609": None, "5670721156": None, "5671557401": None,
+    "5632614860": None, "5632615231": None, "5632624539": None, "5654589093": None, "5654591896": None,
+    "5654592771": None, "5654599026": None, "5654599608": None,
+    "5670711483": None, "5670715414": None, "5670717416": None, "5670718664": None, "5670720986": None,
+    "5671459555": None, "5671490575": None, "5671509904": None, "5671561038": None,
+    "5632614370": None, "5632614943": None, "5632615075": None, "5632615106": None, "5632619730": None,
+    "5654586643": None, "5654587557": None, "5654590710": None, "5654591217": None, "5654591653": None,
+    "5654592626": None, "5654594462": None, "5654596008": None, "5654598009": None, "5654598442": None,
+    "5654598890": None, "5654599052": None, "5654599091": None, "5654599124": None,
+    "5670711038": None, "5671503941": None,
 }
 
 ws_pt = wb.create_sheet("Протеин-Ингредиенты-Завод")
@@ -3004,15 +3762,16 @@ ws_pt.freeze_panes = "A2"
 ws4 = wb.create_sheet("Аналитика")
 ws4["A1"] = "Аналитика: популярность направлений клеймов среди новых карточек"
 ws4["A1"].font = title_font
-ws4["A2"] = (f"Выборка: {len(products)} карточек (собаки+кошки, корма и лакомства) за 6 снимков — "
+ws4["A2"] = (f"Выборка: {len(products)} карточек (собаки+кошки, корма и лакомства) за 7 снимков — "
              "11 отобраны 2026-07-31 через сортировку «Новинки» (не подтверждено ID), "
              "13 добавлены 2026-08-01, 27 добавлены 2026-08-03, 17 добавлены 2026-08-04, 42 добавлены 2026-08-12 "
-             "(включая 11, найденных доп. аудитом ?sorting=new — пропущены при первом проходе) и 103 добавлены "
-             f"2026-08-24 (12-дневный разрыв со снимка от 12.08) — все {len(products)} подтверждены сравнением ID с базой "
-             "(объективно новые). Полностью разобраны (клеймы+протеин+ингредиенты+завод) все объективно новые "
-             "карточки, кроме 192 дублей по весу/размеру упаковки той же рецептуры или повторного листинга того же "
-             "товара другим продавцом (не считаются повторно ни по одному признаку) и 1 сопутствующего товара "
-             "(трава для кошек — набор для выращивания, не корм/лакомство).")
+             "(включая 11, найденных доп. аудитом ?sorting=new — пропущены при первом проходе), 103 добавлены "
+             "2026-08-24 и 74 добавлены 2026-09-02 (9-дневный разрыв со снимка от 24.08) — все "
+             f"{len(products)} подтверждены сравнением ID с базой (объективно новые). Полностью разобраны "
+             "(клеймы+протеин+ингредиенты+завод) все объективно новые карточки, кроме 230 дублей по весу/размеру "
+             "упаковки той же рецептуры или повторного листинга того же товара другим продавцом (не считаются "
+             "повторно ни по одному признаку) и 1 сопутствующего товара (трава для кошек — набор для выращивания, "
+             "не корм/лакомство).")
 ws4["A2"].font = note_font
 ws4.merge_cells("A2:D2")
 ws4["A2"].alignment = wrap
@@ -3093,7 +3852,7 @@ next_row = add_tag_table(ws4, next_row,
                           f"Протеин — популярность по ВСЕМ SKU новых линеек (не по одному товару на линейку), {PROTEIN_TOTAL_SKUS} SKU всего",
                           "Протеин", protein_known,
                           f"{protein_known} SKU, где протеин назван на лицевой стороне упаковки, из {PROTEIN_TOTAL_SKUS} SKU всего "
-                          f"(все объективно новые SKU за 6 снимков, 2026-07-31 — 2026-08-24)")
+                          f"(все объективно новые SKU за 7 снимков, 2026-07-31 — 2026-09-02)")
 next_row = add_tag_table(ws4, next_row + 3, "Ингредиенты-клеймы (лицевая сторона упаковки) — популярность среди новых карточек",
                           "Ингредиент-клеймо", n_products,
                           f"вся выборка ({n_products}) — отсутствие клейма тоже значимо")
@@ -3122,51 +3881,50 @@ ws4.add_chart(chart, f"F{hrow4}")
 
 # ---- Выводы ----
 concl_row = max(analytics_end_row, hrow4 + 24) + 4
-ws4.cell(row=concl_row, column=1, value="Выводы (наблюдения: 2026-07-31 — 2026-08-24)").font = Font(name=FONT_NAME, bold=True, size=12)
+ws4.cell(row=concl_row, column=1, value="Выводы (наблюдения: 2026-07-31 — 2026-09-02)").font = Font(name=FONT_NAME, bold=True, size=12)
 conclusions = [
-    "1. Натуральность состава (NAT) вернулась на первое место с большим отрывом — 106 из 213 карточек (50%). "
-    "Это не заслуга крупных премиальных брендов из Day 6 (Farmina, Royal Canin) — рост целиком обеспечила волна "
-    "мелких и средних брендов Day 7 (Wanpy, biohaus, TiTBiT, Murkel, генерические каши), для которых «без ГМО/"
-    "натуральный состав» остаётся минимальным входным клеймом почти в любом сегменте.",
-    "2. Функциональная польза (FUNC) обогнала происхождение мяса (MEAT) и вышла на второе место — 82 из 213 "
-    "(38%) против 79 (37%). Драйвер — взрывной рост узкофункциональных лакомств и кормов Day 7: 3 отдельных "
-    "вкуса AWARD Special Care (каждый под свою проблему — МКБ, пищеварение, кожа/шерсть), линейка кремов-пюре "
-    "Murkel, влажные корма Wanpy («Healthy Digestion»), Karmy и Hilton (гипоаллергенные линии) — функциональная "
-    "специализация впервые обгоняет по частоте базовое «происхождение мяса».",
-    "3. Премиальное позиционирование (PREMIUM, 61 из 213, 29%) и беззерновой/монобелковый состав (GRAIN, 45, "
-    "21%) остаются на прежних местах в рейтинге, но их доля от выборки снижается по мере роста числа простых "
-    "эконом-товаров (генерические каши, Зоогурман, TASTY, Мнямс Деликатес) без единого клейма из справочника.",
-    "4. Завод-изготовитель: концентрация в Италии усилилась ещё больше — 22 из 43 идентифицированных "
-    "производителей (51%). Помимо Farmina, за 12 дней добавились ещё 3 итальянских бренда с указанной страной "
-    "на упаковке — Primordial, Monge, Vivere — все независимо друг от друга контрактуются в Италии. Испания "
-    "закрепилась на втором месте (6 из 43, 14%: Gosbi + новый Optima Nova), Франция впервые вошла в тройку "
-    "(4 из 43, 9%: Gourmet Gold + Royal Canin). Для большинства новых российских и китайских брендов Day 7 "
-    "(АЛЬМАКОРМ, Wanpy, AlphaPet, Ферма кота Федора, Murkel) завод так и не подтверждён.",
-    "5. Протеиновый расклад: курица закрепилась на первом месте (48 из 181 определённых, 27%) — самый заметный "
-    "вклад дала линейка AlphaPet (более 6 SKU с курицей во всех суб-линиях). Индейка на втором месте (35, 19%), "
-    "говядина на третьем (31, 17%), утка поднялась на четвёртое (28, 15%) благодаря волне Wanpy (кошки и собаки, "
-    "сухой и влажный корм).",
-    "6. НОВОЕ: один бренд-зонтик способен за одну волну ввести десятки почти неразличимых SKU — AlphaPet "
-    "(Superpremium/Menu/Sensitive/Sterilized/Senior/Kitten) дал более 12 отдельных карточек за 12 дней, а Wanpy "
-    "(сухой+влажный, собаки+кошки) — более 20. Это усложняет подсчёт «новых SKU» как метрики бренд-активности: "
-    "рост числа карточек может отражать не выход на рынок, а простое перечисление вариаций внутри уже "
-    "присутствующего бренда.",
-    "7. ПОДТВЕРЖДЕНО эмпирически: доля реальных «новых карточек» среди кандидатов с ID выше порога заметно ниже "
-    "100% из-за 3P-эффекта. Из ~180 кандидатов, найденных за 12-дневный разрыв, лишь 103 (57%) оказались "
-    "уникальными товарами/вкусами — остальные 43% составили повторные листинги той же рецептуры другим "
-    "продавцом или в другой фасовке (целые линейки АЛЬМАКОРМ, TiTBiT Dent и Wanpy оказались переизданы заново "
-    "под новыми ID). Это прямое численное подтверждение ограничения метода №1 (см. «Ограничения метода»).",
-    "8. Стоматологические/функциональные лакомства продолжают расширяться в форматах: TiTBiT за 12 дней добавил "
-    "к линейке Dent (жевательные снеки) ещё «Мясное печенье» (бисквиты/сушки), рыбную соломку и кубики — один "
-    "бренд теперь покрывает 4+ разных формата лакомств для одной и той же цели (стоматология/лакомство).",
-    "9. Бренд CLAN за один день диверсифицировался сразу в 3 непересекающиеся суб-линии для собак — Classic "
-    "(кусочки в соусе с функциональными добавками типа клюквы и ромашки), Pride (консервы из необычных "
-    "субпродуктов без единого клейма) и Vet (ветеринарная диета) — три разных ценовых и коммуникационных "
-    "позиционирования под одним зонтичным брендом.",
-    "10. Клеймы внутри одной линейки по-прежнему бывают как полностью унифицированы (все вкусы biohaus и "
-    "TiTBiT Dent несут идентичный набор клейм независимо от протеина), так и системно различны по подлинии "
-    "(Farmina «Ancestral Grain» продаёт древние злаки как ценность, а «Pumpkin»/«Ocean»/«Prime» того же бренда — "
-    "их полное отсутствие) — единого правила для бренда нет, каждую подлинию нужно разбирать отдельно.",
+    "1. Натуральность состава (NAT) остаётся на первом месте, но разрыв с функциональной пользой (FUNC) резко "
+    "сократился — 128 из 287 карточек (45%) против 116 (40%). Впервые за наблюдения FUNC почти сравнялась с NAT "
+    "как самое частое направление клеймов.",
+    "2. НОВОЕ: вкусовая привлекательность (TASTE) практически с нуля выросла до 38 из 287 (13%) и вошла в топ-7 "
+    "категорий — почти целиком благодаря одномоментному запуску японского бренда INABA (CIAO/Churu/Yaki для "
+    "собак и кошек), у которого большинство SKU без функционального заявления позиционируются именно через вкус "
+    "и формат лакомства, а не через пользу для здоровья.",
+    "3. САМЫЙ КРУПНЫЙ БРЕНД-ЗАПУСК за всё время наблюдений: INABA единомоментно вывела около 27 отдельных SKU "
+    "сразу в 4 подкатегориях (лакомства для собак и кошек, с побочными находками в кормах) — линейки Churu "
+    "(лакомство-пюре, более 15 вкусо-функциональных вариаций), Yaki Sasami/Yaki Miksu (запечённые снеки), "
+    "Tobitsuku, CIAO Paste и CIAO Pon Churu суфле. Это превосходит даже предыдущий рекорд (AlphaPet/Wanpy, "
+    "день 7) и подтверждает вывод №6 предыдущего отчёта: один бренд-зонтик способен единомоментно создать "
+    "десятки почти неразличимых карточек.",
+    "4. AWARD расширил линейку сухих кормов для кошек сразу 5 SKU (Hairball & Indoor, Urinary, Indoor Big cats, "
+    "Sterilized x2) — точное зеркало уже известного шаблона AWARD для собак (100% BIO, Nutraceutical Formula, "
+    "Superpremium, Quality for Champions), адаптированного под кошачьи функциональные ниши.",
+    "5. ПОДТВЕРЖДЕНО повторно и в наиболее чистом виде: подкатегория «Каша для собак» за 9-дневный разрыв дала "
+    "24 кандидата с ID выше порога — и все 24 (100%) оказались повторными листингами уже известной 6-вкусовой "
+    "линейки АЛЬМАКОРМ (это уже третий цикл переиздания той же линейки за время наблюдений). Из 112 кандидатов "
+    "по всем 7 подкатегориям в сумме лишь 74 (66%) оказались настоящими новыми карточками — прямое численное "
+    "продолжение вывода №7 предыдущего отчёта об эффекте 3P-продаж.",
+    "6. Мнямс продолжает самую широкую диверсификацию форматов среди всех брендов в выборке: за один день добавил "
+    "8 сухих лакомств для собак (джерки, дентал-снеки, рубец, трахея, колбаски), 8 новых консервов/паучей для "
+    "собак (муссы, паштеты, террин) и 6 позиций для кошек (линейка Ферма кота Фёдора, крем-лакомства) — бренд "
+    "теперь присутствует практически во всех типах продукции трекера одновременно.",
+    "7. Завод-изготовитель: доля Италии среди идентифицированных производителей осталась на прежнем уровне "
+    "(22 из 44, 50%) — новых итальянских брендов в этом снимке не нашлось, доля просто перестала расти. Для "
+    "подавляющего большинства новых брендов дня (INABA, Мнямс, Wanpy-конкуренты P.E.P.P.O. и Вкусная Миска, "
+    "AlphaPet WOW) завод не подтверждён — японские и российские мелкие бренды систематически хуже раскрывают "
+    "производственную цепочку, чем европейские премиальные.",
+    "8. Протеиновый расклад: курица укрепила лидерство (78 из 250 определённых, 31%, было 27%) — драйвер тот же "
+    "INABA, где курица — основной протеин почти всех сухих снеков и очень многих Churu-вариаций. Индейка (44, "
+    "18%) и говядина (40, 16%) сохранили 2-3 места.",
+    "9. Ветеринарная диета (VET) впервые представлена сразу двумя разными форматами позиционирования в одном "
+    "снимке: Royal Canin Expert Neutered («№1 по рекомендации ветеринарных врачей») и GRANDORF Veterinary Diet "
+    "Hypoallergenic («Approved by Vets») — оба явно апеллируют к врачебному одобрению как отдельному "
+    "доказательству качества, а не просто описывают диетическую функцию.",
+    "10. Клеймы внутри линейки INABA демонстрируют новый, не встречавшийся ранее паттерн: один и тот же базовый "
+    "продукт (лакомство-пюре Churu, курица) выпускается в 4+ параллельных вариантах, различающихся ТОЛЬКО "
+    "заявленной функцией на этикетке (кожа/шерсть, ЖКТ, pH мочи, мочеполовая система) при идентичном составе и "
+    "формате — то есть бренд буквально мультиплицирует SKU через маркетинговую сегментацию по функции, а не "
+    "через реальную вариацию продукта.",
 ]
 rr = concl_row + 1
 for line in conclusions:
