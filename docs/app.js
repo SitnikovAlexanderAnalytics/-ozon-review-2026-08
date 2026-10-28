@@ -19,7 +19,7 @@ function isoWeek(iso) {
 }
 
 async function main() {
-  const res = await fetch("data.json?v=17");
+  const res = await fetch("data.json?v=18");
   const data = await res.json();
   state.data = data;
 
